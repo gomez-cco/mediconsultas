@@ -1,0 +1,18 @@
+# Blueprint de Render para MEDICONSULTAS
+# En Render: New + > Blueprint > elegir este repositorio.
+services:
+  - type: web
+    name: mediconsultas
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NODE_VERSION
+        value: "22"
+      - key: RATE_LIMIT_PER_HOUR
+        value: "30"

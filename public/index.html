@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEDICONSULTAS · Orientación médica por áreas</title>
+  <meta name="description" content="Consulta tus síntomas y recibe orientación clasificada por área de la medicina. Adjunta fotos para consultar." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230e7c86'/><path d='M42 20h16v22h22v16H58v22H42V58H20V42h22z' fill='white'/></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="MEDICONSULTAS inicio">
+      <span class="logo" aria-hidden="true">✚</span>
+      <span>MEDI<b>CONSULTAS</b></span>
+    </a>
+    <a class="sos" href="tel:131" title="Llamar a SAMU">🚑 Emergencia: <b>131</b></a>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Áreas de la medicina">
+      <h2>Áreas médicas</h2>
+      <input id="filtroAreas" class="filtro" type="search" placeholder="Buscar área…" aria-label="Buscar área" />
+      <nav id="listaAreas" class="areas"></nav>
+    </aside>
+
+    <main class="main">
+      <section id="inicio" class="hero">
+        <h1>¿Qué te está pasando?</h1>
+        <p>Describe tu síntoma con tus palabras. Te orientamos según el área de la medicina, te decimos qué hacer y cuándo consultar.</p>
+        <div class="ejemplos" id="ejemplos">
+          <button type="button">Tengo dolor en la rodilla al subir escaleras</button>
+          <button type="button">Me salió un grano rojo que duele en el brazo</button>
+          <button type="button">Tengo dolor en la parte baja del estómago</button>
+          <button type="button">Tos con flema hace 5 días</button>
+          <button type="button">Mi guagua tiene fiebre</button>
+        </div>
+      </section>
+
+      <section id="fichaArea" class="ficha" hidden></section>
+
+      <section id="chat" class="chat" aria-live="polite"></section>
+
+      <form id="form" class="composer">
+        <div id="areaElegida" class="area-elegida" hidden></div>
+        <div id="previews" class="previews"></div>
+        <div class="fila">
+          <label class="adjuntar" title="Adjuntar foto">
+            <input id="archivo" type="file" accept="image/*" multiple hidden />
+            <span aria-hidden="true">📷</span><span class="sr">Adjuntar imagen</span>
+          </label>
+          <textarea id="texto" rows="1" placeholder="Describe tu síntoma…" aria-label="Tu consulta"></textarea>
+          <button id="enviar" class="enviar" type="submit">Consultar</button>
+        </div>
+        <p class="aviso">MEDICONSULTAS entrega orientación general y <b>no reemplaza la consulta médica</b>. En una emergencia llama al <a href="tel:131">131</a>. Salud Responde: <a href="tel:6003607777">600 360 7777</a>.</p>
+      </form>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
