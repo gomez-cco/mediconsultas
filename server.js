@@ -259,26 +259,26 @@ async function responderGemini(mensajes, alTexto, signal) {
   const candidatos = (await modelosGemini()).slice(0, 5);
   let resp;
   let modelo;
+  let ultimoDetalle = "";
   for (let intento = 0; intento < candidatos.length; intento++) {
     modelo = candidatos[intento];
     resp = await llamarGemini(modelo, cuerpo, senal);
-    // Si el modelo no acepta la configuración de pensamiento, reintentar sin ella.
+    // 400: si no es la clave, reintentar el mismo modelo con configuración mínima.
     if (resp.status === 400) {
       const detalle = await resp.clone().text().catch(() => "");
-      if (/thinking/i.test(detalle) && cuerpo.generationConfig.thinkingConfig) {
-        console.warn(`${modelo} no acepta thinkingConfig; reintentando sin ella`);
-        delete cuerpo.generationConfig.thinkingConfig;
-        resp = await llamarGemini(modelo, cuerpo, senal);
-      }
+      if (/API_KEY_INVALID|API key not valid/i.test(detalle)) break;
+      console.warn(`Gemini ${modelo} 400: ${detalle.slice(0, 400).replace(/\s+/g, " ")}`);
+      resp = await llamarGemini(modelo, { ...cuerpo, generationConfig: { maxOutputTokens: 8192 } }, senal);
     }
-    if (resp.ok || ![404, 429, 500, 503].includes(resp.status)) break;
+    if (resp.ok || ![400, 404, 429, 500, 503].includes(resp.status)) break;
     const detalle = await resp.text().catch(() => "");
+    ultimoDetalle = detalle;
     console.warn(`Gemini ${modelo} respondió ${resp.status}; probando otro modelo. ${detalle.slice(0, 120).replace(/\s+/g, " ")}`);
     if (resp.status === 404) modelosCache = null; // la lista puede estar desactualizada
     if (intento < candidatos.length - 1) await esperar(resp.status === 404 ? 0 : 800);
   }
   if (!resp.ok || !resp.body) {
-    const detalle = await resp.text().catch(() => "");
+    const detalle = resp.bodyUsed ? ultimoDetalle : await resp.text().catch(() => "");
     const e = new Error(`Gemini ${resp.status}: ${detalle.slice(0, 500)}`);
     e.status = resp.status;
     e.detalle = detalle;
@@ -402,6 +402,14 @@ app.post("/api/consulta", async (req, res) => {
       else if (err.status === 503 || err.status === 500) mensaje = "La IA gratuita de Google está saturada en este momento. Intenta nuevamente en unos minutos.";
       else if (/API_KEY_INVALID|API key not valid/i.test(err.detalle || "")) mensaje = "La clave de la IA no es válida. Revisa GEMINI_API_KEY en Render.";
       else if (err.status === 403) mensaje = "La clave de la IA no tiene permiso para Gemini. Revisa GEMINI_API_KEY en Render.";
+      else {
+        // Mostrar el motivo que entrega Google para poder diagnosticar.
+        let motivo = "";
+        try {
+          motivo = JSON.parse(err.detalle || "{}").error?.message || "";
+        } catch {}
+        if (motivo) mensaje += ` Detalle: ${motivo.slice(0, 200)}`;
+      }
       enviar("error", { error: mensaje });
       res.end();
     } finally {
