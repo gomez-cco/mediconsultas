@@ -54,7 +54,7 @@ function clasificarPorPalabras(texto) {
 
 // Detección de emergencias en el servidor (no depende del modelo).
 const EMERGENCIAS = [
-  { re: /(dolor|opresion|apreton).{0,25}pecho|pecho.{0,25}(dolor|opresion|apretado)/, msg: "Dolor u opresión en el pecho" },
+  { re: /(dolor|duele|opresion|apreton|presion en el).{0,25}pecho|pecho.{0,25}(dolor|duele|opresion|apretado)/, msg: "Dolor u opresión en el pecho" },
   { re: /no puedo respirar|me ahogo|me falta (mucho )?el aire|dificultad (para|al) respirar|labios morados/, msg: "Dificultad para respirar" },
   { re: /quitarme la vida|suicid|matarme|no quiero vivir|hacerme dano|autolesion/, msg: "Riesgo de hacerse daño", linea: "*4141" },
   { re: /boca (chueca|torcida)|cara (caida|chueca)|no puedo mover (el|la|un|una) (brazo|pierna)|perdi la fuerza/, msg: "Posible ataque cerebral (ACV)" },
@@ -66,6 +66,57 @@ const EMERGENCIAS = [
   { re: /arana de rincon/, msg: "Posible picadura de araña de rincón" },
   { re: /(bebe|guagua|lactante|recien nacido).{0,40}fiebre|fiebre.{0,40}(bebe|guagua|lactante|recien nacido)/, msg: "Fiebre en lactante" }
 ];
+
+// ---------- buscador propio (funciona sin IA, costo cero) ----------
+
+const VACIAS = new Set("tengo tiene tienen estoy esta este esto hace desde dolor duele duelen poco mucho muy cuando donde como pero para porque parte lado algo unos unas otra otro mismo cada todo todos ayer hoy dias semana veces sale salio".split(" "));
+const tokens = (t) => normalizar(t).split(/[^a-z0-9]+/).filter((w) => w.length > 3 && !VACIAS.has(w));
+// Raíz simple para que "oidos" coincida con "oido", "granos" con "grano", etc.
+const raiz = (w) => w.replace(/(es|s)$/, "").slice(0, 6);
+
+function buscarAfecciones(texto, areaId) {
+  const q = new Set(tokens(texto).map(raiz));
+  const resultados = [];
+  for (const a of AREAS) {
+    for (const f of a.afecciones) {
+      const nombre = new Set(tokens(f.nombre).map(raiz));
+      const cuerpo = new Set(tokens(f.sintomas).map(raiz));
+      let p = 0;
+      for (const w of q) {
+        if (nombre.has(w)) p += 3;
+        else if (cuerpo.has(w)) p += 1;
+      }
+      if (a.id === areaId) p += 2;
+      if (p > 2) resultados.push({ area: a, f, p });
+    }
+  }
+  return resultados.sort((x, y) => y.p - x.p).slice(0, 3);
+}
+
+function respuestaLocal(texto, areaElegida, conImagen, emergencia) {
+  const areaId = areaElegida || clasificarPorPalabras(texto);
+  const encontrados = buscarAfecciones(texto, areaId);
+  const area = AREAS.find((x) => x.id === areaId) || encontrados[0]?.area || AREAS[0];
+  const urgencia = emergencia ? "emergencia" : "control";
+  let r = `[[AREA:${area.id}|URGENCIA:${urgencia}]]\n`;
+  if (emergencia) {
+    r += `**Lo que describes puede ser una urgencia (${emergencia.msg}).** Llama al 131 (SAMU) o acude a la urgencia más cercana.${emergencia.linea ? " Línea de Prevención del Suicidio: *4141 (gratis, 24 h)." : ""}\n\n`;
+  }
+  if (conImagen) r += "_No puedo analizar la imagen en este momento; te oriento según lo que escribiste._\n\n";
+  if (encontrados.length) {
+    r += "**Lo que podría ser**\n";
+    for (const e of encontrados) r += `- **${e.f.nombre}** (${e.area.nombre}): ${e.f.sintomas}\n`;
+    const top = encontrados[0].f;
+    r += `\n**Qué puedes hacer ahora**\n- ${top.autocuidado}\n`;
+    r += `\n**Cuándo consultar**\n${encontrados.map((e) => `- ${e.f.nombre}: ${e.f.consultar}`).join("\n")}\n`;
+  } else {
+    r += `Para orientarte mejor, cuéntame: **desde cuándo** tienes la molestia, **dónde** exactamente, **qué tan intensa** es (1 a 10), tu **edad** y si tienes **fiebre** u otros síntomas.\n\n`;
+    r += `Mientras tanto, revisa la ficha de **${area.nombre}** en el panel izquierdo.\n`;
+  }
+  r += `\n**Señales de alarma (${area.nombre})**\n${area.alarmas.map((x) => `- ${x}`).join("\n")}\n`;
+  r += `\n**A quién consultar**\n- Para una evaluación, pide hora en tu CESFAM o con médico general; ellos derivan a ${area.nombre} si es necesario.\n- Orientación telefónica 24 h: Salud Responde 600 360 7777.\n`;
+  return r;
+}
 
 function detectarEmergencia(texto) {
   const t = normalizar(texto);
@@ -317,7 +368,12 @@ async function responderGemini(mensajes, alTexto, signal) {
     }
   }
   console.log(`Gemini OK modelo=${modelo} fin=${fin || "-"} caracteres=${caracteres}`);
-  if (bloqueado || caracteres === 0) {
+  if (caracteres === 0) {
+    const e = new Error(`Gemini sin texto (fin=${fin || "-"})`);
+    e.status = "VACIO";
+    throw e;
+  }
+  if (bloqueado) {
     alTexto(
       (caracteres ? "\n\n" : "") +
         "No pude completar esta respuesta. Por favor reformula tu consulta con más detalle o llama a Salud Responde: 600 360 7777."
@@ -356,15 +412,11 @@ app.post("/api/consulta", async (req, res) => {
     areaSugerida
   });
 
+  const conImagen = Array.isArray(ultimo.images) && ultimo.images.length > 0;
+  const local = () => respuestaLocal(ultimo.text, ultimo.area, conImagen, emergencia);
+
   if (!HAS_KEY) {
-    const a = AREAS.find((x) => x.id === areaSugerida) || AREAS[0];
-    enviar("delta", {
-      text:
-        `[[AREA:${a.id}|URGENCIA:${emergencia ? "emergencia" : "control"}]]\n` +
-        `**Modo demostración:** la IA aún no está activada (falta configurar GEMINI_API_KEY en Render).\n\n` +
-        `Mientras tanto, revisa la ficha del área **${a.nombre}** en el panel izquierdo.\n\n` +
-        `**Señales de alarma**\n${a.alarmas.map((x) => `- ${x}`).join("\n")}`
-    });
+    enviar("delta", { text: local() });
     enviar("fin", {});
     return res.end();
   }
@@ -387,8 +439,16 @@ app.post("/api/consulta", async (req, res) => {
     });
     // Mantiene viva la conexión mientras la IA responde.
     const latido = setInterval(() => !cerrado && res.write(": ping\n\n"), 15_000);
+    let huboTexto = false;
     try {
-      await responderGemini(mensajes, (t) => !cerrado && enviar("delta", { text: t }), control.signal);
+      await responderGemini(
+        mensajes,
+        (t) => {
+          huboTexto = true;
+          if (!cerrado) enviar("delta", { text: t });
+        },
+        control.signal
+      );
       if (!cerrado) {
         enviar("fin", {});
         res.end();
@@ -396,6 +456,12 @@ app.post("/api/consulta", async (req, res) => {
     } catch (err) {
       if (cerrado) return;
       console.error("Error Gemini:", err.name, err.status, err.message);
+      // Si la IA no respondió nada, contestar con el buscador propio en vez de un error.
+      if (!huboTexto && !/API_KEY_INVALID|API key not valid/i.test(err.detalle || "")) {
+        enviar("delta", { text: local() });
+        enviar("fin", {});
+        return res.end();
+      }
       let mensaje = `Hubo un problema al procesar tu consulta (código ${err.status || err.name}). Intenta nuevamente.`;
       if (err.name === "TimeoutError") mensaje = "La IA tardó demasiado en responder. Intenta nuevamente.";
       else if (err.status === 429) mensaje = "Se alcanzó el límite gratuito de consultas de la IA. Espera un minuto e intenta de nuevo.";

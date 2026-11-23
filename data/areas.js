@@ -316,7 +316,7 @@ module.exports = [
     nombre: "Otorrinolaringología",
     icono: "👂",
     descripcion: "Oído, nariz y garganta: dolor de oído, sinusitis, amigdalitis, ronquera, pérdida de audición.",
-    palabras: ["oido", "oreja", "sordera", "zumbido", "tinnitus", "garganta", "amigdalas", "anginas", "ronquera", "disfonia", "nariz", "sinusitis", "sangrado de nariz", "epistaxis", "congestion", "rinitis", "tragar"],
+    palabras: ["oido", "oreja", "sordera", "zumbido", "tinnitus", "suenan los oidos", "suena el oido", "pito en el oido", "pitido", "escucho mal", "oido tapado", "cerumen", "garganta", "amigdalas", "anginas", "ronquera", "disfonia", "nariz", "sinusitis", "sangrado de nariz", "epistaxis", "congestion", "rinitis", "tragar"],
     alarmas: [
       "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
       "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
@@ -341,6 +341,18 @@ module.exports = [
         sintomas: "Congestión, secreción espesa, dolor o presión en la cara (frente, mejillas) que aumenta al agacharse.",
         autocuidado: "Lavados nasales con suero, vapor, hidratación. La mayoría es viral y mejora en 10 días.",
         consultar: "Si dura más de 10 días, empeora tras mejorar, o hay hinchazón alrededor del ojo (urgencia)."
+      },
+      {
+        nombre: "Zumbido de oídos (tinnitus)",
+        sintomas: "Sensación de pito, zumbido o 'sonido de mar' en uno o ambos oídos sin fuente externa. Causas frecuentes: tapón de cera, exposición a ruido fuerte, pérdida de audición por edad, presión alta, estrés o algunos medicamentos.",
+        autocuidado: "Evitar ruidos fuertes y audífonos a alto volumen, reducir cafeína y alcohol, un ruido de fondo suave (ventilador, música baja) ayuda a dormir. No introducir cotonitos.",
+        consultar: "Si es solo en un oído, aparece con pérdida de audición, mareo o vértigo, late al ritmo del pulso, o dura más de 2 semanas. Urgencia si hubo pérdida súbita de audición."
+      },
+      {
+        nombre: "Tapón de cera",
+        sintomas: "Oído tapado, disminución de audición, a veces zumbido o picazón, frecuente tras ducharse o usar cotonitos.",
+        autocuidado: "No usar cotonitos (empujan la cera). Gotas de aceite de oliva o vaselina líquida 2-3 días pueden ablandarla.",
+        consultar: "Para lavado de oídos si no mejora; no hacerlo en casa si ha tenido perforación del tímpano."
       },
       {
         nombre: "Sangrado de nariz",
