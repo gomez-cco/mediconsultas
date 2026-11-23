@@ -441,11 +441,20 @@ app.post("/api/consulta", async (req, res) => {
     // Mantiene viva la conexión mientras la IA responde.
     const latido = setInterval(() => !cerrado && res.write(": ping\n\n"), 15_000);
     let huboTexto = false;
+    // Si la IA no empieza a responder pronto, contestar con el buscador propio.
+    const ESPERA_IA = Number(process.env.GEMINI_ESPERA_MS || 12_000);
+    const reloj = setTimeout(() => {
+      if (!huboTexto) {
+        console.warn(`Gemini no respondió en ${ESPERA_IA} ms; usando buscador propio`);
+        control.abort();
+      }
+    }, ESPERA_IA);
     try {
       await responderGemini(
         mensajes,
         (t) => {
           huboTexto = true;
+          clearTimeout(reloj);
           if (!cerrado) enviar("delta", { text: t });
         },
         control.signal
@@ -481,6 +490,7 @@ app.post("/api/consulta", async (req, res) => {
       res.end();
     } finally {
       clearInterval(latido);
+      clearTimeout(reloj);
     }
     return;
   }
