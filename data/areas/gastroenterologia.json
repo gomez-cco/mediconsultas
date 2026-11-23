@@ -1,0 +1,262 @@
+{
+  "id": "gastroenterologia",
+  "num": 4,
+  "titulo": "Gastroenterología",
+  "icono": "🫃",
+  "intro": "Estómago, intestinos e hígado: dolor abdominal, acidez, diarrea, estreñimiento, náuseas.",
+  "palabras": [
+    "estomago",
+    "guata",
+    "abdomen",
+    "barriga",
+    "panza",
+    "dolor abdominal",
+    "acidez",
+    "reflujo",
+    "agruras",
+    "diarrea",
+    "estrenimiento",
+    "colon",
+    "nauseas",
+    "vomito",
+    "gases",
+    "hinchazon",
+    "higado",
+    "hemorroides",
+    "sangre en las deposiciones",
+    "parte baja del estomago",
+    "boca del estomago"
+  ],
+  "alarmas": [
+    "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+    "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+    "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+    "Piel u ojos amarillos",
+    "Signos de deshidratación: boca seca, poca orina, mareo"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "gastroenteritis-aguda",
+      "titulo": "Gastroenteritis aguda",
+      "temas": [
+        "diarrea",
+        "vomitos",
+        "gastroenteritis",
+        "colitis",
+        "intoxicacion alimentaria",
+        "algo me cayo mal",
+        "me cayo mal la comida",
+        "retorcijones",
+        "diarrea y vomitos"
+      ],
+      "resumen": "Diarrea, vómitos, dolor tipo cólico, a veces fiebre.",
+      "sintomas": "Dura 2 a 5 días.",
+      "autocuidado": [
+        "Sales de rehidratación oral en sorbos frecuentes, dieta liviana, lavado de manos."
+      ],
+      "consultar": [
+        "Si hay sangre en las deposiciones, fiebre alta, más de 48 horas de vómitos, deshidratación, o en lactantes y adultos mayores."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "gastritis",
+      "titulo": "Gastritis / dispepsia",
+      "temas": [
+        "gastritis",
+        "ardor de estomago",
+        "dolor en la boca del estomago",
+        "dolor de estomago",
+        "dolor de guata",
+        "me duele la guata",
+        "me duele el estomago",
+        "indigestion",
+        "empacho",
+        "llenura",
+        "helicobacter"
+      ],
+      "resumen": "Ardor o dolor en la 'boca del estómago', llenura precoz, náuseas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Evitar antiinflamatorios (ibuprofeno, ketoprofeno), alcohol, tabaco, comidas muy condimentadas; comer en horarios regulares."
+      ],
+      "consultar": [
+        "Si dura más de 2 semanas, en mayores de 40 años con síntomas nuevos, o con baja de peso, vómitos o anemia (puede requerir endoscopía y estudio de Helicobacter pylori)."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "reflujo-gastroesofagico",
+      "titulo": "Reflujo gastroesofágico",
+      "temas": [
+        "reflujo",
+        "acidez",
+        "agruras",
+        "ardor en el pecho despues de comer",
+        "se me devuelve la comida",
+        "sabor acido en la boca"
+      ],
+      "resumen": "Ardor detrás del esternón que sube hacia la garganta, regurgitación ácida, peor al acostarse.",
+      "sintomas": "",
+      "autocuidado": [
+        "Cenar 3 horas antes de acostarse, elevar cabecera, bajar de peso, evitar café, chocolate, alcohol y frituras."
+      ],
+      "consultar": [
+        "Si persiste pese a medidas, hay dificultad para tragar o baja de peso."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "apendicitis",
+      "titulo": "Apendicitis",
+      "temas": [
+        "apendicitis",
+        "apendice",
+        "dolor abajo a la derecha",
+        "dolor en el lado derecho abajo",
+        "dolor del ombligo que baja a la derecha",
+        "dolor de guata lado derecho"
+      ],
+      "resumen": "Dolor que suele empezar alrededor del ombligo y se mueve a la parte baja derecha, empeora al caminar o toser, con náuseas y fiebre.",
+      "sintomas": "",
+      "autocuidado": [
+        "No tomar laxantes ni analgésicos potentes que oculten el dolor."
+      ],
+      "consultar": [
+        "URGENCIA: requiere evaluación inmediata."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "dolor-en-la-parte-baja-del-abdomen",
+      "titulo": "Dolor en la parte baja del abdomen",
+      "temas": [
+        "dolor en la parte baja del estomago",
+        "dolor parte baja del estomago",
+        "dolor en el bajo vientre",
+        "dolor bajo vientre",
+        "dolor abajo del ombligo",
+        "dolor en la parte baja del abdomen",
+        "dolor pelvico",
+        "dolor en la parte baja de la guata"
+      ],
+      "resumen": "Puede originarse en intestino (colon, apéndice), vejiga (infección urinaria) o, en mujeres, útero y ovarios.",
+      "sintomas": "",
+      "autocuidado": [
+        "Observar si hay ardor al orinar, fiebre, relación con la menstruación o con las deposiciones."
+      ],
+      "consultar": [
+        "Si es intenso, progresivo, con fiebre, vómitos o, en mujeres, con atraso menstrual (descartar embarazo ectópico: urgencia)."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "colon-irritable",
+      "titulo": "Colon irritable",
+      "temas": [
+        "colon irritable",
+        "hinchazon",
+        "guata hinchada",
+        "estomago hinchado",
+        "gases",
+        "estrenimiento",
+        "constipacion",
+        "no puedo ir al bano",
+        "diarrea y estrenimiento"
+      ],
+      "resumen": "Dolor abdominal recurrente que alivia al evacuar, alternancia de diarrea y estreñimiento, hinchazón.",
+      "sintomas": "",
+      "autocuidado": [
+        "Fibra gradual, agua, actividad física, manejo del estrés, identificar alimentos gatillantes."
+      ],
+      "consultar": [
+        "Para confirmar diagnóstico, sobre todo si hay sangre, baja de peso o inicio después de los 50 años."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

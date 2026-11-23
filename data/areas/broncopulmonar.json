@@ -1,0 +1,177 @@
+{
+  "id": "broncopulmonar",
+  "num": 2,
+  "titulo": "Broncopulmonar",
+  "icono": "🫁",
+  "intro": "Pulmones y vías respiratorias: tos, falta de aire, silbidos al respirar, asma, bronquitis, neumonía, EPOC.",
+  "palabras": [
+    "tos",
+    "flema",
+    "expectoracion",
+    "falta de aire",
+    "ahogo",
+    "disnea",
+    "silbido",
+    "pecho apretado",
+    "asma",
+    "bronquitis",
+    "neumonia",
+    "pulmon",
+    "respirar",
+    "epoc",
+    "fumador",
+    "sangre al toser"
+  ],
+  "alarmas": [
+    "Dificultad para respirar en reposo o labios/uñas morados",
+    "Tos con sangre",
+    "Dolor de pecho al respirar con fiebre alta",
+    "Crisis de asma que no mejora con el inhalador de rescate"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "bronquitis-aguda",
+      "titulo": "Bronquitis aguda",
+      "temas": [
+        "tos",
+        "tos con flema",
+        "tos seca",
+        "bronquitis",
+        "flema",
+        "toso mucho",
+        "tos hace dias",
+        "tos que no se quita"
+      ],
+      "resumen": "Tos con o sin flema que puede durar 2 a 3 semanas, molestia en el pecho, a veces fiebre baja.",
+      "sintomas": "Suele ser viral.",
+      "autocuidado": [
+        "Hidratación, miel (en mayores de 1 año), evitar humo de tabaco, reposo relativo."
+      ],
+      "consultar": [
+        "Si la tos dura más de 3 semanas, hay fiebre alta persistente, falta de aire o tos con sangre."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "neumonia",
+      "titulo": "Neumonía",
+      "temas": [
+        "neumonia",
+        "pulmonia",
+        "fiebre y tos",
+        "dolor al respirar",
+        "dolor en el costado al respirar",
+        "tos con fiebre alta"
+      ],
+      "resumen": "Fiebre, tos con flema, dolor al respirar en un costado, respiración rápida, decaimiento importante.",
+      "sintomas": "",
+      "autocuidado": [
+        "No es para manejo en casa sin evaluación médica."
+      ],
+      "consultar": [
+        "Siempre requiere evaluación médica pronto; en mayores de 65 o con dificultad respiratoria, acudir a urgencia."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "asma",
+      "titulo": "Asma",
+      "temas": [
+        "asma",
+        "silbido en el pecho",
+        "pecho apretado",
+        "inhalador",
+        "salbutamol",
+        "crisis de asma",
+        "me ahogo con el ejercicio",
+        "silbido al respirar"
+      ],
+      "resumen": "Silbidos al respirar, pecho apretado, tos nocturna o con ejercicio, falta de aire en crisis.",
+      "sintomas": "",
+      "autocuidado": [
+        "Usar el tratamiento de mantención como fue indicado, identificar desencadenantes (polvo, frío, humo, alérgenos), tener plan de acción."
+      ],
+      "consultar": [
+        "Control periódico con broncopulmonar o médico general.",
+        "Urgencia si el inhalador de rescate no alivia o no puede hablar frases completas."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "epoc",
+      "titulo": "EPOC",
+      "temas": [
+        "epoc",
+        "enfisema",
+        "fumador con tos",
+        "me falta el aire al caminar",
+        "falta de aire al subir escaleras",
+        "fumo hace muchos anos"
+      ],
+      "resumen": "Falta de aire progresiva al esfuerzo, tos crónica con flema, generalmente en fumadores o ex fumadores.",
+      "sintomas": "",
+      "autocuidado": [
+        "Dejar de fumar es lo más importante.",
+        "Vacunas de influenza y neumococo, actividad física adaptada."
+      ],
+      "consultar": [
+        "Para espirometría y tratamiento.",
+        "Urgencia si aumenta mucho la falta de aire o cambia el color de la flema con fiebre."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

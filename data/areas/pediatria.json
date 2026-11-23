@@ -1,0 +1,142 @@
+{
+  "id": "pediatria",
+  "num": 12,
+  "titulo": "Pediatría",
+  "icono": "🧸",
+  "intro": "Salud de niños y adolescentes: fiebre infantil, diarrea, tos, erupciones, vacunas, crecimiento.",
+  "palabras": [
+    "bebe",
+    "guagua",
+    "nino",
+    "nina",
+    "hijo",
+    "hija",
+    "lactante",
+    "recien nacido",
+    "infantil",
+    "pediatra",
+    "vacuna",
+    "colicos del bebe",
+    "dentición"
+  ],
+  "alarmas": [
+    "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+    "Respiración rápida, quejido, hundimiento de costillas al respirar",
+    "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+    "Manchas en la piel que no desaparecen al presionar, con fiebre",
+    "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "fiebre-en-ninos",
+      "titulo": "Fiebre en niños",
+      "temas": [
+        "fiebre en ninos",
+        "mi hijo tiene fiebre",
+        "mi hija tiene fiebre",
+        "mi guagua tiene fiebre",
+        "guagua con fiebre",
+        "bebe con fiebre",
+        "nino con fiebre"
+      ],
+      "resumen": "Temperatura sobre 37,5 °C axilar.",
+      "sintomas": "Lo más importante es cómo se ve el niño entre las fiebres.",
+      "autocuidado": [
+        "Ropa liviana, líquidos, paracetamol en dosis según PESO (no según edad).",
+        "No usar aspirina.",
+        "No baños con alcohol."
+      ],
+      "consultar": [
+        "Menores de 3 meses siempre.",
+        "Mayores: si dura más de 48-72 horas, el niño se ve decaído entre fiebres o hay alarmas."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "bronquiolitis",
+      "titulo": "Bronquiolitis / síndrome bronquial obstructivo",
+      "temas": [
+        "bronquiolitis",
+        "guagua con tos",
+        "bebe con tos",
+        "sindrome bronquial",
+        "bebe respira rapido",
+        "guagua con silbido",
+        "guagua con mocos"
+      ],
+      "resumen": "En lactantes, en invierno: tos, mocos, silbido al respirar, respiración rápida.",
+      "sintomas": "",
+      "autocuidado": [
+        "Aseo nasal con suero antes de alimentar, alimentación fraccionada, posición semisentada."
+      ],
+      "consultar": [
+        "Si respira rápido, se le hunden las costillas, rechaza alimentación o tiene pausas respiratorias (urgencia)."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "diarrea-infantil",
+      "titulo": "Diarrea infantil",
+      "temas": [
+        "diarrea en ninos",
+        "guagua con diarrea",
+        "bebe con diarrea",
+        "nino con vomitos",
+        "mi hijo tiene diarrea"
+      ],
+      "resumen": "Deposiciones líquidas frecuentes, a veces con vómitos.",
+      "sintomas": "",
+      "autocuidado": [
+        "Sales de rehidratación oral en pequeñas cantidades frecuentes, mantener lactancia materna."
+      ],
+      "consultar": [
+        "Si hay sangre, deshidratación, vómitos que impiden hidratar, o es menor de 6 meses."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

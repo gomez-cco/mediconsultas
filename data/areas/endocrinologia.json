@@ -1,0 +1,134 @@
+{
+  "id": "endocrinologia",
+  "num": 14,
+  "titulo": "Endocrinología",
+  "icono": "⚖️",
+  "intro": "Hormonas y metabolismo: diabetes, tiroides, obesidad, colesterol.",
+  "palabras": [
+    "diabetes",
+    "azucar",
+    "glicemia",
+    "insulina",
+    "tiroides",
+    "hipotiroidismo",
+    "hipertiroidismo",
+    "obesidad",
+    "sobrepeso",
+    "peso",
+    "colesterol",
+    "trigliceridos",
+    "mucha sed",
+    "orino mucho"
+  ],
+  "alarmas": [
+    "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+    "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+    "Glicemia mayor a 300 mg/dl con malestar"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "diabetes-tipo-2",
+      "titulo": "Diabetes tipo 2",
+      "temas": [
+        "diabetes",
+        "azucar alta",
+        "glicemia",
+        "glicemia alta",
+        "diabetico",
+        "insulina",
+        "mucha sed",
+        "orino mucho",
+        "prediabetes",
+        "resistencia a la insulina"
+      ],
+      "resumen": "A menudo sin síntomas.",
+      "sintomas": "Puede haber mucha sed, orinar mucho, cansancio, visión borrosa, heridas que demoran en sanar.",
+      "autocuidado": [
+        "Alimentación con menos azúcares y harinas refinadas, actividad física 150 minutos semanales, control de peso, revisión diaria de pies."
+      ],
+      "consultar": [
+        "Para diagnóstico (glicemia en ayunas ≥ 126 mg/dl en 2 ocasiones).",
+        "Tiene cobertura GES y programa en CESFAM."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hipotiroidismo",
+      "titulo": "Hipotiroidismo",
+      "temas": [
+        "hipotiroidismo",
+        "tiroides",
+        "tsh alta",
+        "levotiroxina",
+        "subo de peso y tengo frio"
+      ],
+      "resumen": "Cansancio, frío, aumento de peso, piel seca, estreñimiento, caída de pelo, ánimo bajo.",
+      "sintomas": "",
+      "autocuidado": [
+        "Tomar la levotiroxina en ayunas, separada de otros medicamentos y alimentos."
+      ],
+      "consultar": [
+        "Para medir TSH; control periódico si ya está en tratamiento."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hipertiroidismo",
+      "titulo": "Hipertiroidismo",
+      "temas": [
+        "hipertiroidismo",
+        "tiroides acelerada",
+        "bajo de peso sin razon",
+        "temblor de manos",
+        "tsh baja"
+      ],
+      "resumen": "Palpitaciones, baja de peso con apetito aumentado, temblor, calor, nerviosismo, insomnio.",
+      "sintomas": "",
+      "autocuidado": [
+        "Evitar estimulantes."
+      ],
+      "consultar": [
+        "Evaluación médica para exámenes."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

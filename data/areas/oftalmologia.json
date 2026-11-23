@@ -1,0 +1,135 @@
+{
+  "id": "oftalmologia",
+  "num": 9,
+  "titulo": "Oftalmología",
+  "icono": "👁️",
+  "intro": "Ojos y visión: ojo rojo, visión borrosa, picazón, cuerpo extraño, orzuelo.",
+  "palabras": [
+    "ojo",
+    "ojos",
+    "vista",
+    "vision borrosa",
+    "ojo rojo",
+    "conjuntivitis",
+    "orzuelo",
+    "parpado",
+    "lagrimeo",
+    "legana",
+    "manchas en la vista",
+    "moscas volantes",
+    "destellos"
+  ],
+  "alarmas": [
+    "Pérdida súbita de visión, total o parcial",
+    "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+    "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+    "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "conjuntivitis",
+      "titulo": "Conjuntivitis",
+      "temas": [
+        "conjuntivitis",
+        "ojo rojo",
+        "ojos rojos",
+        "legana",
+        "ojo con pus",
+        "arenilla en el ojo",
+        "ojo irritado"
+      ],
+      "resumen": "Ojo rojo, sensación de arenilla, legaña.",
+      "sintomas": "Viral: secreción acuosa, muy contagiosa. Bacteriana: secreción espesa amarilla. Alérgica: mucha picazón, en ambos ojos.",
+      "autocuidado": [
+        "Lavado con suero fisiológico, compresas frías, no compartir toallas, lavado de manos frecuente."
+      ],
+      "consultar": [
+        "Si hay dolor intenso, baja de visión, molestia con la luz, o usa lentes de contacto."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "orzuelo",
+      "titulo": "Orzuelo",
+      "temas": [
+        "orzuelo",
+        "perrilla",
+        "bulto en el parpado",
+        "parpado hinchado",
+        "chalazion"
+      ],
+      "resumen": "Bulto rojo y doloroso en el borde del párpado.",
+      "sintomas": "",
+      "autocuidado": [
+        "Compresas tibias 10 minutos, 4 veces al día.",
+        "No exprimir."
+      ],
+      "consultar": [
+        "Si no mejora en 1-2 semanas o la hinchazón se extiende a todo el párpado con fiebre."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "ojo-seco",
+      "titulo": "Ojo seco",
+      "temas": [
+        "ojo seco",
+        "ojos secos",
+        "ardor en los ojos",
+        "ojos cansados",
+        "vista cansada",
+        "me arden los ojos"
+      ],
+      "resumen": "Ardor, sensación de cuerpo extraño, cansancio visual, peor con pantallas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Lágrimas artificiales, regla 20-20-20 (cada 20 minutos mirar a 6 metros por 20 segundos), parpadear conscientemente."
+      ],
+      "consultar": [
+        "Si persiste pese a lágrimas artificiales."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

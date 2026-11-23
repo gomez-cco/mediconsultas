@@ -1,0 +1,170 @@
+{
+  "id": "salud-mental",
+  "num": 15,
+  "titulo": "Salud Mental",
+  "icono": "🧘",
+  "intro": "Ánimo, ansiedad, sueño, estrés y bienestar emocional.",
+  "palabras": [
+    "ansiedad",
+    "angustia",
+    "depresion",
+    "triste",
+    "tristeza",
+    "estres",
+    "panico",
+    "insomnio",
+    "no puedo dormir",
+    "suicidio",
+    "quitarme la vida",
+    "matarme",
+    "morir",
+    "autolesion",
+    "llorar",
+    "nervios",
+    "burnout"
+  ],
+  "alarmas": [
+    "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+    "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+    "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "ansiedad",
+      "titulo": "Ansiedad",
+      "temas": [
+        "ansiedad",
+        "ansioso",
+        "ansiosa",
+        "nervios",
+        "angustia",
+        "estres",
+        "preocupacion constante"
+      ],
+      "resumen": "Preocupación excesiva, inquietud, tensión muscular, palpitaciones, dificultad para dormir o concentrarse.",
+      "sintomas": "",
+      "autocuidado": [
+        "Respiración lenta (inhalar 4 segundos, exhalar 6), actividad física, reducir cafeína, rutina de sueño, hablar con alguien de confianza."
+      ],
+      "consultar": [
+        "Si interfiere con el trabajo, estudios o relaciones.",
+        "Hay tratamientos efectivos (psicoterapia y/o medicamentos)."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "crisis-de-panico",
+      "titulo": "Crisis de pánico",
+      "temas": [
+        "crisis de panico",
+        "ataque de panico",
+        "panico",
+        "ataque de ansiedad",
+        "siento que me voy a morir"
+      ],
+      "resumen": "Episodio súbito de miedo intenso con palpitaciones, falta de aire, temblor, sensación de muerte inminente; dura 10-30 minutos.",
+      "sintomas": "",
+      "autocuidado": [
+        "Respiración lenta, recordar que la crisis pasa, técnica 5-4-3-2-1 (nombrar 5 cosas que ve, 4 que toca…)."
+      ],
+      "consultar": [
+        "Si se repiten; la primera vez conviene descartar causas físicas."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "depresion",
+      "titulo": "Depresión",
+      "temas": [
+        "depresion",
+        "deprimido",
+        "deprimida",
+        "tristeza",
+        "estoy triste",
+        "no tengo ganas de nada",
+        "desanimo",
+        "lloro mucho"
+      ],
+      "resumen": "Tristeza o pérdida de interés la mayor parte del día por más de 2 semanas, alteración del sueño y apetito, cansancio, culpa, dificultad para concentrarse.",
+      "sintomas": "",
+      "autocuidado": [
+        "Mantener rutinas, actividad física, contacto social, evitar alcohol."
+      ],
+      "consultar": [
+        "Siempre conviene evaluación: la depresión en mayores de 15 años tiene cobertura GES.",
+        "Urgente si hay ideas de muerte."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "insomnio",
+      "titulo": "Insomnio",
+      "temas": [
+        "insomnio",
+        "no puedo dormir",
+        "duermo mal",
+        "me despierto en la noche",
+        "no duermo"
+      ],
+      "resumen": "Dificultad para conciliar o mantener el sueño, despertar muy temprano, cansancio diurno.",
+      "sintomas": "",
+      "autocuidado": [
+        "Horarios fijos, sin pantallas 1 hora antes, evitar cafeína después del mediodía, dormitorio oscuro y fresco, no quedarse en cama despierto más de 20 minutos."
+      ],
+      "consultar": [
+        "Si dura más de 3 meses o afecta el funcionamiento diario.",
+        "Evitar automedicarse con pastillas para dormir."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

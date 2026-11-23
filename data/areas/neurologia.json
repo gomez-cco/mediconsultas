@@ -1,0 +1,180 @@
+{
+  "id": "neurologia",
+  "num": 7,
+  "titulo": "Neurología",
+  "icono": "🧠",
+  "intro": "Cerebro y nervios: dolor de cabeza, mareo, hormigueos, convulsiones, problemas de memoria.",
+  "palabras": [
+    "cabeza",
+    "dolor de cabeza",
+    "cefalea",
+    "jaqueca",
+    "migrana",
+    "mareo",
+    "vertigo",
+    "hormigueo",
+    "adormecimiento",
+    "convulsion",
+    "temblor",
+    "memoria",
+    "desmayo",
+    "paralisis",
+    "boca chueca",
+    "debilidad"
+  ],
+  "alarmas": [
+    "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+    "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+    "Dolor de cabeza con fiebre y rigidez de nuca",
+    "Convulsión que dura más de 5 minutos o primera convulsión",
+    "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "cefalea-tensional",
+      "titulo": "Cefalea tensional",
+      "temas": [
+        "dolor de cabeza",
+        "cefalea",
+        "me duele la cabeza",
+        "dolor de cabeza todos los dias",
+        "dolor en la nuca",
+        "cabeza apretada"
+      ],
+      "resumen": "Dolor de cabeza como 'cintillo' apretado, en ambos lados, leve a moderado, relacionado con estrés y mala postura.",
+      "sintomas": "",
+      "autocuidado": [
+        "Descanso, hidratación, pausas de pantalla, analgésicos simples (no más de 2-3 días por semana para evitar cefalea por abuso de medicamentos)."
+      ],
+      "consultar": [
+        "Si es diaria, cambia de patrón o no responde a analgésicos."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "migrana",
+      "titulo": "Migraña",
+      "temas": [
+        "migrana",
+        "jaqueca",
+        "dolor de cabeza con nauseas",
+        "dolor de cabeza de un lado",
+        "luces antes del dolor de cabeza",
+        "me molesta la luz"
+      ],
+      "resumen": "Dolor pulsátil, generalmente de un lado, con náuseas y molestia con la luz y ruido; a veces precedido de destellos visuales (aura).",
+      "sintomas": "",
+      "autocuidado": [
+        "Reposo en lugar oscuro, analgésico al inicio, registrar gatillantes (sueño irregular, ayuno, alcohol, ciertos alimentos)."
+      ],
+      "consultar": [
+        "Si tiene más de 4 crisis al mes (puede requerir tratamiento preventivo) o el aura dura más de 1 hora."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "vertigo",
+      "titulo": "Vértigo",
+      "temas": [
+        "vertigo",
+        "mareo",
+        "mareos",
+        "todo me da vueltas",
+        "me mareo",
+        "mareo al acostarme",
+        "mareo al levantarme"
+      ],
+      "resumen": "Sensación de que todo gira.",
+      "sintomas": "El vértigo posicional (al girar en la cama o mirar hacia arriba) dura segundos y es benigno en general.",
+      "autocuidado": [
+        "Movimientos lentos, evitar conducir durante las crisis, hidratación."
+      ],
+      "consultar": [
+        "Urgencia si se acompaña de dificultad para hablar, visión doble, debilidad o no puede caminar."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "hormigueo-o-adormecimiento",
+      "titulo": "Hormigueo o adormecimiento",
+      "temas": [
+        "hormigueo",
+        "adormecimiento",
+        "se me duermen las manos",
+        "tunel carpiano",
+        "manos dormidas",
+        "pies dormidos",
+        "se me duerme el brazo"
+      ],
+      "resumen": "En manos (túnel carpiano, más de noche), pies (neuropatía, frecuente en diabetes) o un lado del cuerpo (alarma).",
+      "sintomas": "",
+      "autocuidado": [
+        "Evitar posturas mantenidas de muñeca; en diabéticos, revisar los pies a diario."
+      ],
+      "consultar": [
+        "Urgencia si es súbito en un lado del cuerpo o cara.",
+        "Control si es progresivo o persistente."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    }
+  ]
+}

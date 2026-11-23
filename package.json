@@ -1,17 +1,14 @@
 {
   "name": "mediconsultas",
-  "version": "1.0.0",
-  "description": "MEDICONSULTAS - orientación médica por áreas con IA (Claude)",
-  "main": "server.js",
+  "version": "2.0.0",
+  "description": "MEDICONSULTAS by JJ — orientación médica por áreas (sin costo, sin API externa): síntomas, qué hacer, cuándo consultar y señales de alarma.",
   "private": true,
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node test/run.js"
   },
   "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^1.12.0",
-    "express": "^5.3.0"
+    "node": ">=18"
   }
 }

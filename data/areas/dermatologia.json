@@ -1,0 +1,294 @@
+{
+  "id": "dermatologia",
+  "num": 6,
+  "titulo": "Dermatología",
+  "icono": "🧴",
+  "intro": "Piel, pelo y uñas: granos, manchas, ronchas, picazón, lunares, acné, hongos.",
+  "palabras": [
+    "piel",
+    "grano",
+    "granito",
+    "espinilla",
+    "mancha",
+    "roncha",
+    "picazon",
+    "comezon",
+    "lunar",
+    "acne",
+    "hongo",
+    "sarpullido",
+    "alergia en la piel",
+    "eczema",
+    "herpes",
+    "verruga",
+    "caida del pelo",
+    "una",
+    "quemadura",
+    "rojo",
+    "erupcion"
+  ],
+  "alarmas": [
+    "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+    "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+    "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+    "Ampollas extensas o descamación de piel con mucosas comprometidas",
+    "Lunar que cambia de tamaño, forma o color, o sangra"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "grano-rojo",
+      "titulo": "Grano rojo / foliculitis / forúnculo",
+      "temas": [
+        "grano",
+        "grano rojo",
+        "granito",
+        "forunculo",
+        "foliculitis",
+        "grano con pus",
+        "bulto rojo en la piel",
+        "absceso",
+        "me salio un grano",
+        "grano que duele"
+      ],
+      "resumen": "Lesión roja, a veces con pus en el centro, dolorosa.",
+      "sintomas": "La foliculitis es la inflamación de un folículo piloso; el forúnculo es más profundo y grande.",
+      "autocuidado": [
+        "Compresas tibias 3-4 veces al día, no exprimir, higiene con jabón neutro, no compartir toallas."
+      ],
+      "consultar": [
+        "Si crece rápido, tiene más de 1-2 cm, hay fiebre, línea roja que se extiende, está en la cara (zona nariz-labio) o se repite."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "picadura-de-insecto",
+      "titulo": "Picadura de insecto",
+      "temas": [
+        "picadura",
+        "me pico",
+        "me picaron",
+        "picada de mosquito",
+        "picadura de zancudo",
+        "chinches",
+        "pulgas",
+        "picadura de arana"
+      ],
+      "resumen": "Roncha roja con picazón, a veces con punto central.",
+      "sintomas": "Pueden aparecer varias en línea (chinches, pulgas).",
+      "autocuidado": [
+        "Lavar, frío local, no rascar, antihistamínico oral si hay mucha picazón."
+      ],
+      "consultar": [
+        "Si aparece hinchazón de cara o dificultad respiratoria (urgencia), o la lesión se infecta.",
+        "Considerar picadura de araña de rincón si hay dolor intenso y mancha violácea: urgencia."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "acne",
+      "titulo": "Acné",
+      "temas": [
+        "acne",
+        "espinillas",
+        "puntos negros",
+        "granos en la cara",
+        "granos en la espalda"
+      ],
+      "resumen": "Espinillas, puntos negros, granos con pus en cara, pecho y espalda.",
+      "sintomas": "",
+      "autocuidado": [
+        "Lavado suave 2 veces al día, productos 'no comedogénicos', no manipular las lesiones."
+      ],
+      "consultar": [
+        "Si deja cicatrices, es muy inflamatorio o afecta la autoestima: hay tratamientos efectivos."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "urticaria",
+      "titulo": "Urticaria",
+      "temas": [
+        "urticaria",
+        "ronchas",
+        "ronchas que pican",
+        "alergia en la piel",
+        "habones",
+        "me salieron ronchas"
+      ],
+      "resumen": "Ronchas elevadas que pican, cambian de lugar y desaparecen en menos de 24 horas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Antihistamínico oral, identificar desencadenante (alimentos, medicamentos, infecciones)."
+      ],
+      "consultar": [
+        "Urgencia si hay hinchazón de cara o dificultad para respirar.",
+        "Control si dura más de 6 semanas."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "dermatitis",
+      "titulo": "Dermatitis / eczema",
+      "temas": [
+        "dermatitis",
+        "eczema",
+        "piel seca",
+        "picazon en la piel",
+        "piel irritada",
+        "manchas rojas que pican",
+        "comezon"
+      ],
+      "resumen": "Piel seca, roja, con picazón, a veces con descamación o pequeñas vesículas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Hidratar la piel varias veces al día, duchas cortas con agua tibia, evitar jabones perfumados y ropa de lana."
+      ],
+      "consultar": [
+        "Si no mejora en 2 semanas, se infecta o afecta el sueño."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hongos-de-piel",
+      "titulo": "Hongos de piel (tiña) y pie de atleta",
+      "temas": [
+        "hongos",
+        "tina",
+        "pie de atleta",
+        "hongos en los pies",
+        "hongos en la una",
+        "mancha redonda en la piel",
+        "picazon entre los dedos"
+      ],
+      "resumen": "Manchas redondeadas con borde rojo que avanza y centro más claro; entre los dedos: piel blanca, agrietada, con picazón.",
+      "sintomas": "",
+      "autocuidado": [
+        "Secar bien la piel, ropa de algodón, no compartir toallas ni calzado."
+      ],
+      "consultar": [
+        "Para confirmar y tratar; si compromete uñas o cuero cabelludo necesita tratamiento oral."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "lunares",
+      "titulo": "Lunares (nevus)",
+      "temas": [
+        "lunar",
+        "lunares",
+        "lunar que cambio",
+        "lunar que crece",
+        "lunar que sangra",
+        "melanoma",
+        "mancha oscura",
+        "cancer de piel"
+      ],
+      "resumen": "Regla ABCDE para vigilar: Asimetría, Bordes irregulares, Color variado, Diámetro mayor a 6 mm, Evolución (cambios).",
+      "sintomas": "",
+      "autocuidado": [
+        "Protector solar diario, autoexamen mensual, evitar quemaduras solares."
+      ],
+      "consultar": [
+        "Si cumple algún criterio ABCDE, pica, sangra o es nuevo después de los 30 años."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

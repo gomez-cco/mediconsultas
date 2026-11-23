@@ -1,0 +1,254 @@
+{
+  "id": "otorrino",
+  "num": 8,
+  "titulo": "Otorrinolaringología",
+  "icono": "👂",
+  "intro": "Oído, nariz y garganta: dolor de oído, sinusitis, amigdalitis, ronquera, pérdida de audición.",
+  "palabras": [
+    "oido",
+    "oreja",
+    "sordera",
+    "zumbido",
+    "tinnitus",
+    "suenan los oidos",
+    "suena el oido",
+    "pito en el oido",
+    "pitido",
+    "escucho mal",
+    "oido tapado",
+    "cerumen",
+    "garganta",
+    "amigdalas",
+    "anginas",
+    "ronquera",
+    "disfonia",
+    "nariz",
+    "sinusitis",
+    "sangrado de nariz",
+    "epistaxis",
+    "congestion",
+    "rinitis",
+    "tragar"
+  ],
+  "alarmas": [
+    "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+    "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+    "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+    "Hinchazón detrás de la oreja con fiebre"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "faringoamigdalitis",
+      "titulo": "Faringoamigdalitis",
+      "temas": [
+        "dolor de garganta",
+        "amigdalitis",
+        "anginas",
+        "placas en la garganta",
+        "me duele al tragar",
+        "faringitis",
+        "garganta inflamada",
+        "me duele la garganta"
+      ],
+      "resumen": "Dolor de garganta, dolor al tragar, fiebre.",
+      "sintomas": "Si hay placas de pus, fiebre alta y sin tos, puede ser bacteriana (estreptococo).",
+      "autocuidado": [
+        "Líquidos tibios o fríos, gárgaras con agua con sal, analgésicos."
+      ],
+      "consultar": [
+        "Si hay fiebre alta con placas, no puede tragar o dura más de 5 días (puede requerir antibiótico)."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "otitis",
+      "titulo": "Otitis",
+      "temas": [
+        "otitis",
+        "dolor de oido",
+        "me duele el oido",
+        "secrecion del oido",
+        "oido infectado",
+        "dolor de oreja"
+      ],
+      "resumen": "Dolor de oído, sensación de oído tapado, fiebre (otitis media) o dolor al tocar la oreja tras piscina (otitis externa).",
+      "sintomas": "",
+      "autocuidado": [
+        "Analgésicos, no introducir cotonitos ni objetos, mantener el oído seco."
+      ],
+      "consultar": [
+        "Si hay secreción, fiebre alta, dolor intenso, o en niños menores de 2 años."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sinusitis",
+      "titulo": "Sinusitis",
+      "temas": [
+        "sinusitis",
+        "dolor en la cara",
+        "mocos espesos",
+        "presion en la frente",
+        "dolor en los pomulos"
+      ],
+      "resumen": "Congestión, secreción espesa, dolor o presión en la cara (frente, mejillas) que aumenta al agacharse.",
+      "sintomas": "",
+      "autocuidado": [
+        "Lavados nasales con suero, vapor, hidratación.",
+        "La mayoría es viral y mejora en 10 días."
+      ],
+      "consultar": [
+        "Si dura más de 10 días, empeora tras mejorar, o hay hinchazón alrededor del ojo (urgencia)."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "zumbido-de-oidos",
+      "titulo": "Zumbido de oídos (tinnitus)",
+      "temas": [
+        "zumbido",
+        "zumbido en los oidos",
+        "me zumban los oidos",
+        "zumban los oidos",
+        "suenan los oidos",
+        "me suenan los oidos",
+        "me suena el oido",
+        "pito en el oido",
+        "tinnitus",
+        "ruido en los oidos",
+        "pitido"
+      ],
+      "resumen": "Sensación de pito, zumbido o 'sonido de mar' en uno o ambos oídos sin fuente externa.",
+      "sintomas": "Causas frecuentes: tapón de cera, exposición a ruido fuerte, pérdida de audición por edad, presión alta, estrés o algunos medicamentos.",
+      "autocuidado": [
+        "Evitar ruidos fuertes y audífonos a alto volumen, reducir cafeína y alcohol, un ruido de fondo suave (ventilador, música baja) ayuda a dormir.",
+        "No introducir cotonitos."
+      ],
+      "consultar": [
+        "Si es solo en un oído, aparece con pérdida de audición, mareo o vértigo, late al ritmo del pulso, o dura más de 2 semanas.",
+        "Urgencia si hubo pérdida súbita de audición."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "tapon-de-cera",
+      "titulo": "Tapón de cera",
+      "temas": [
+        "cera",
+        "tapon de cera",
+        "oido tapado",
+        "no escucho bien",
+        "escucho mal",
+        "cerumen",
+        "lavado de oidos"
+      ],
+      "resumen": "Oído tapado, disminución de audición, a veces zumbido o picazón, frecuente tras ducharse o usar cotonitos.",
+      "sintomas": "",
+      "autocuidado": [
+        "No usar cotonitos (empujan la cera).",
+        "Gotas de aceite de oliva o vaselina líquida 2-3 días pueden ablandarla."
+      ],
+      "consultar": [
+        "Para lavado de oídos si no mejora; no hacerlo en casa si ha tenido perforación del tímpano."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sangrado-de-nariz",
+      "titulo": "Sangrado de nariz",
+      "temas": [
+        "sangrado de nariz",
+        "me sangra la nariz",
+        "sangre de narices",
+        "epistaxis",
+        "me sale sangre de la nariz"
+      ],
+      "resumen": "Sangrado generalmente de la parte anterior de la nariz, por sequedad o rascado.",
+      "sintomas": "",
+      "autocuidado": [
+        "Sentarse inclinado hacia ADELANTE (no hacia atrás) y apretar la parte blanda de la nariz 10-15 minutos sin soltar."
+      ],
+      "consultar": [
+        "Si no se detiene en 20 minutos, es frecuente, o la persona usa anticoagulantes o tiene presión alta."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

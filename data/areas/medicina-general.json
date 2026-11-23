@@ -1,0 +1,173 @@
+{
+  "id": "medicina-general",
+  "num": 1,
+  "titulo": "Medicina General",
+  "icono": "🩺",
+  "intro": "Primer punto de consulta: fiebre, malestar general, cansancio, chequeos preventivos y síntomas que no encajan en un área específica.",
+  "palabras": [
+    "fiebre",
+    "cansancio",
+    "fatiga",
+    "malestar",
+    "decaimiento",
+    "escalofrios",
+    "chequeo",
+    "examen preventivo",
+    "baje de peso",
+    "sudor nocturno",
+    "gripe",
+    "resfrio"
+  ],
+  "alarmas": [
+    "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+    "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+    "Confusión, somnolencia extrema o desmayo",
+    "Baja de peso no intencional de más del 5 % en 6 meses"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "resfrio-comun",
+      "titulo": "Resfrío común",
+      "temas": [
+        "resfrio",
+        "resfriado",
+        "estoy resfriado",
+        "me resfrie",
+        "mocos",
+        "nariz tapada",
+        "estornudos",
+        "catarro",
+        "congestion nasal"
+      ],
+      "resumen": "Congestión y secreción nasal, estornudos, dolor de garganta leve, tos seca, a veces fiebre baja.",
+      "sintomas": "Dura 7 a 10 días.",
+      "autocuidado": [
+        "Reposo, abundante líquido, lavados nasales con suero fisiológico, paracetamol para molestias.",
+        "Los antibióticos no sirven para virus."
+      ],
+      "consultar": [
+        "Si la fiebre supera 3 días, hay dificultad para respirar, dolor de oído intenso o los síntomas empeoran después de mejorar."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "influenza",
+      "titulo": "Influenza (gripe)",
+      "temas": [
+        "influenza",
+        "gripe",
+        "dolor de cuerpo y fiebre",
+        "fiebre alta y dolor muscular",
+        "vacuna influenza",
+        "me duele todo el cuerpo y tengo fiebre"
+      ],
+      "resumen": "Inicio brusco con fiebre alta, dolor muscular intenso, dolor de cabeza, tos y gran cansancio.",
+      "sintomas": "",
+      "autocuidado": [
+        "Reposo, hidratación, antipiréticos.",
+        "Vacunación anual (campaña de invierno), en especial mayores de 65, embarazadas, niños y enfermos crónicos."
+      ],
+      "consultar": [
+        "Personas de riesgo en las primeras 48 horas (puede indicarse antiviral), o ante dificultad respiratoria, dolor torácico o confusión."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "fiebre-sin-causa-clara",
+      "titulo": "Fiebre sin causa clara",
+      "temas": [
+        "fiebre",
+        "tengo fiebre",
+        "calentura",
+        "escalofrios",
+        "temperatura alta",
+        "tengo 38",
+        "tengo 39",
+        "fiebre que no baja"
+      ],
+      "resumen": "Temperatura axilar sobre 37,5 °C.",
+      "sintomas": "Puede acompañarse de escalofríos y malestar.",
+      "autocuidado": [
+        "Ropa liviana, líquidos, paracetamol según dosis indicada.",
+        "Registrar temperatura y síntomas asociados."
+      ],
+      "consultar": [
+        "Fiebre de más de 3 días, mayor a 39,5 °C, en lactantes menores de 3 meses, o con manchas en la piel, rigidez de cuello o dolor al orinar."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "cansancio-persistente",
+      "titulo": "Cansancio persistente",
+      "temas": [
+        "cansancio",
+        "cansado todo el dia",
+        "fatiga",
+        "sin energia",
+        "agotado",
+        "agotada",
+        "debilidad",
+        "decaimiento"
+      ],
+      "resumen": "Fatiga que no mejora con descanso por más de 2 a 4 semanas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Revisar sueño, alimentación, actividad física y estrés."
+      ],
+      "consultar": [
+        "Para exámenes básicos (hemograma, tiroides, glicemia, hierro).",
+        "Antes si hay baja de peso, palidez marcada, sudoración nocturna o falta de aire."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

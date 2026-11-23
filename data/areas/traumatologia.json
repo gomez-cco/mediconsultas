@@ -1,0 +1,221 @@
+{
+  "id": "traumatologia",
+  "num": 5,
+  "titulo": "Traumatología",
+  "icono": "🦴",
+  "intro": "Huesos, articulaciones, músculos y tendones: dolor de rodilla, espalda, hombro, esguinces, fracturas.",
+  "palabras": [
+    "rodilla",
+    "espalda",
+    "lumbago",
+    "columna",
+    "cuello",
+    "hombro",
+    "tobillo",
+    "esguince",
+    "torcedura",
+    "fractura",
+    "hueso",
+    "golpe",
+    "caida",
+    "musculo",
+    "tendon",
+    "cadera",
+    "muneca",
+    "codo",
+    "ciatica",
+    "articulacion",
+    "menisco"
+  ],
+  "alarmas": [
+    "Deformidad evidente o hueso expuesto tras un golpe",
+    "Imposibilidad de apoyar o mover la extremidad",
+    "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+    "Articulación roja, caliente e hinchada con fiebre",
+    "Golpe en la cabeza o cuello con dolor intenso de columna"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "dolor-de-rodilla",
+      "titulo": "Dolor de rodilla",
+      "temas": [
+        "rodilla",
+        "dolor de rodilla",
+        "me duele la rodilla",
+        "rodilla hinchada",
+        "menisco",
+        "rotula",
+        "dolor de rodilla al subir escaleras",
+        "se me va la rodilla"
+      ],
+      "resumen": "Puede deberse a sobrecarga, desgaste (artrosis), lesión de menisco o ligamentos, o tendinitis.",
+      "sintomas": "Dolor al subir escaleras sugiere problema de rótula; bloqueo o 'chasquido' con dolor sugiere menisco.",
+      "autocuidado": [
+        "Reposo relativo, hielo 15-20 minutos 3 veces al día las primeras 48 horas, elevar la pierna, evitar arrodillarse; si es crónico, fortalecer cuádriceps y bajar de peso."
+      ],
+      "consultar": [
+        "Si hubo torsión con hinchazón rápida, inestabilidad ('se me va'), bloqueo, no puede apoyar, o dolor que no mejora en 2 semanas."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "lumbago",
+      "titulo": "Lumbago (dolor lumbar)",
+      "temas": [
+        "lumbago",
+        "dolor de espalda",
+        "dolor de espalda baja",
+        "dolor lumbar",
+        "ciatica",
+        "dolor de cintura",
+        "me duele la espalda",
+        "dolor que baja por la pierna"
+      ],
+      "resumen": "Dolor en la parte baja de la espalda, a veces irradiado a glúteo.",
+      "sintomas": "Si baja por la pierna bajo la rodilla con hormigueo: ciática.",
+      "autocuidado": [
+        "Mantenerse activo (el reposo prolongado empeora), calor local, analgésicos simples, buena postura al levantar peso."
+      ],
+      "consultar": [
+        "Si dura más de 4-6 semanas, hay debilidad en la pierna, fiebre, antecedente de cáncer, o pérdida de control de esfínteres (urgencia)."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "esguince-de-tobillo",
+      "titulo": "Esguince de tobillo",
+      "temas": [
+        "esguince",
+        "torcedura",
+        "me torci el tobillo",
+        "tobillo hinchado",
+        "dolor de tobillo",
+        "me doble el pie",
+        "me doble el tobillo"
+      ],
+      "resumen": "Dolor e hinchazón tras torcedura, moretón.",
+      "sintomas": "",
+      "autocuidado": [
+        "Reposo, hielo, compresión con venda elástica, elevación las primeras 48-72 horas."
+      ],
+      "consultar": [
+        "Si no puede dar 4 pasos, hay dolor al presionar el hueso del tobillo o deformidad (radiografía)."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hombro-doloroso",
+      "titulo": "Hombro doloroso",
+      "temas": [
+        "hombro",
+        "dolor de hombro",
+        "me duele el hombro",
+        "no puedo levantar el brazo",
+        "tendinitis",
+        "manguito rotador"
+      ],
+      "resumen": "Dolor al levantar el brazo o dormir sobre ese lado; frecuente por tendinitis del manguito rotador.",
+      "sintomas": "",
+      "autocuidado": [
+        "Evitar movimientos repetidos sobre la cabeza, hielo o calor, ejercicios suaves de movilidad."
+      ],
+      "consultar": [
+        "Si no puede levantar el brazo, hubo caída, o no mejora en 2-3 semanas."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "artrosis",
+      "titulo": "Artrosis",
+      "temas": [
+        "artrosis",
+        "desgaste",
+        "desgaste de rodilla",
+        "dolor de articulaciones",
+        "crujen las rodillas",
+        "dolor de cadera",
+        "dolor en las manos"
+      ],
+      "resumen": "Dolor articular mecánico (empeora con el uso), rigidez matinal breve, crujidos.",
+      "sintomas": "Frecuente en rodillas, caderas y manos.",
+      "autocuidado": [
+        "Ejercicio de bajo impacto (natación, bicicleta), control de peso, calor local."
+      ],
+      "consultar": [
+        "Para manejo del dolor y kinesioterapia.",
+        "Artrosis de cadera/rodilla leve-moderada en mayores de 55 años tiene cobertura GES."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

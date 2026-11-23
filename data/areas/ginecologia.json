@@ -1,0 +1,174 @@
+{
+  "id": "ginecologia",
+  "num": 11,
+  "titulo": "Ginecología y Obstetricia",
+  "icono": "🌸",
+  "intro": "Salud de la mujer: menstruación, flujo vaginal, embarazo, anticoncepción, menopausia, mamas.",
+  "palabras": [
+    "menstruacion",
+    "regla",
+    "periodo",
+    "atraso",
+    "embarazo",
+    "embarazada",
+    "flujo",
+    "vaginal",
+    "ovario",
+    "utero",
+    "mama",
+    "pecho bulto",
+    "menopausia",
+    "anticonceptivo",
+    "colicos menstruales",
+    "sangrado vaginal",
+    "papanicolau"
+  ],
+  "alarmas": [
+    "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+    "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+    "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+    "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "dolor-menstrual",
+      "titulo": "Dolor menstrual (dismenorrea)",
+      "temas": [
+        "dolor menstrual",
+        "colicos menstruales",
+        "dolor de regla",
+        "dolor con la menstruacion",
+        "regla dolorosa",
+        "endometriosis"
+      ],
+      "resumen": "Dolor tipo cólico en la parte baja del abdomen los primeros días de la regla.",
+      "sintomas": "",
+      "autocuidado": [
+        "Calor local, actividad física, antiinflamatorios al inicio del dolor si no hay contraindicación."
+      ],
+      "consultar": [
+        "Si el dolor es incapacitante, empeora con los años o hay dolor en las relaciones sexuales (descartar endometriosis)."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "flujo-vaginal-anormal",
+      "titulo": "Flujo vaginal anormal",
+      "temas": [
+        "flujo",
+        "flujo vaginal",
+        "flujo con olor",
+        "picazon vaginal",
+        "hongos vaginales",
+        "candidiasis",
+        "vaginosis"
+      ],
+      "resumen": "Cambio de color, olor o cantidad; picazón o ardor.",
+      "sintomas": "Blanco grumoso con picazón: hongos. Gris con olor a pescado: vaginosis.",
+      "autocuidado": [
+        "Ropa interior de algodón, evitar duchas vaginales y jabones perfumados."
+      ],
+      "consultar": [
+        "Para diagnóstico y tratamiento correcto; si hay fiebre, dolor pélvico o posible infección de transmisión sexual."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "atraso-menstrual",
+      "titulo": "Atraso menstrual",
+      "temas": [
+        "atraso",
+        "atraso menstrual",
+        "no me llega la regla",
+        "estoy embarazada",
+        "test de embarazo",
+        "creo que estoy embarazada",
+        "embarazo"
+      ],
+      "resumen": "Ausencia de menstruación en la fecha esperada.",
+      "sintomas": "",
+      "autocuidado": [
+        "Test de embarazo en orina desde el primer día de atraso."
+      ],
+      "consultar": [
+        "Si el test es positivo (control prenatal precoz), o si hay atrasos repetidos sin embarazo."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "examenes-preventivos-de-la-mujer",
+      "titulo": "Exámenes preventivos de la mujer (PAP y mamografía)",
+      "temas": [
+        "papanicolau",
+        "pap",
+        "mamografia",
+        "bulto en la mama",
+        "bulto en el pecho",
+        "autoexamen de mamas",
+        "examen preventivo de la mujer"
+      ],
+      "resumen": "Papanicolau cada 3 años entre 25 y 64 años.",
+      "sintomas": "Mamografía según edad y riesgo (desde los 50, o antes según indicación).",
+      "autocuidado": [
+        "Autoexamen de mamas mensual."
+      ],
+      "consultar": [
+        "Ante bulto en la mama, secreción por el pezón o retracción de la piel."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

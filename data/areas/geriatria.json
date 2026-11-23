@@ -1,0 +1,137 @@
+{
+  "id": "geriatria",
+  "num": 13,
+  "titulo": "Geriatría",
+  "icono": "👵",
+  "intro": "Salud del adulto mayor: caídas, pérdida de memoria, múltiples medicamentos, incontinencia, fragilidad.",
+  "palabras": [
+    "adulto mayor",
+    "abuelo",
+    "abuela",
+    "anciano",
+    "tercera edad",
+    "caidas",
+    "demencia",
+    "alzheimer",
+    "olvido",
+    "confusion",
+    "incontinencia",
+    "polifarmacia",
+    "muchos medicamentos",
+    "fragilidad"
+  ],
+  "alarmas": [
+    "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+    "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+    "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+    "Dejar de comer o beber por más de 24 horas"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "caidas",
+      "titulo": "Caídas",
+      "temas": [
+        "caida",
+        "se cayo",
+        "me cai",
+        "mi abuelo se cayo",
+        "mi abuela se cayo",
+        "caidas frecuentes",
+        "adulto mayor se cayo"
+      ],
+      "resumen": "Factores de riesgo: mala visión, debilidad muscular, medicamentos para dormir o presión, alfombras sueltas, poca luz.",
+      "sintomas": "",
+      "autocuidado": [
+        "Barras en el baño, luz nocturna, calzado firme, ejercicios de equilibrio y fuerza."
+      ],
+      "consultar": [
+        "Después de cualquier caída para revisar causas y medicamentos."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "deterioro-de-memoria",
+      "titulo": "Deterioro de memoria",
+      "temas": [
+        "memoria",
+        "olvidos",
+        "alzheimer",
+        "demencia",
+        "se le olvidan las cosas",
+        "perdida de memoria",
+        "se desorienta"
+      ],
+      "resumen": "Olvidos que afectan la vida diaria: perderse en lugares conocidos, repetir preguntas, dificultad para manejar dinero.",
+      "sintomas": "",
+      "autocuidado": [
+        "Estimulación cognitiva, actividad física y social, control de presión y diabetes."
+      ],
+      "consultar": [
+        "Para evaluación; el Alzheimer y otras demencias tienen cobertura GES.",
+        "Descartar causas tratables (tiroides, vitamina B12, depresión)."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "polifarmacia",
+      "titulo": "Polifarmacia",
+      "temas": [
+        "muchos medicamentos",
+        "polifarmacia",
+        "toma muchos remedios",
+        "mezclar medicamentos",
+        "interaccion de medicamentos"
+      ],
+      "resumen": "Uso de 5 o más medicamentos aumenta riesgo de interacciones, mareos y caídas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Mantener lista actualizada de todos los medicamentos, incluidas hierbas y vitaminas."
+      ],
+      "consultar": [
+        "Revisión anual de medicamentos con su médico."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

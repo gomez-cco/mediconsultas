@@ -1,84 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MEDICONSULTAS · Orientación médica por áreas</title>
-  <meta name="description" content="Consulta tus síntomas y recibe orientación clasificada por área de la medicina. Adjunta fotos para consultar." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230e7c86'/><path d='M42 20h16v22h22v16H58v22H42V58H20V42h22z' fill='white'/></svg>" />
-  <script>
-    try {
-      var t = localStorage.getItem("mc-tema");
-      if (t) document.documentElement.dataset.theme = t;
-      var e = parseFloat(localStorage.getItem("mc-escala"));
-      if (e) document.documentElement.style.setProperty("--escala", e);
-    } catch (_) {}
-  </script>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>MEDICONSULTAS — orientación médica</title>
+<meta name="description" content="MEDICONSULTAS: orientación de salud en lenguaje simple, clasificada por áreas de la medicina: qué podría ser, qué hacer ahora, cuándo consultar y señales de alarma.">
+<link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0e7c86">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MEDICONSULTAS">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="app" id="app">
+
   <header class="topbar">
-    <a class="brand" href="/" aria-label="MEDICONSULTAS inicio">
-      <span class="logo" aria-hidden="true">✚</span>
-      <span>MEDI<b>CONSULTAS</b></span>
-    </a>
-    <div class="acciones-top">
-      <div class="herramientas" role="toolbar" aria-label="Ajustes de pantalla">
-        <button type="button" class="tool" id="btnRefrescar" title="Actualizar" aria-label="Actualizar">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.9-3.6M4 4v4h4M4 13a8 8 0 0 0 14.9 3.6M20 20v-4h-4"/></svg>
-        </button>
-        <button type="button" class="tool txt" id="btnMenos" title="Achicar letra" aria-label="Achicar letra">A−</button>
-        <button type="button" class="tool txt" id="btnMas" title="Agrandar letra" aria-label="Agrandar letra">A+</button>
-        <button type="button" class="tool" id="btnTema" title="Cambiar a modo oscuro" aria-label="Cambiar modo claro u oscuro">
-          <svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
-          <svg class="ico-luna" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-        </button>
+    <button class="icon-btn" id="menuToggle" aria-label="Abrir menú de áreas" aria-expanded="false" aria-controls="sidebar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M9.5 3.5h5v6h6v5h-6v6h-5v-6h-6v-5h6z" fill="currentColor"/></svg>
+      </span>
+      <div class="brand-text">
+        <span class="brand-title">MEDICONSULTAS</span>
+        <span class="brand-sub">by JJ · orientación médica</span>
       </div>
-      <a class="sos" href="tel:131" title="Llamar a SAMU">🚑 <span class="sos-txt">Emergencia: </span><b>131</b></a>
+    </div>
+
+    <div class="topbar-controls" role="group" aria-label="Controles">
+      <button class="icon-btn" id="newChatBtn" aria-label="Nueva consulta" title="Nueva consulta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 13.66-5.66M20 12a8 8 0 0 1-13.66 5.66M17 4v4h-4M7 20v-4h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+      </button>
+      <button class="icon-btn" id="fontDown" aria-label="Reducir tamaño de letra" title="Reducir letra">A−</button>
+      <button class="icon-btn" id="fontUp" aria-label="Aumentar tamaño de letra" title="Aumentar letra">A+</button>
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema claro u oscuro" title="Modo claro / oscuro">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+      </button>
     </div>
   </header>
 
   <div class="layout">
-    <aside class="sidebar" aria-label="Áreas de la medicina">
-      <h2>Áreas médicas</h2>
-      <input id="filtroAreas" class="filtro" type="search" placeholder="Buscar área…" aria-label="Buscar área" />
-      <nav id="listaAreas" class="areas"></nav>
-    </aside>
+    <nav class="sidebar" id="sidebar" aria-label="Áreas de la medicina">
+      <div class="sidebar-section">
+        <h2>Herramientas</h2>
+        <ul class="topic-list">
+          <li><button type="button" id="openPhonesBtn">📞 Teléfonos de emergencia</button></li>
+          <li><button type="button" id="openGlossaryBtn">📖 Glosario médico (¿qué significa…?)</button></li>
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <h2>Áreas de la medicina</h2>
+        <div id="areaList"></div>
+      </div>
+      <p class="sidebar-note">Base de conocimiento de orientación general en salud, basada en guías clínicas del MINSAL (GES), MedlinePlus en español y la OMS. No reemplaza la evaluación de un médico. En una emergencia llama al <a href="tel:131">131 (SAMU)</a>. Orientación 24 horas: <a href="tel:6003607777">Salud Responde 600 360 7777</a>.</p>
+    </nav>
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 
-    <main class="main">
-      <section id="inicio" class="hero">
-        <h1>¿Qué te está pasando?</h1>
-        <p>Describe tu síntoma con tus palabras. Te orientamos según el área de la medicina, te decimos qué hacer y cuándo consultar.</p>
-        <div class="ejemplos" id="ejemplos">
-          <button type="button">Tengo dolor en la rodilla al subir escaleras</button>
-          <button type="button">Me salió un grano rojo que duele en el brazo</button>
-          <button type="button">Tengo dolor en la parte baja del estómago</button>
-          <button type="button">Tos con flema hace 5 días</button>
-          <button type="button">Mi guagua tiene fiebre</button>
-        </div>
-      </section>
+    <main class="chat" aria-live="polite">
+      <div class="messages" id="messages"></div>
 
-      <section id="fichaArea" class="ficha" hidden></section>
-
-      <section id="chat" class="chat" aria-live="polite"></section>
-
-      <form id="form" class="composer">
-        <div id="areaElegida" class="area-elegida" hidden></div>
-        <div id="previews" class="previews"></div>
-        <div class="fila">
-          <label class="adjuntar" title="Adjuntar foto">
-            <input id="archivo" type="file" accept="image/*" multiple hidden />
-            <span aria-hidden="true">📷</span><span class="sr">Adjuntar imagen</span>
-          </label>
-          <textarea id="texto" rows="1" placeholder="Describe tu síntoma…" aria-label="Tu consulta"></textarea>
-          <button id="enviar" class="enviar" type="submit">Consultar</button>
-        </div>
-        <p class="aviso">MEDICONSULTAS entrega orientación general y <b>no reemplaza la consulta médica</b>. En una emergencia llama al <a href="tel:131">131</a>. Salud Responde: <a href="tel:6003607777">600 360 7777</a>.</p>
-        <p class="firma">MEDICONSULTAS · <b>BY JJ</b></p>
+      <form class="composer" id="composerForm">
+        <label for="composerInput" class="sr-only">Escribe tu consulta de salud</label>
+        <textarea id="composerInput" rows="1" placeholder="Cuéntame qué sientes…" autocomplete="off" enterkeyhint="send"></textarea>
+        <button type="submit" class="send-btn" aria-label="Enviar consulta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l16-8-6 8 6 8-16-8z" fill="currentColor"/></svg>
+        </button>
       </form>
+      <p class="footer-sign">MEDICONSULTAS · <strong>BY JJ</strong></p>
     </main>
   </div>
+</div>
 
-  <script src="app.js"></script>
+<template id="tpl-topic-card">
+  <article class="card card-topic">
+    <header class="card-header">
+      <span class="pill" data-role="area"></span>
+      <h3 data-role="titulo"></h3>
+    </header>
+    <p class="card-lead" data-role="resumen"></p>
+    <p class="card-text" data-role="sintomas"></p>
+
+    <div class="block pasos" data-role="autocuidadoWrap">
+      <h4 class="block-title">🏠 Qué puedes hacer ahora</h4>
+      <ul data-role="autocuidado"></ul>
+    </div>
+
+    <div class="block consultar" data-role="consultarWrap">
+      <h4 class="block-title">🩺 Cuándo consultar</h4>
+      <ul data-role="consultar"></ul>
+    </div>
+
+    <div class="block plazos" data-role="alarmasWrap">
+      <h4 class="block-title">🚨 Ve a urgencia o llama al 131 si</h4>
+      <ul data-role="alarmas"></ul>
+    </div>
+
+    <details class="card-details" data-role="dondeWrap">
+      <summary>📍 Dónde atenderte</summary>
+      <ul data-role="donde"></ul>
+    </details>
+
+    <p class="card-tip" data-role="consejoWrap"><strong>Consejo:</strong> <span data-role="consejo"></span></p>
+    <p class="card-alert" data-role="alertaWrap"><strong>Ojo:</strong> <span data-role="alerta"></span></p>
+  </article>
+</template>
+
+<template id="tpl-def-card">
+  <article class="card card-def">
+    <header class="card-header">
+      <span class="pill pill-def">Concepto</span>
+      <span class="pill" data-role="area"></span>
+    </header>
+    <h3 class="def-term" data-role="termino"></h3>
+    <p class="card-text" data-role="definicion"></p>
+    <p class="def-base" data-role="baseWrap">📚 <span data-role="base"></span></p>
+  </article>
+</template>
+
+<template id="tpl-phones-card">
+  <article class="card card-calc">
+    <header class="card-header">
+      <span class="pill pill-tool">Herramienta</span>
+      <h3>Teléfonos de emergencia y orientación (Chile)</h3>
+    </header>
+    <ul class="phones">
+      <li><a href="tel:131"><strong>131</strong></a> SAMU: ambulancia y urgencias médicas</li>
+      <li><a href="tel:*4141"><strong>*4141</strong></a> Línea de Prevención del Suicidio (gratis, 24 h)</li>
+      <li><a href="tel:6003607777"><strong>600 360 7777</strong></a> Salud Responde: orientación de salud 24 h</li>
+      <li><a href="tel:+56226353800"><strong>+56 2 2635 3800</strong></a> CITUC: intoxicaciones (24 h)</li>
+      <li><a href="tel:132"><strong>132</strong></a> Bomberos</li>
+      <li><a href="tel:133"><strong>133</strong></a> Carabineros</li>
+      <li><a href="tel:1455"><strong>1455</strong></a> Orientación en violencia contra la mujer</li>
+    </ul>
+  </article>
+</template>
+
+<script src="app.js"></script>
 </body>
 </html>

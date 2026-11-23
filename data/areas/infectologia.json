@@ -1,0 +1,105 @@
+{
+  "id": "infectologia",
+  "num": 16,
+  "titulo": "Infectología",
+  "icono": "🦠",
+  "intro": "Infecciones: virus, bacterias, infecciones de transmisión sexual, viajes, vacunas.",
+  "palabras": [
+    "infeccion",
+    "virus",
+    "bacteria",
+    "contagio",
+    "ets",
+    "its",
+    "transmision sexual",
+    "vih",
+    "sifilis",
+    "herpes genital",
+    "viaje",
+    "dengue",
+    "covid",
+    "hepatitis",
+    "parasitos"
+  ],
+  "alarmas": [
+    "Fiebre con manchas en la piel que no desaparecen al presionar",
+    "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+    "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "infecciones-de-transmision-sexual",
+      "titulo": "Infecciones de transmisión sexual",
+      "temas": [
+        "transmision sexual",
+        "its",
+        "ets",
+        "vih",
+        "sifilis",
+        "gonorrea",
+        "herpes genital",
+        "clamidia",
+        "relacion sin condon",
+        "secrecion genital"
+      ],
+      "resumen": "Secreción genital, ardor al orinar, úlceras o verrugas genitales; muchas veces sin síntomas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Uso de condón, test periódico si hay riesgo, informar a parejas."
+      ],
+      "consultar": [
+        "Ante cualquier síntoma o exposición de riesgo.",
+        "El test de VIH es gratuito y confidencial en la red pública.",
+        "Tras exposición de riesgo, acudir antes de 72 horas (profilaxis post exposición)."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "covid-19",
+      "titulo": "COVID-19",
+      "temas": [
+        "covid",
+        "coronavirus",
+        "perdi el olfato",
+        "perdi el gusto",
+        "test covid"
+      ],
+      "resumen": "Fiebre, tos, dolor de garganta, cansancio, pérdida de olfato o gusto.",
+      "sintomas": "",
+      "autocuidado": [
+        "Aislamiento mientras tenga síntomas, hidratación, ventilación."
+      ],
+      "consultar": [
+        "Si hay dificultad respiratoria o la persona es de riesgo."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

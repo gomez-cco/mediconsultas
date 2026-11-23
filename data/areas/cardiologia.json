@@ -1,0 +1,179 @@
+{
+  "id": "cardiologia",
+  "num": 3,
+  "titulo": "Cardiología",
+  "icono": "❤️",
+  "intro": "Corazón y circulación: dolor de pecho, palpitaciones, presión alta, hinchazón de piernas.",
+  "palabras": [
+    "dolor de pecho",
+    "pecho",
+    "palpitaciones",
+    "taquicardia",
+    "presion alta",
+    "hipertension",
+    "presion",
+    "corazon",
+    "arritmia",
+    "piernas hinchadas",
+    "colesterol",
+    "infarto",
+    "desmayo"
+  ],
+  "alarmas": [
+    "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+    "Falta de aire súbita",
+    "Desmayo durante el esfuerzo",
+    "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "dolor-de-pecho",
+      "titulo": "Dolor de pecho",
+      "temas": [
+        "dolor de pecho",
+        "dolor en el pecho",
+        "me duele el pecho",
+        "opresion en el pecho",
+        "presion en el pecho",
+        "puntada en el pecho",
+        "dolor al lado izquierdo del pecho",
+        "angina",
+        "infarto"
+      ],
+      "resumen": "El dolor de pecho tiene muchas causas.",
+      "sintomas": "Del corazón (infarto, angina): opresión o peso en el centro del pecho, que puede irse al brazo izquierdo, mandíbula o espalda, con sudor frío, náuseas o falta de aire, a veces al hacer esfuerzo. De músculos o costillas: dolor puntual que aumenta al presionar, moverse o respirar hondo. Del estómago (reflujo): ardor que sube, relacionado con comidas. También por ansiedad o problemas del pulmón.",
+      "autocuidado": [
+        "Si el dolor es opresivo, dura más de 5 minutos o viene con sudor, náuseas o falta de aire, llama al 131 y no vayas manejando.",
+        "Si es leve, puntual y cambia al presionar o moverte, reposo y observar."
+      ],
+      "consultar": [
+        "URGENCIA si el dolor es opresivo, intenso, dura más de 5 minutos o tienes factores de riesgo (presión alta, diabetes, colesterol, fumar, más de 50 años).",
+        "Consulta pronto en tu CESFAM si es leve pero se repite."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "hipertension-arterial",
+      "titulo": "Hipertensión arterial",
+      "temas": [
+        "presion alta",
+        "hipertension",
+        "hipertenso",
+        "presion arterial",
+        "me tome la presion",
+        "tengo la presion alta",
+        "presion 140",
+        "presion 150",
+        "presion 160"
+      ],
+      "resumen": "Generalmente no da síntomas.",
+      "sintomas": "A veces dolor de cabeza en la nuca, zumbido de oídos, mareo.",
+      "autocuidado": [
+        "Reducir sal, mantener peso adecuado, actividad física regular, limitar alcohol, no fumar, tomar medicamentos a diario."
+      ],
+      "consultar": [
+        "Si la presión es igual o mayor a 140/90 en varias mediciones.",
+        "Programa cardiovascular (PSCV) en CESFAM."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "palpitaciones",
+      "titulo": "Palpitaciones",
+      "temas": [
+        "palpitaciones",
+        "corazon acelerado",
+        "taquicardia",
+        "se me acelera el corazon",
+        "latidos irregulares",
+        "arritmia",
+        "el corazon me late rapido"
+      ],
+      "resumen": "Sensación de latidos rápidos, fuertes o irregulares.",
+      "sintomas": "",
+      "autocuidado": [
+        "Reducir cafeína, alcohol, energéticas; dormir bien; manejar estrés."
+      ],
+      "consultar": [
+        "Si son frecuentes, duran varios minutos, o se acompañan de mareo, desmayo, dolor de pecho o falta de aire (urgencia)."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "insuficiencia-cardiaca",
+      "titulo": "Insuficiencia cardíaca",
+      "temas": [
+        "insuficiencia cardiaca",
+        "piernas hinchadas",
+        "tobillos hinchados",
+        "me ahogo al acostarme",
+        "falta de aire acostado",
+        "pies hinchados"
+      ],
+      "resumen": "Falta de aire al esfuerzo o al acostarse, hinchazón de tobillos, aumento rápido de peso, cansancio.",
+      "sintomas": "",
+      "autocuidado": [
+        "Controlar peso diario, limitar sal y líquidos según indicación médica, adherencia a tratamiento."
+      ],
+      "consultar": [
+        "Evaluación médica.",
+        "Urgencia si la falta de aire aparece en reposo."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

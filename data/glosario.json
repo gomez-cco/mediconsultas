@@ -1,0 +1,194 @@
+[
+  {
+    "termino": "GES (ex AUGE)",
+    "alias": ["ges", "auge", "garantias explicitas en salud", "patologia ges", "cobertura ges"],
+    "area": "Sistema de salud",
+    "definicion": "Garantías Explícitas en Salud: un listado de enfermedades (más de 85) para las que Fonasa e Isapres deben asegurar acceso, plazos máximos de atención, protección financiera (copago limitado) y calidad. Ejemplos: diabetes, hipertensión, depresión, cáncer de mama, artrosis de rodilla y cadera en mayores de 55, Alzheimer.",
+    "base": "Ley 19.966 (Régimen de Garantías en Salud); listado vigente en minsal.cl",
+    "tema": null
+  },
+  {
+    "termino": "CESFAM",
+    "alias": ["cesfam", "consultorio", "centro de salud familiar", "atencion primaria"],
+    "area": "Sistema de salud",
+    "definicion": "Centro de Salud Familiar: el consultorio de atención primaria donde estás inscrito según tu domicilio. Ahí se piden horas con médico general, enfermera, matrona, nutricionista, dentista y psicólogo, se controlan enfermedades crónicas y se hacen las derivaciones a especialistas.",
+    "base": "Red asistencial pública, MINSAL",
+    "tema": null
+  },
+  {
+    "termino": "SAPU y SAR",
+    "alias": ["sapu", "sar", "urgencia primaria", "servicio de atencion primaria de urgencia", "servicio de alta resolucion"],
+    "area": "Sistema de salud",
+    "definicion": "Servicios de urgencia de la atención primaria que funcionan fuera del horario del CESFAM (tardes, noches y fines de semana). Atienden urgencias de menor complejidad; el SAR además cuenta con radiografías y algunos exámenes. Ante riesgo vital, lo correcto es llamar al 131 o ir a la urgencia de un hospital.",
+    "base": "Red de urgencia, MINSAL",
+    "tema": null
+  },
+  {
+    "termino": "SAMU (131)",
+    "alias": ["samu", "131", "ambulancia", "numero de emergencia"],
+    "area": "Urgencias",
+    "definicion": "Servicio de Atención Médica de Urgencia. Llamando al 131 (gratis, 24 horas) un profesional evalúa la situación por teléfono y, si corresponde, envía una ambulancia. Úsalo ante dolor de pecho, dificultad respiratoria, signos de ACV, pérdida de conciencia, convulsiones o accidentes graves.",
+    "base": "MINSAL",
+    "tema": null
+  },
+  {
+    "termino": "Hipertensión",
+    "alias": ["hipertension", "presion alta", "hipertension arterial"],
+    "area": "Cardiología",
+    "definicion": "Presión arterial elevada de forma persistente: igual o mayor a 140/90 mmHg en varias mediciones. Habitualmente no da síntomas, pero aumenta el riesgo de infarto, ACV y daño renal. Tiene cobertura GES.",
+    "base": "Guía clínica GES Hipertensión arterial, MINSAL",
+    "tema": "hipertension-arterial"
+  },
+  {
+    "termino": "Glicemia",
+    "alias": ["glicemia", "glucosa", "azucar en la sangre", "glicemia en ayunas"],
+    "area": "Endocrinología",
+    "definicion": "Nivel de azúcar (glucosa) en la sangre. En ayunas lo normal es menos de 100 mg/dl; entre 100 y 125 es prediabetes; 126 o más en dos ocasiones confirma diabetes. Bajo 70 mg/dl es hipoglicemia.",
+    "base": "Guía clínica GES Diabetes mellitus tipo 2, MINSAL",
+    "tema": "diabetes-tipo-2"
+  },
+  {
+    "termino": "Hemoglobina glicosilada (HbA1c)",
+    "alias": ["hemoglobina glicosilada", "hba1c", "hemoglobina glicada", "a1c"],
+    "area": "Endocrinología",
+    "definicion": "Examen de sangre que refleja el promedio de azúcar de los últimos 2 a 3 meses. Sirve para diagnosticar y controlar la diabetes: 6,5 % o más indica diabetes; en personas diabéticas la meta suele ser menor a 7 %.",
+    "base": "Guía clínica GES Diabetes mellitus tipo 2, MINSAL",
+    "tema": "diabetes-tipo-2"
+  },
+  {
+    "termino": "TSH",
+    "alias": ["tsh", "hormona tiroestimulante", "examen de tiroides", "perfil tiroideo"],
+    "area": "Endocrinología",
+    "definicion": "Hormona que produce la hipófisis para estimular la tiroides. Es el examen principal para evaluar la tiroides: una TSH alta suele indicar hipotiroidismo y una TSH baja, hipertiroidismo.",
+    "base": "MedlinePlus: Prueba de TSH",
+    "tema": "hipotiroidismo"
+  },
+  {
+    "termino": "Hemograma",
+    "alias": ["hemograma", "recuento de globulos", "globulos rojos", "globulos blancos", "plaquetas"],
+    "area": "Exámenes",
+    "definicion": "Examen de sangre que mide glóbulos rojos (y hemoglobina), glóbulos blancos y plaquetas. Ayuda a detectar anemia, infecciones, inflamación y problemas de coagulación.",
+    "base": "MedlinePlus: Conteo sanguíneo completo",
+    "tema": null
+  },
+  {
+    "termino": "Colesterol LDL y HDL",
+    "alias": ["colesterol", "ldl", "hdl", "colesterol malo", "colesterol bueno", "perfil lipidico", "trigliceridos"],
+    "area": "Cardiología",
+    "definicion": "El perfil lipídico mide grasas en la sangre. El LDL (colesterol 'malo') en exceso se deposita en las arterias; el HDL (colesterol 'bueno') ayuda a retirarlo. Los triglicéridos altos también aumentan el riesgo cardiovascular. Las metas dependen del riesgo de cada persona.",
+    "base": "MedlinePlus: Colesterol",
+    "tema": null
+  },
+  {
+    "termino": "Antibiótico",
+    "alias": ["antibiotico", "antibioticos", "amoxicilina"],
+    "area": "Medicamentos",
+    "definicion": "Medicamento que combate infecciones causadas por bacterias. No sirve contra virus como el resfrío, la gripe o el COVID-19. Se usa solo con receta y por el tiempo indicado; usarlos mal genera bacterias resistentes.",
+    "base": "OMS: Resistencia a los antimicrobianos",
+    "tema": "resfrio-comun"
+  },
+  {
+    "termino": "Antiinflamatorio (AINE)",
+    "alias": ["antiinflamatorio", "aine", "ibuprofeno", "ketoprofeno", "naproxeno", "diclofenaco"],
+    "area": "Medicamentos",
+    "definicion": "Medicamentos que bajan el dolor, la fiebre y la inflamación (ibuprofeno, ketoprofeno, naproxeno, diclofenaco). Pueden irritar el estómago, subir la presión y dañar los riñones; deben evitarse en gastritis, úlcera, enfermedad renal y embarazo avanzado sin indicación médica.",
+    "base": "MedlinePlus: AINE",
+    "tema": "gastritis"
+  },
+  {
+    "termino": "Paracetamol",
+    "alias": ["paracetamol", "acetaminofeno", "antipiretico", "analgesico"],
+    "area": "Medicamentos",
+    "definicion": "Analgésico y antipirético (baja el dolor y la fiebre) de uso común. Es seguro en las dosis indicadas, pero en exceso daña el hígado: no superar la dosis máxima diaria del envase y revisar que otros remedios para el resfrío no lo contengan también. En niños la dosis se calcula según el peso.",
+    "base": "MedlinePlus: Acetaminofén",
+    "tema": "fiebre-sin-causa-clara"
+  },
+  {
+    "termino": "ACV (accidente cerebrovascular)",
+    "alias": ["acv", "accidente cerebrovascular", "derrame cerebral", "infarto cerebral", "ataque cerebral"],
+    "area": "Neurología",
+    "definicion": "Interrupción brusca del flujo de sangre en una parte del cerebro. Se reconoce por cara caída, debilidad de un brazo o pierna y dificultad para hablar. Es una emergencia: llamar al 131 de inmediato, porque el tratamiento funciona mejor en las primeras horas.",
+    "base": "Guía clínica GES Accidente cerebrovascular isquémico, MINSAL",
+    "tema": null
+  },
+  {
+    "termino": "Infarto",
+    "alias": ["infarto", "infarto al corazon", "ataque al corazon", "infarto agudo al miocardio"],
+    "area": "Cardiología",
+    "definicion": "Muerte de una parte del músculo del corazón por falta de sangre, generalmente por una arteria coronaria tapada. Síntoma típico: dolor u opresión en el pecho que dura más de 5 minutos, puede irse al brazo, mandíbula o espalda, con sudor frío o náuseas. Es una emergencia: llamar al 131.",
+    "base": "Guía clínica GES Infarto agudo del miocardio, MINSAL",
+    "tema": null
+  },
+  {
+    "termino": "Anafilaxia",
+    "alias": ["anafilaxia", "shock anafilactico", "reaccion alergica grave"],
+    "area": "Urgencias",
+    "definicion": "Reacción alérgica grave y rápida que puede comprometer la respiración y la presión: ronchas, hinchazón de labios o lengua, dificultad para respirar, mareo. Es una emergencia: llamar al 131; si la persona tiene adrenalina autoinyectable, usarla.",
+    "base": "MedlinePlus: Anafilaxia",
+    "tema": "urticaria"
+  },
+  {
+    "termino": "Saturación de oxígeno",
+    "alias": ["saturacion", "saturacion de oxigeno", "oximetro", "saturometro"],
+    "area": "Broncopulmonar",
+    "definicion": "Porcentaje de oxígeno que transporta la sangre, medido con un oxímetro en el dedo. Lo normal es 95 % o más; bajo 92 % en una persona sin enfermedad pulmonar crónica requiere evaluación urgente.",
+    "base": "MedlinePlus: Oximetría de pulso",
+    "tema": "neumonia"
+  },
+  {
+    "termino": "IMC (índice de masa corporal)",
+    "alias": ["imc", "indice de masa corporal", "obesidad", "sobrepeso"],
+    "area": "Endocrinología",
+    "definicion": "Relación entre peso y estatura (peso en kg dividido por la estatura en metros al cuadrado). Entre 18,5 y 24,9 es normal, de 25 a 29,9 sobrepeso y 30 o más obesidad. Es una referencia: no distingue músculo de grasa.",
+    "base": "OMS: Obesidad y sobrepeso",
+    "tema": "diabetes-tipo-2"
+  },
+  {
+    "termino": "Creatinina",
+    "alias": ["creatinina", "funcion renal", "examen de rinon"],
+    "area": "Urología y Nefrología",
+    "definicion": "Sustancia que los riñones eliminan de la sangre. Una creatinina alta puede indicar que los riñones no están filtrando bien. Se controla en personas con diabetes, hipertensión o que usan ciertos medicamentos.",
+    "base": "MedlinePlus: Prueba de creatinina",
+    "tema": null
+  },
+  {
+    "termino": "Papanicolau (PAP)",
+    "alias": ["papanicolau", "pap", "papanicolaou", "examen pap"],
+    "area": "Ginecología y Obstetricia",
+    "definicion": "Examen que toma una muestra del cuello del útero para detectar a tiempo cambios que podrían llevar a cáncer cervicouterino. En Chile se recomienda cada 3 años entre los 25 y 64 años; es gratuito en el CESFAM.",
+    "base": "Programa Nacional de Cáncer Cervicouterino, MINSAL",
+    "tema": "examenes-preventivos-de-la-mujer"
+  },
+  {
+    "termino": "Espirometría",
+    "alias": ["espirometria", "examen de pulmones", "prueba de funcion pulmonar"],
+    "area": "Broncopulmonar",
+    "definicion": "Examen en que se sopla fuerte en un aparato para medir cuánto aire entra y sale de los pulmones y a qué velocidad. Sirve para diagnosticar y controlar asma y EPOC.",
+    "base": "MedlinePlus: Espirometría",
+    "tema": "asma"
+  },
+  {
+    "termino": "Tinnitus",
+    "alias": ["tinnitus", "acufeno", "acufenos"],
+    "area": "Otorrinolaringología",
+    "definicion": "Percepción de un sonido (pito, zumbido, 'sonido de mar') sin una fuente externa. Es un síntoma, no una enfermedad: puede deberse a cera, ruido, pérdida de audición, presión alta, estrés o medicamentos.",
+    "base": "MedlinePlus: Tinnitus",
+    "tema": "zumbido-de-oidos"
+  },
+  {
+    "termino": "Ecografía",
+    "alias": ["ecografia", "ecotomografia", "ultrasonido", "eco"],
+    "area": "Exámenes",
+    "definicion": "Examen de imágenes que usa ultrasonido (no radiación) para ver órganos como hígado, vesícula, riñones, útero, tiroides o el bebé en el embarazo. No duele; a veces se pide ayuno o vejiga llena.",
+    "base": "MedlinePlus: Ecografía",
+    "tema": null
+  },
+  {
+    "termino": "Salud Responde",
+    "alias": ["salud responde", "600 360 7777", "orientacion telefonica"],
+    "area": "Sistema de salud",
+    "definicion": "Línea telefónica gratuita del MINSAL (600 360 7777) atendida por profesionales de la salud las 24 horas: orienta sobre síntomas, dónde atenderse, medicamentos, GES y trámites de salud.",
+    "base": "MINSAL",
+    "tema": null
+  }
+]

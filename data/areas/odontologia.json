@@ -1,0 +1,120 @@
+{
+  "id": "odontologia",
+  "num": 18,
+  "titulo": "Odontología",
+  "icono": "🦷",
+  "intro": "Dientes y encías: dolor de muelas, encías que sangran, abscesos, sensibilidad.",
+  "palabras": [
+    "diente",
+    "muela",
+    "dolor de muela",
+    "encia",
+    "encias",
+    "caries",
+    "absceso",
+    "flemon",
+    "boca",
+    "llaga",
+    "afta",
+    "mal aliento",
+    "sensibilidad dental",
+    "bruxismo"
+  ],
+  "alarmas": [
+    "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "dolor-de-muela",
+      "titulo": "Dolor de muela",
+      "temas": [
+        "dolor de muela",
+        "dolor de diente",
+        "me duele una muela",
+        "muela",
+        "caries",
+        "diente sensible",
+        "sensibilidad dental"
+      ],
+      "resumen": "Dolor con frío/dulce que pasa rápido (caries inicial) o dolor espontáneo, pulsátil y que despierta de noche (pulpitis).",
+      "sintomas": "",
+      "autocuidado": [
+        "Analgésico, higiene cuidadosa, evitar alimentos muy fríos o calientes.",
+        "No poner aspirina sobre la encía."
+      ],
+      "consultar": [
+        "Al dentista lo antes posible; urgencia dental si hay hinchazón o fiebre."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "encias-que-sangran",
+      "titulo": "Encías que sangran (gingivitis)",
+      "temas": [
+        "encias",
+        "me sangran las encias",
+        "sangran las encias",
+        "gingivitis",
+        "encias inflamadas"
+      ],
+      "resumen": "Encías rojas, inflamadas, que sangran al cepillar.",
+      "sintomas": "",
+      "autocuidado": [
+        "Cepillado 3 veces al día con técnica suave, uso de hilo dental diario."
+      ],
+      "consultar": [
+        "Si no mejora en 2 semanas o hay dientes con movilidad."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "aftas",
+      "titulo": "Aftas",
+      "temas": [
+        "aftas",
+        "afta",
+        "llaga en la boca",
+        "llagas",
+        "herida en la boca"
+      ],
+      "resumen": "Úlceras pequeñas, blanquecinas con borde rojo y dolorosas en la boca; sanan en 7-14 días.",
+      "sintomas": "",
+      "autocuidado": [
+        "Evitar alimentos ácidos o picantes, enjuagues suaves."
+      ],
+      "consultar": [
+        "Si duran más de 3 semanas, son muy grandes o se repiten con frecuencia."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

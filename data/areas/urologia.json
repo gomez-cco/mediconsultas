@@ -1,0 +1,139 @@
+{
+  "id": "urologia",
+  "num": 10,
+  "titulo": "Urología y Nefrología",
+  "icono": "💧",
+  "intro": "Riñones, vejiga y próstata: ardor al orinar, sangre en la orina, cálculos renales, problemas de próstata.",
+  "palabras": [
+    "orina",
+    "orinar",
+    "pipi",
+    "ardor al orinar",
+    "cistitis",
+    "infeccion urinaria",
+    "rinon",
+    "calculo",
+    "piedra",
+    "colico renal",
+    "prostata",
+    "sangre en la orina",
+    "testiculo",
+    "incontinencia"
+  ],
+  "alarmas": [
+    "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+    "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+    "No poder orinar con vejiga llena y dolorosa",
+    "Cólico renal con fiebre o en riñón único"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "infeccion-urinaria-baja",
+      "titulo": "Infección urinaria baja (cistitis)",
+      "temas": [
+        "infeccion urinaria",
+        "ardor al orinar",
+        "cistitis",
+        "orino seguido",
+        "dolor al orinar",
+        "orina con olor",
+        "quemazon al orinar",
+        "ganas de orinar a cada rato"
+      ],
+      "resumen": "Ardor al orinar, ganas frecuentes de orinar, dolor sobre el pubis, orina turbia o con olor fuerte.",
+      "sintomas": "",
+      "autocuidado": [
+        "Abundante agua, no aguantar las ganas de orinar, higiene de adelante hacia atrás."
+      ],
+      "consultar": [
+        "Para examen de orina y antibiótico.",
+        "Urgente si hay fiebre, dolor lumbar, embarazo, o es hombre."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "colico-renal",
+      "titulo": "Cólico renal (cálculos)",
+      "temas": [
+        "colico renal",
+        "calculos",
+        "calculo renal",
+        "piedras en el rinon",
+        "dolor de rinon",
+        "dolor que baja a la ingle",
+        "sangre en la orina"
+      ],
+      "resumen": "Dolor muy intenso en la zona lumbar de un lado que baja hacia la ingle, en oleadas; puede haber náuseas y sangre en la orina.",
+      "sintomas": "",
+      "autocuidado": [
+        "Hidratación.",
+        "El dolor suele requerir analgesia indicada por médico."
+      ],
+      "consultar": [
+        "Atención médica para manejar el dolor; urgencia si hay fiebre o vómitos persistentes."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hiperplasia-prostatica",
+      "titulo": "Hiperplasia prostática",
+      "temas": [
+        "prostata",
+        "chorro debil",
+        "me levanto a orinar",
+        "orino de noche",
+        "antigeno prostatico"
+      ],
+      "resumen": "En hombres mayores de 50: chorro débil, levantarse de noche a orinar, sensación de vaciado incompleto.",
+      "sintomas": "",
+      "autocuidado": [
+        "Reducir líquidos en la noche, limitar cafeína y alcohol."
+      ],
+      "consultar": [
+        "Para evaluación con urólogo y control de antígeno prostático según indicación."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}

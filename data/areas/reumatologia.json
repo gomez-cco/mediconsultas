@@ -1,0 +1,117 @@
+{
+  "id": "reumatologia",
+  "num": 17,
+  "titulo": "Reumatología",
+  "icono": "🤲",
+  "intro": "Enfermedades inflamatorias de articulaciones y autoinmunes: artritis, gota, lupus, fibromialgia.",
+  "palabras": [
+    "artritis",
+    "gota",
+    "acido urico",
+    "lupus",
+    "fibromialgia",
+    "articulaciones hinchadas",
+    "rigidez",
+    "dedos hinchados",
+    "reumatismo",
+    "dolor en todo el cuerpo"
+  ],
+  "alarmas": [
+    "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+  ],
+  "fuentes": [
+    "Guías clínicas MINSAL y garantías GES (minsal.cl)",
+    "MedlinePlus en español (medlineplus.gov/spanish)",
+    "Organización Mundial de la Salud (who.int/es)"
+  ],
+  "temas": [
+    {
+      "id": "gota",
+      "titulo": "Gota",
+      "temas": [
+        "gota",
+        "acido urico",
+        "dedo gordo del pie",
+        "dolor en el dedo gordo del pie",
+        "me duele el dedo gordo",
+        "dedo del pie hinchado",
+        "dedo gordo hinchado"
+      ],
+      "resumen": "Dolor muy intenso de inicio brusco, muchas veces de noche, en el dedo gordo del pie, con enrojecimiento e hinchazón.",
+      "sintomas": "",
+      "autocuidado": [
+        "Reposo de la articulación, hielo, hidratación, reducir alcohol (especialmente cerveza), carnes rojas, mariscos y bebidas azucaradas."
+      ],
+      "consultar": [
+        "Para tratamiento de la crisis y prevención si se repite."
+      ],
+      "alarmas": [
+        "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Reumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "artritis-reumatoide",
+      "titulo": "Artritis reumatoide",
+      "temas": [
+        "artritis",
+        "artritis reumatoide",
+        "manos hinchadas",
+        "rigidez en la manana",
+        "dedos hinchados"
+      ],
+      "resumen": "Dolor e hinchazón de varias articulaciones pequeñas (manos, muñecas) en ambos lados, rigidez matinal de más de 1 hora.",
+      "sintomas": "",
+      "autocuidado": [
+        "Mantenerse activo, no fumar."
+      ],
+      "consultar": [
+        "Pronto: el tratamiento precoz evita daño articular.",
+        "Tiene cobertura GES."
+      ],
+      "alarmas": [
+        "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Reumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "fibromialgia",
+      "titulo": "Fibromialgia",
+      "temas": [
+        "fibromialgia",
+        "dolor en todo el cuerpo",
+        "me duele todo el cuerpo"
+      ],
+      "resumen": "Dolor generalizado por más de 3 meses, cansancio, sueño no reparador, dificultades de concentración.",
+      "sintomas": "",
+      "autocuidado": [
+        "Ejercicio aeróbico gradual, higiene del sueño, manejo del estrés."
+      ],
+      "consultar": [
+        "Para diagnóstico y descartar otras causas."
+      ],
+      "alarmas": [
+        "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Reumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    }
+  ]
+}
