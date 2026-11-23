@@ -257,6 +257,146 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "hemorroides",
+      "titulo": "Hemorroides",
+      "temas": [
+        "hemorroides",
+        "almorranas",
+        "sangre al ir al bano",
+        "sangre roja al limpiarme",
+        "picazon en el ano",
+        "bulto en el ano",
+        "dolor en el ano"
+      ],
+      "resumen": "Venas inflamadas en el ano o recto.",
+      "sintomas": "Dan sangrado rojo brillante al defecar (en el papel o el inodoro), picazón, ardor y a veces un bulto. Se asocian a estreñimiento, pujar mucho, embarazo y estar mucho tiempo sentado.",
+      "autocuidado": [
+        "Comer más fibra (frutas, verduras, avena) y tomar agua para ablandar las deposiciones, no pujar ni quedarse mucho rato en el baño, baños de asiento con agua tibia."
+      ],
+      "consultar": [
+        "Consultar si el sangrado se repite, si tienes más de 45 años o hay cambios en el hábito intestinal (para descartar otras causas).",
+        "Urgente si el bulto es muy doloroso y duro o el sangrado es abundante."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "calculos-en-la-vesicula",
+      "titulo": "Cálculos en la vesícula",
+      "temas": [
+        "vesicula",
+        "calculos en la vesicula",
+        "piedras en la vesicula",
+        "colico biliar",
+        "dolor despues de comer grasa",
+        "dolor bajo las costillas derechas"
+      ],
+      "resumen": "Piedras en la vesícula biliar, muy frecuentes en Chile.",
+      "sintomas": "Dan cólico biliar: dolor en la parte alta del abdomen o bajo las costillas derechas, que puede irse a la espalda, aparece tras comidas grasas y dura de 30 minutos a horas, con náuseas.",
+      "autocuidado": [
+        "Evitar frituras y comidas muy grasas, comer porciones pequeñas."
+      ],
+      "consultar": [
+        "Pedir hora para ecografía.",
+        "La cirugía preventiva está cubierta por GES entre los 35 y 49 años.",
+        "URGENCIA si el dolor dura más de 6 horas, hay fiebre o la piel u ojos se ponen amarillos."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "higado-graso",
+      "titulo": "Hígado graso",
+      "temas": [
+        "higado graso",
+        "esteatosis",
+        "grasa en el higado",
+        "transaminasas altas",
+        "enzimas hepaticas altas"
+      ],
+      "resumen": "Acumulación de grasa en el hígado, asociada a sobrepeso, diabetes, colesterol alto y alcohol.",
+      "sintomas": "Habitualmente no da síntomas y se descubre en una ecografía o examen de sangre. Con los años puede dañar el hígado.",
+      "autocuidado": [
+        "Bajar de peso de forma gradual (un 7 a 10 % ya ayuda), evitar el alcohol, reducir azúcar, bebidas y harinas refinadas, y hacer actividad física."
+      ],
+      "consultar": [
+        "Control con médico general para seguimiento con exámenes.",
+        "Consultar pronto si aparece color amarillo en piel u ojos o hinchazón del abdomen."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "intolerancia-a-la-lactosa",
+      "titulo": "Intolerancia a la lactosa",
+      "temas": [
+        "intolerancia a la lactosa",
+        "la leche me cae mal",
+        "lactosa",
+        "me hincho con la leche",
+        "diarrea con la leche"
+      ],
+      "resumen": "Dificultad para digerir el azúcar de la leche.",
+      "sintomas": "Entre 30 minutos y 2 horas después de consumir lácteos aparece hinchazón, gases, dolor tipo cólico y diarrea.",
+      "autocuidado": [
+        "Probar productos sin lactosa, yogur y quesos maduros (se toleran mejor) y repartir los lácteos en porciones pequeñas.",
+        "Cuidar el aporte de calcio."
+      ],
+      "consultar": [
+        "Si hay baja de peso, sangre en las deposiciones o síntomas que no mejoran al quitar los lácteos (para descartar otras causas como enfermedad celíaca)."
+      ],
+      "alarmas": [
+        "Dolor abdominal intenso y continuo, abdomen duro como tabla",
+        "Vómitos con sangre o como 'borra de café', deposiciones negras o con sangre abundante",
+        "Dolor en la parte baja derecha con fiebre (posible apendicitis)",
+        "Piel u ojos amarillos",
+        "Signos de deshidratación: boca seca, poca orina, mareo"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Gastroenterología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

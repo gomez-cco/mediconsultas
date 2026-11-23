@@ -115,6 +115,151 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "absceso-dental",
+      "titulo": "Absceso dental (flemón)",
+      "temas": [
+        "absceso dental",
+        "flemon",
+        "cara hinchada por una muela",
+        "encia con pus",
+        "muela infectada",
+        "se me hincho la cara"
+      ],
+      "resumen": "Acumulación de pus por una infección de un diente o de la encía.",
+      "sintomas": "Da dolor intenso y pulsátil, hinchazón de la encía o la cara, mal sabor y a veces fiebre.",
+      "autocuidado": [
+        "Analgésico común, enjuagues con agua tibia con sal, frío por fuera de la cara.",
+        "No aplicar calor ni intentar reventarlo."
+      ],
+      "consultar": [
+        "Consultar con el dentista lo antes posible: requiere drenaje y tratamiento del diente.",
+        "URGENCIA si la hinchazón baja al cuello, hay fiebre alta o cuesta tragar o respirar."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "muela-del-juicio",
+      "titulo": "Muela del juicio",
+      "temas": [
+        "muela del juicio",
+        "cordal",
+        "me esta saliendo la muela del juicio",
+        "dolor al fondo de la boca"
+      ],
+      "resumen": "Terceros molares que salen entre los 17 y 25 años.",
+      "sintomas": "Si no tienen espacio pueden quedar atrapadas, causando dolor al fondo de la boca, inflamación de la encía que las cubre, mal sabor y dificultad para abrir la boca.",
+      "autocuidado": [
+        "Enjuagues con agua tibia con sal, buena higiene en la zona, analgésico común."
+      ],
+      "consultar": [
+        "Pedir hora con el dentista para evaluación con radiografía.",
+        "Urgente si hay hinchazón de la cara, fiebre o no se puede abrir la boca."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "bruxismo",
+      "titulo": "Bruxismo",
+      "temas": [
+        "bruxismo",
+        "aprieto los dientes",
+        "rechino los dientes",
+        "dolor de mandibula",
+        "me suena la mandibula"
+      ],
+      "resumen": "Apretar o rechinar los dientes, sobre todo de noche y en relación con el estrés.",
+      "sintomas": "Causa dolor de mandíbula y oídos al despertar, dolor de cabeza, desgaste y sensibilidad dental.",
+      "autocuidado": [
+        "Técnicas de relajación, evitar chicle y alimentos duros, compresas tibias en la mandíbula, reducir cafeína y alcohol en la noche."
+      ],
+      "consultar": [
+        "Pedir hora con el dentista: puede indicar un plano de relajación (placa nocturna) para proteger los dientes."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "mal-aliento",
+      "titulo": "Mal aliento",
+      "temas": [
+        "mal aliento",
+        "halitosis",
+        "me huele la boca",
+        "olor en la boca"
+      ],
+      "resumen": "Olor desagradable de la boca, que en la mayoría de los casos se origina en la propia boca: restos de comida, placa en la lengua, caries o enfermedad de las encías.",
+      "sintomas": "También por boca seca, tabaco, amígdalas con 'piedritas' o reflujo.",
+      "autocuidado": [
+        "Cepillado después de cada comida, limpiar la lengua, usar hilo dental, tomar agua, no fumar."
+      ],
+      "consultar": [
+        "Si persiste pese a una buena higiene: dentista para revisar caries y encías; si la boca está sana, médico para buscar otras causas."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "diente-roto-o-caido-por-golpe",
+      "titulo": "Diente roto o caído por golpe",
+      "temas": [
+        "se me rompio un diente",
+        "diente roto",
+        "se me cayo un diente",
+        "golpe en los dientes",
+        "diente quebrado"
+      ],
+      "resumen": "Fractura o salida de un diente por un golpe o caída.",
+      "sintomas": "En dientes definitivos que salen completos, actuar rápido mejora mucho la posibilidad de salvarlos.",
+      "autocuidado": [
+        "Si se cayó un diente definitivo: tomarlo por la corona (no por la raíz), enjuagarlo brevemente sin frotar y, si es posible, volver a ponerlo en su lugar o guardarlo en leche o en la propia saliva.",
+        "Guardar los trozos si se fracturó.",
+        "Los dientes de leche no se reimplantan."
+      ],
+      "consultar": [
+        "URGENCIA dental: acudir al dentista o a la urgencia dental dentro de la primera hora si el diente se cayó completo."
+      ],
+      "alarmas": [
+        "Hinchazón de cara o cuello con fiebre por infección dental, sobre todo si cuesta tragar o respirar: URGENCIA"
+      ],
+      "dondeAcudir": [
+        "Dentista (atención dental en tu CESFAM o consulta particular)",
+        "Urgencia dental del SAPU/SAR si hay dolor intenso o hinchazón",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
     }
   ]
 }

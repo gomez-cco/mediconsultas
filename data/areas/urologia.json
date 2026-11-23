@@ -83,7 +83,10 @@
         "piedras en el rinon",
         "dolor de rinon",
         "dolor que baja a la ingle",
-        "sangre en la orina"
+        "sangre en la orina",
+        "me duele el rinon",
+        "dolor de rinon fuerte",
+        "dolor en el rinon"
       ],
       "resumen": "Dolor muy intenso en la zona lumbar de un lado que baja hacia la ingle, en oleadas; puede haber náuseas y sangre en la orina.",
       "sintomas": "",
@@ -125,6 +128,178 @@
       ],
       "consultar": [
         "Para evaluación con urólogo y control de antígeno prostático según indicación."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "infeccion-renal",
+      "titulo": "Infección renal (pielonefritis)",
+      "temas": [
+        "pielonefritis",
+        "infeccion al rinon",
+        "infeccion renal",
+        "fiebre y dolor de rinon",
+        "fiebre y ardor al orinar",
+        "dolor de rinon y fiebre",
+        "dolor de rinon con fiebre",
+        "orinar y tengo fiebre"
+      ],
+      "resumen": "Infección urinaria que subió al riñón.",
+      "sintomas": "Da fiebre alta, escalofríos, dolor en la zona lumbar de un lado, náuseas o vómitos, a veces con ardor al orinar.",
+      "autocuidado": [
+        "Hidratación abundante mientras se consigue atención."
+      ],
+      "consultar": [
+        "URGENCIA: requiere evaluación y antibióticos el mismo día, especialmente en embarazadas, adultos mayores y diabéticos."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "incontinencia-urinaria",
+      "titulo": "Incontinencia urinaria",
+      "temas": [
+        "incontinencia",
+        "se me sale la orina",
+        "se me escapa la orina",
+        "me orino",
+        "perdida de orina",
+        "se me sale al toser"
+      ],
+      "resumen": "Pérdida involuntaria de orina.",
+      "sintomas": "De esfuerzo: al toser, reír o levantar peso (común tras partos y en la menopausia). De urgencia: ganas repentinas y fuertes de orinar que no alcanzan a llegar al baño.",
+      "autocuidado": [
+        "Ejercicios del piso pélvico (ejercicios de Kegel) a diario, bajar de peso, reducir café y alcohol, orinar con horario."
+      ],
+      "consultar": [
+        "Pedir hora: hay tratamientos efectivos (kinesiología de piso pélvico, medicamentos, cirugía).",
+        "Consultar pronto si hay ardor, sangre o fiebre."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "dolor-de-testiculo",
+      "titulo": "Dolor de testículo",
+      "temas": [
+        "dolor de testiculo",
+        "me duele un testiculo",
+        "testiculo hinchado",
+        "bulto en el testiculo",
+        "dolor en los testiculos"
+      ],
+      "resumen": "El dolor brusco e intenso en un testículo puede ser una torsión (el testículo se gira y pierde su irrigación), sobre todo en jóvenes.",
+      "sintomas": "El dolor gradual con fiebre sugiere infección (epididimitis). Un bulto indoloro debe estudiarse para descartar cáncer de testículo.",
+      "autocuidado": [
+        "Ropa interior de soporte y frío local mientras se consigue atención.",
+        "Autoexamen mensual de los testículos."
+      ],
+      "consultar": [
+        "URGENCIA si el dolor es súbito e intenso (la torsión debe operarse en pocas horas).",
+        "Pedir hora pronto ante cualquier bulto en el testículo."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "disfuncion-erectil",
+      "titulo": "Disfunción eréctil",
+      "temas": [
+        "disfuncion erectil",
+        "impotencia",
+        "no se me para",
+        "problemas de ereccion",
+        "no logro ereccion"
+      ],
+      "resumen": "Dificultad persistente para lograr o mantener una erección.",
+      "sintomas": "Es frecuente con la edad y se asocia a diabetes, presión alta, colesterol, tabaco, alcohol, estrés y algunos medicamentos. Puede ser una señal temprana de enfermedad de las arterias.",
+      "autocuidado": [
+        "Actividad física, no fumar, moderar el alcohol, controlar el peso y las enfermedades crónicas, y hablarlo con la pareja."
+      ],
+      "consultar": [
+        "Pedir hora: además de tratarla, conviene revisar presión, glicemia y colesterol.",
+        "No comprar medicamentos sin receta (pueden ser peligrosos con remedios para el corazón)."
+      ],
+      "alarmas": [
+        "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",
+        "Fiebre con dolor en la zona lumbar y escalofríos (infección renal)",
+        "No poder orinar con vejiga llena y dolorosa",
+        "Cólico renal con fiebre o en riñón único"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a urólogo o nefrólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "enfermedad-renal-cronica",
+      "titulo": "Enfermedad renal crónica",
+      "temas": [
+        "enfermedad renal",
+        "insuficiencia renal",
+        "rinones",
+        "creatinina alta",
+        "dialisis",
+        "proteinas en la orina"
+      ],
+      "resumen": "Pérdida lenta y progresiva de la función de los riñones, sobre todo por diabetes y presión alta.",
+      "sintomas": "Al principio no da síntomas; en etapas avanzadas causa cansancio, hinchazón, picazón, náuseas y orina con espuma.",
+      "autocuidado": [
+        "Controlar la presión y la glicemia, reducir la sal, evitar antiinflamatorios (ibuprofeno, ketoprofeno) y no automedicarse."
+      ],
+      "consultar": [
+        "Si eres diabético o hipertenso, pide en tu control los exámenes de función renal (creatinina y orina).",
+        "La enfermedad renal crónica terminal tiene cobertura GES."
       ],
       "alarmas": [
         "Dolor intenso en un testículo de inicio súbito (posible torsión: urgencia en horas)",

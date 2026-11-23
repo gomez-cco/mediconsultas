@@ -169,6 +169,207 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "menopausia",
+      "titulo": "Menopausia",
+      "temas": [
+        "menopausia",
+        "bochornos",
+        "calores",
+        "climaterio",
+        "se me fue la regla",
+        "sofocos"
+      ],
+      "resumen": "Fin de las menstruaciones, habitualmente entre los 45 y 55 años.",
+      "sintomas": "Los años previos (climaterio) traen reglas irregulares, bochornos, sudor nocturno, alteraciones del sueño y del ánimo, sequedad vaginal y menor deseo sexual. Aumenta el riesgo de osteoporosis.",
+      "autocuidado": [
+        "Actividad física, ropa en capas, evitar alcohol y comidas muy condimentadas, lubricantes vaginales, alimentación rica en calcio."
+      ],
+      "consultar": [
+        "Si los síntomas afectan la calidad de vida: hay tratamientos (incluida terapia hormonal en casos seleccionados).",
+        "Consultar pronto si hay sangrado después de 12 meses sin regla."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "nauseas-del-embarazo",
+      "titulo": "Náuseas del embarazo",
+      "temas": [
+        "nauseas del embarazo",
+        "vomitos en el embarazo",
+        "embarazada con nauseas",
+        "embarazada y vomito"
+      ],
+      "resumen": "Náuseas y vómitos frecuentes en el primer trimestre del embarazo, habitualmente mejoran desde la semana 12 a 16.",
+      "sintomas": "",
+      "autocuidado": [
+        "Comer porciones pequeñas y frecuentes, galletas secas al despertar, evitar olores fuertes y comidas grasas, tomar líquidos entre comidas."
+      ],
+      "consultar": [
+        "Si no puede retener líquidos ni alimentos, baja de peso, orina poco u oscuro o está muy mareada: consultar de urgencia (puede requerir hidratación).",
+        "Asistir a los controles prenatales."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sindrome-premenstrual",
+      "titulo": "Síndrome premenstrual",
+      "temas": [
+        "sindrome premenstrual",
+        "antes de la regla",
+        "irritable antes de la regla",
+        "pechos sensibles antes de la regla",
+        "hinchazon antes de la regla"
+      ],
+      "resumen": "Síntomas físicos y emocionales que aparecen 1 a 2 semanas antes de la regla y desaparecen al comenzar: irritabilidad, cambios de ánimo, hinchazón, sensibilidad en las mamas, dolor de cabeza y antojos.",
+      "sintomas": "",
+      "autocuidado": [
+        "Actividad física regular, dormir bien, reducir sal, cafeína y alcohol en esos días, registrar los síntomas en un calendario."
+      ],
+      "consultar": [
+        "Si los síntomas afectan mucho el trabajo, las relaciones o el ánimo: existen tratamientos efectivos."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "anticoncepcion-de-emergencia",
+      "titulo": "Anticoncepción de emergencia",
+      "temas": [
+        "pildora del dia despues",
+        "anticoncepcion de emergencia",
+        "se rompio el condon",
+        "relacion sin proteccion",
+        "me olvide la pastilla"
+      ],
+      "resumen": "Método para prevenir un embarazo después de una relación sin protección o con falla del método (condón roto, olvido de pastillas).",
+      "sintomas": "La píldora del día después es más efectiva mientras antes se tome, idealmente dentro de 72 horas. No es abortiva ni protege de infecciones de transmisión sexual.",
+      "autocuidado": [
+        "Tomarla lo antes posible.",
+        "Puede causar náuseas y alterar la fecha de la siguiente regla.",
+        "Considerar un test de embarazo si la regla se atrasa más de 7 días."
+      ],
+      "consultar": [
+        "Se entrega gratis en el CESFAM y se vende en farmacias.",
+        "Pedir hora con matrona para elegir un método anticonceptivo regular y hacerse exámenes de ITS si corresponde."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sangrado-fuera-de-la-regla",
+      "titulo": "Sangrado fuera de la regla",
+      "temas": [
+        "sangrado entre reglas",
+        "sangro sin regla",
+        "manchado",
+        "spotting",
+        "sangrado despues de la relacion",
+        "regla muy abundante"
+      ],
+      "resumen": "Sangrado vaginal fuera de la menstruación o reglas muy abundantes.",
+      "sintomas": "Puede deberse a cambios hormonales, anticonceptivos, pólipos, miomas, infecciones o embarazo; menos frecuente, lesiones del cuello del útero.",
+      "autocuidado": [
+        "Registrar fechas y cantidad del sangrado.",
+        "Hacer un test de embarazo si hay posibilidad."
+      ],
+      "consultar": [
+        "Pedir hora con matrona o ginecología, sobre todo si ocurre después de las relaciones o tras la menopausia.",
+        "URGENCIA si el sangrado es muy abundante, hay mareo o se está embarazada."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "mastitis",
+      "titulo": "Mastitis",
+      "temas": [
+        "mastitis",
+        "pecho inflamado amamantando",
+        "dolor de mama lactancia",
+        "mama roja y dolorosa",
+        "conducto tapado"
+      ],
+      "resumen": "Inflamación o infección de la mama, frecuente durante la lactancia.",
+      "sintomas": "Zona roja, caliente y dolorosa en el pecho, a veces con fiebre y malestar.",
+      "autocuidado": [
+        "Seguir amamantando o extrayendo leche del lado afectado, ofrecer primero ese pecho, compresas tibias antes y frías después, descanso e hidratación."
+      ],
+      "consultar": [
+        "Si hay fiebre, no mejora en 24 horas o aparece un bulto doloroso (puede requerir antibiótico compatible con la lactancia).",
+        "Las clínicas de lactancia del CESFAM ayudan."
+      ],
+      "alarmas": [
+        "Embarazo con sangrado, dolor abdominal intenso, pérdida de líquido o disminución de movimientos del bebé",
+        "Dolor abdominal intenso con atraso menstrual (posible embarazo ectópico)",
+        "Embarazo con dolor de cabeza intenso, visión borrosa o hinchazón brusca (posible preeclampsia)",
+        "Sangrado vaginal muy abundante (empapa más de una toalla por hora)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a matrona o ginecólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

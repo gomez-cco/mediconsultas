@@ -137,6 +137,210 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "colicos-del-lactante",
+      "titulo": "Cólicos del lactante",
+      "temas": [
+        "colicos",
+        "colicos del bebe",
+        "guagua llora mucho",
+        "bebe llora sin parar",
+        "guagua con gases",
+        "llanto inconsolable"
+      ],
+      "resumen": "Crisis de llanto intenso en un bebé sano, habitualmente en la tarde, que comienzan alrededor de las 2 semanas y mejoran hacia los 3 a 4 meses.",
+      "sintomas": "El bebé se pone rojo, encoge las piernas y es difícil de calmar.",
+      "autocuidado": [
+        "Mecerlo, contacto piel con piel, ruido blanco, masaje suave en la guatita, sacarle los chanchitos después de comer.",
+        "Si quien cuida se siente sobrepasado, dejar al bebé seguro en su cuna y tomar unos minutos.",
+        "Nunca sacudirlo."
+      ],
+      "consultar": [
+        "Si tiene fiebre, vómitos, rechaza la alimentación, no sube de peso, hay sangre en las deposiciones o el llanto es diferente al habitual."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "denticion",
+      "titulo": "Dentición",
+      "temas": [
+        "denticion",
+        "le estan saliendo los dientes",
+        "salida de dientes",
+        "babea mucho",
+        "muerde todo"
+      ],
+      "resumen": "Salida de los primeros dientes, habitualmente desde los 6 meses.",
+      "sintomas": "Puede causar encías inflamadas, babeo, irritabilidad y ganas de morder. No causa fiebre alta ni diarrea importante.",
+      "autocuidado": [
+        "Mordedores fríos (no congelados), masajear las encías con un dedo limpio.",
+        "Comenzar a limpiar los dientes desde que aparecen."
+      ],
+      "consultar": [
+        "Si hay fiebre sobre 38 °C o diarrea, porque probablemente es otra causa."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "dermatitis-del-panal",
+      "titulo": "Dermatitis del pañal",
+      "temas": [
+        "pañalitis",
+        "panalitis",
+        "dermatitis del panal",
+        "rozadura",
+        "colita roja",
+        "irritacion del panal"
+      ],
+      "resumen": "Irritación roja de la piel en la zona del pañal por la humedad y el contacto con orina y deposiciones.",
+      "sintomas": "Si hay puntos rojos alrededor o no mejora, puede haber hongos.",
+      "autocuidado": [
+        "Cambiar el pañal seguido, limpiar con agua tibia (evitar toallitas con perfume), dejar la piel al aire un rato y aplicar crema de óxido de zinc en cada cambio."
+      ],
+      "consultar": [
+        "Si no mejora en 3 días, hay ampollas, pus, fiebre o puntos rojos alrededor."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "varicela",
+      "titulo": "Varicela",
+      "temas": [
+        "varicela",
+        "peste cristal",
+        "ampollitas en todo el cuerpo",
+        "granitos con agua"
+      ],
+      "resumen": "Infección viral muy contagiosa: fiebre y luego granitos que se convierten en ampollas con agua y costras, con mucha picazón, en todo el cuerpo.",
+      "sintomas": "Contagia desde 1 a 2 días antes de las ampollas hasta que todas forman costra.",
+      "autocuidado": [
+        "Uñas cortas, baños tibios, ropa fresca, paracetamol para la fiebre (NUNCA aspirina ni ibuprofeno).",
+        "No ir al colegio hasta que todas las lesiones tengan costra."
+      ],
+      "consultar": [
+        "Si las lesiones se infectan, hay fiebre alta por más de 4 días, dificultad para respirar, decaimiento intenso o el enfermo es un lactante, embarazada o adulto.",
+        "La vacuna está en el calendario nacional."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "piojos",
+      "titulo": "Piojos",
+      "temas": [
+        "piojos",
+        "liendres",
+        "pediculosis",
+        "pica la cabeza",
+        "mi hijo tiene piojos"
+      ],
+      "resumen": "Pequeños insectos que viven en el cuero cabelludo y causan picazón, sobre todo detrás de las orejas y en la nuca.",
+      "sintomas": "Las liendres son huevos blancos pegados al pelo. Son muy comunes en niños y no se relacionan con falta de higiene.",
+      "autocuidado": [
+        "Usar un producto antipiojos de farmacia siguiendo las instrucciones y repetir a los 7 a 10 días, pasar peineta fina en el pelo húmedo, revisar a toda la familia y lavar fundas y gorros en agua caliente."
+      ],
+      "consultar": [
+        "Si hay heridas infectadas en el cuero cabelludo o no se eliminan tras dos tratamientos."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "enfermedad-mano-pie-boca",
+      "titulo": "Enfermedad mano-pie-boca",
+      "temas": [
+        "mano pie boca",
+        "pie mano boca",
+        "llagas en la boca y granitos en las manos",
+        "ampollas en manos y pies"
+      ],
+      "resumen": "Infección viral frecuente en niños menores de 5 años: fiebre, llagas dolorosas en la boca y puntitos o ampollas en palmas, plantas y zona del pañal.",
+      "sintomas": "Dura alrededor de una semana.",
+      "autocuidado": [
+        "Líquidos frescos y comidas blandas y frías, paracetamol para el dolor o la fiebre, lavado de manos frecuente.",
+        "No asistir al jardín mientras tenga fiebre o llagas."
+      ],
+      "consultar": [
+        "Si no quiere tomar líquidos, orina poco, está muy decaído o tiene fiebre por más de 3 días."
+      ],
+      "alarmas": [
+        "Lactante menor de 3 meses con fiebre (38 °C o más): URGENCIA",
+        "Respiración rápida, quejido, hundimiento de costillas al respirar",
+        "Niño decaído que no responde, muy somnoliento o irritable sin consuelo",
+        "Manchas en la piel que no desaparecen al presionar, con fiebre",
+        "Signos de deshidratación: no moja pañales en 6-8 horas, llanto sin lágrimas, fontanela hundida"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Pediatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

@@ -165,6 +165,139 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "duelo",
+      "titulo": "Duelo",
+      "temas": [
+        "duelo",
+        "se murio",
+        "fallecio",
+        "perdi a mi",
+        "murio mi",
+        "no supero la muerte"
+      ],
+      "resumen": "Reacción natural ante la pérdida de un ser querido: tristeza, llanto, rabia, culpa, alteraciones del sueño y del apetito, y sensación de vacío.",
+      "sintomas": "Avanza en oleadas y con el tiempo se vuelve más llevadero.",
+      "autocuidado": [
+        "Permitirse sentir, hablar de la persona fallecida con alguien de confianza, mantener rutinas básicas (comer, dormir, moverse), aceptar ayuda y no tomar decisiones importantes de inmediato."
+      ],
+      "consultar": [
+        "Si después de varios meses el dolor no disminuye, impide funcionar, hay consumo de alcohol para sobrellevarlo o ideas de muerte (en ese caso, llamar a *4141)."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "estres-laboral",
+      "titulo": "Estrés laboral (burnout)",
+      "temas": [
+        "burnout",
+        "estres laboral",
+        "agotamiento laboral",
+        "estoy quemado",
+        "no doy mas con el trabajo",
+        "colapsado"
+      ],
+      "resumen": "Agotamiento físico y emocional por estrés laboral prolongado: cansancio que no se recupera con descanso, distanciamiento o cinismo hacia el trabajo, sensación de ineficacia, irritabilidad, insomnio y molestias físicas.",
+      "sintomas": "",
+      "autocuidado": [
+        "Poner límites al horario, pausas durante la jornada, desconectarse del celular laboral fuera del horario, actividad física, sueño suficiente y apoyo de cercanos."
+      ],
+      "consultar": [
+        "Si afecta la salud o el funcionamiento diario: médico o psicólogo.",
+        "Si es por condiciones del trabajo, se puede consultar en la mutualidad de la empresa (Ley 16.744)."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "consumo-problematico-de-alcohol",
+      "titulo": "Consumo problemático de alcohol",
+      "temas": [
+        "alcohol",
+        "alcoholismo",
+        "tomo mucho",
+        "bebo mucho",
+        "no puedo dejar de tomar",
+        "consumo de alcohol",
+        "drogas"
+      ],
+      "resumen": "Beber en cantidad o frecuencia que causa problemas de salud, familiares, laborales o legales, o no poder controlar cuánto se toma.",
+      "sintomas": "Señales: necesitar más alcohol para el mismo efecto, temblor o ansiedad al no tomar, beber al despertar.",
+      "autocuidado": [
+        "Registrar cuánto se bebe, evitar situaciones gatillantes, no tener alcohol en casa y pedir apoyo a la familia o a grupos de ayuda."
+      ],
+      "consultar": [
+        "Pedir ayuda en el CESFAM o al Fono Drogas y Alcohol de SENDA (1412, gratis).",
+        "El consumo perjudicial y la dependencia de alcohol y drogas en menores de 20 años tienen cobertura GES.",
+        "URGENCIA si al dejar de tomar hay temblor intenso, confusión o alucinaciones."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "trastornos-de-la-conducta-alimentaria",
+      "titulo": "Trastornos de la conducta alimentaria",
+      "temas": [
+        "anorexia",
+        "bulimia",
+        "no como",
+        "me provoco el vomito",
+        "miedo a engordar",
+        "atracones"
+      ],
+      "resumen": "Alteraciones graves en la forma de comer y en la percepción del cuerpo: restringir mucho la comida, miedo intenso a subir de peso, atracones, vómitos provocados o uso de laxantes.",
+      "sintomas": "Son más frecuentes en adolescentes y pueden afectar el corazón y otros órganos.",
+      "autocuidado": [
+        "Hablarlo con alguien de confianza, evitar comentarios sobre el peso y el cuerpo, mantener comidas en familia sin presión."
+      ],
+      "consultar": [
+        "Siempre requieren evaluación profesional (médico y psicólogo o psiquiatra).",
+        "URGENCIA si hay desmayos, palpitaciones o una baja de peso muy rápida."
+      ],
+      "alarmas": [
+        "Ideas de quitarse la vida o hacerse daño: llamar a *4141 (Línea de Prevención del Suicidio, gratis, 24/7) o al 131",
+        "Escuchar voces o ver cosas que otros no ven, con conducta peligrosa",
+        "Ataque de pánico con dolor de pecho en persona con factores de riesgo cardiovascular (descartar causa cardíaca)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a psicólogo o psiquiatra si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

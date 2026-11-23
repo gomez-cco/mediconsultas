@@ -41,6 +41,28 @@ const ROUTING = [
   ['dolor de garganta y me duele al tragar', 'faringoamigdalitis'],
   ['tengo un lunar que cambio de color', 'lunares'],
   ['me duele el dedo gordo del pie', 'gota'],
+  ['tengo hemorroides', 'hemorroides'],
+  ['mi hijo tiene piojos', 'piojos'],
+  ['tengo el colesterol alto', 'colesterol-alto'],
+  ['quiero dejar de fumar', 'dejar-de-fumar'],
+  ['volvi de brasil con fiebre', 'enfermedades-del-viajero'],
+  ['limpie una bodega y tengo fiebre', 'hantavirus'],
+  ['una pierna hinchada y dolorosa', 'trombosis-venosa-profunda'],
+  ['me queme con agua hirviendo', 'quemaduras'],
+  ['tengo culebrilla', 'herpes-zoster'],
+  ['se rompio el condon', 'anticoncepcion-de-emergencia'],
+  ['tengo bochornos', 'menopausia'],
+  ['se me hincho la cara por una muela', 'absceso-dental'],
+  ['me duele el cuello', 'dolor-de-cuello-y-torticolis'],
+  ['no puedo cerrar el ojo y se me cayo la cara', 'paralisis-facial'],
+  ['se me sale la orina al toser', 'incontinencia-urinaria'],
+  ['me duele un testiculo', 'dolor-de-testiculo'],
+  ['mi papa esta confundido de repente', 'confusion-aguda'],
+  ['me bajo el azucar', 'hipoglicemia'],
+  ['murio mi mama', 'duelo'],
+  ['tengo la piel amarilla', 'hepatitis-a'],
+  ['me arde al orinar y tengo fiebre y dolor de rinon', 'infeccion-renal'],
+  ['me duele el rinon', 'colico-renal'],
 ];
 
 for (const [q, id] of ROUTING) {
@@ -62,6 +84,8 @@ const URGENTES = [
   'se me hincharon los labios',
   'el peor dolor de cabeza de mi vida',
   'me pico una arana de rincon',
+  'limpie una bodega con ratones y tengo fiebre',
+  'volvi del caribe y tengo fiebre',
 ];
 for (const q of URGENTES) {
   test(`urgente: "${q}"`, () => {
@@ -101,6 +125,13 @@ test('el glosario apunta a fichas que existen', () => {
 });
 
 test('18 áreas cargadas', () => assert.strictEqual(areas.length, 18));
+
+test('temario: "ver temario" abre el índice', () => {
+  const a = composeAnswer('ver temario');
+  assert.strictEqual(a.temario, true);
+});
+
+test('al menos 150 fichas', () => assert.ok(TOPICS.length >= 150, `solo ${TOPICS.length}`));
 
 console.log(`\n${passed} pruebas OK, ${failed} fallidas`);
 process.exit(failed ? 1 : 0);

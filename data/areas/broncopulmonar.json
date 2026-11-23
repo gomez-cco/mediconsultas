@@ -172,6 +172,144 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "tos-cronica",
+      "titulo": "Tos crónica",
+      "temas": [
+        "tos cronica",
+        "tos hace semanas",
+        "tos hace un mes",
+        "tos que no se quita",
+        "tos hace meses",
+        "tos persistente"
+      ],
+      "resumen": "Tos que dura más de 3 semanas.",
+      "sintomas": "Causas frecuentes: tos que queda después de un virus, goteo de mocos hacia la garganta, asma, reflujo, tabaco y algunos remedios para la presión (enalapril). Menos frecuente pero importante: tuberculosis o cáncer de pulmón.",
+      "autocuidado": [
+        "Dejar de fumar y evitar el humo, mantener buena hidratación, tratar la congestión nasal y el reflujo si están presentes."
+      ],
+      "consultar": [
+        "Toda tos de más de 3 semanas debe evaluarse (puede requerir radiografía y examen de expectoración).",
+        "Consultar pronto si hay sangre al toser, baja de peso, fiebre o sudor nocturno."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "apnea-del-sueno-y-ronquidos",
+      "titulo": "Apnea del sueño y ronquidos",
+      "temas": [
+        "apnea",
+        "apnea del sueno",
+        "ronco",
+        "ronquidos",
+        "ronca mucho",
+        "deja de respirar cuando duerme",
+        "me quedo dormido de dia"
+      ],
+      "resumen": "Pausas en la respiración durante el sueño, con ronquidos fuertes y ahogos nocturnos.",
+      "sintomas": "Durante el día causa mucho sueño, cansancio, dolor de cabeza al despertar y dificultad para concentrarse. Es más común con sobrepeso y aumenta el riesgo de presión alta y accidentes.",
+      "autocuidado": [
+        "Bajar de peso, evitar alcohol y pastillas para dormir en la noche, dormir de lado y no manejar con sueño."
+      ],
+      "consultar": [
+        "Pedir hora si alguien nota que deja de respirar mientras duerme o si tiene mucho sueño durante el día (puede necesitar un estudio del sueño)."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "tuberculosis",
+      "titulo": "Tuberculosis",
+      "temas": [
+        "tuberculosis",
+        "tbc",
+        "tos con sangre y baja de peso",
+        "sudor en la noche y tos"
+      ],
+      "resumen": "Infección por una bacteria que afecta principalmente los pulmones y se contagia por el aire.",
+      "sintomas": "Da tos de más de 2 semanas con flema, a veces con sangre, fiebre baja en la tarde, sudor nocturno, cansancio y baja de peso.",
+      "autocuidado": [
+        "Cubrirse al toser, ventilar los espacios y no compartir espacios cerrados mientras se estudia.",
+        "El tratamiento es gratuito y cura la enfermedad si se completa."
+      ],
+      "consultar": [
+        "Consultar en el CESFAM si la tos dura más de 2 semanas: el examen de expectoración (baciloscopía) es gratuito.",
+        "Los contactos de un enfermo también deben evaluarse."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "dejar-de-fumar",
+      "titulo": "Dejar de fumar",
+      "temas": [
+        "dejar de fumar",
+        "quiero dejar de fumar",
+        "cigarro",
+        "tabaco",
+        "fumo mucho",
+        "vapeo",
+        "cigarro electronico",
+        "nicotina"
+      ],
+      "resumen": "El tabaco causa EPOC, cáncer de pulmón y otros cánceres, infartos y ACV.",
+      "sintomas": "La abstinencia da ansiedad, irritabilidad, más apetito y ganas intensas de fumar, que bajan después de 2 a 4 semanas. El vapeo también es dañino y adictivo.",
+      "autocuidado": [
+        "Fijar una fecha para dejarlo, botar cigarros y encendedores, evitar los gatillantes (café, alcohol, ciertos lugares), hacer actividad física y pedir apoyo a la familia.",
+        "Cada intento acerca al éxito."
+      ],
+      "consultar": [
+        "Pedir ayuda en el CESFAM: hay consejería y en algunos casos medicamentos que duplican la probabilidad de lograrlo.",
+        "Salud Responde también orienta."
+      ],
+      "alarmas": [
+        "Dificultad para respirar en reposo o labios/uñas morados",
+        "Tos con sangre",
+        "Dolor de pecho al respirar con fiebre alta",
+        "Crisis de asma que no mejora con el inhalador de rescate"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Broncopulmonar si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

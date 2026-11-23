@@ -304,3 +304,20 @@ a { color: var(--accent); }
   .topbar-controls { gap: 0.25rem; }
   .icon-btn { min-width: 1.95rem; height: 1.95rem; padding: 0 0.3rem; font-size: 0.78rem; }
 }
+
+.temario-search {
+  width: 100%; margin: 0.4rem 0 0.2rem; padding: 0.55rem 0.75rem; font: inherit; font-size: 0.9rem;
+  border: 1px solid var(--border); border-radius: 10px; background: var(--surface-alt); color: var(--text);
+}
+.temario-search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.temario-count { margin: 0.3rem 0 0.5rem; font-size: 0.78rem; color: var(--text-muted); }
+.temario-area { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 0.4rem; background: var(--surface-alt); }
+.temario-area summary { cursor: pointer; padding: 0.55rem 0.75rem; font-weight: 700; font-size: 0.9rem; }
+.temario-area ul { list-style: none; margin: 0; padding: 0 0.5rem 0.5rem; display: grid; gap: 0.3rem; }
+.temario-area button {
+  width: 100%; text-align: left; display: flex; flex-direction: column; gap: 0.1rem; cursor: pointer;
+  background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.6rem; font: inherit;
+}
+.temario-area button:hover { border-color: var(--accent); background: var(--accent-soft); }
+.temario-area button strong { font-size: 0.88rem; color: var(--accent); }
+.temario-area button span { font-size: 0.8rem; color: var(--text-muted); line-height: 1.35; }

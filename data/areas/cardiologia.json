@@ -174,6 +174,145 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "colesterol-alto",
+      "titulo": "Colesterol alto",
+      "temas": [
+        "colesterol",
+        "colesterol alto",
+        "trigliceridos",
+        "trigliceridos altos",
+        "dislipidemia",
+        "ldl alto"
+      ],
+      "resumen": "Exceso de grasas (colesterol LDL o triglicéridos) en la sangre.",
+      "sintomas": "No da síntomas, pero se deposita en las arterias y aumenta el riesgo de infarto y ACV. Se detecta con un examen de sangre (perfil lipídico).",
+      "autocuidado": [
+        "Reducir frituras, embutidos, carnes grasas, mantequilla, azúcar y alcohol.",
+        "Aumentar verduras, frutas, legumbres, pescado y frutos secos.",
+        "Hacer actividad física regular y no fumar."
+      ],
+      "consultar": [
+        "Pedir hora para control y evaluar el riesgo cardiovascular: según el riesgo se indican medicamentos (estatinas).",
+        "Programa cardiovascular en el CESFAM."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "varices",
+      "titulo": "Várices",
+      "temas": [
+        "varices",
+        "venas hinchadas",
+        "venas en las piernas",
+        "piernas cansadas",
+        "aranitas en las piernas",
+        "pesadez en las piernas"
+      ],
+      "resumen": "Venas dilatadas y torcidas en las piernas por mal funcionamiento de sus válvulas.",
+      "sintomas": "Dan pesadez, cansancio, hinchazón al final del día y calambres nocturnos. Son más frecuentes en mujeres, embarazo, sobrepeso y trabajos de pie.",
+      "autocuidado": [
+        "Caminar a diario, elevar las piernas al descansar, evitar estar mucho rato de pie o sentado sin moverse, controlar el peso y usar medias de compresión si las indican."
+      ],
+      "consultar": [
+        "Si hay dolor, heridas en la piel del tobillo, sangrado de una várice o cambios de color de la piel.",
+        "URGENCIA si una pierna se hincha de golpe con dolor (posible trombosis)."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "trombosis-venosa-profunda",
+      "titulo": "Trombosis venosa profunda",
+      "temas": [
+        "trombosis",
+        "coagulo en la pierna",
+        "pierna hinchada y dolorosa",
+        "una pierna mas hinchada",
+        "pantorrilla hinchada",
+        "dolor en la pantorrilla"
+      ],
+      "resumen": "Coágulo en una vena profunda, generalmente de la pierna.",
+      "sintomas": "Da hinchazón de una sola pierna, dolor o tensión en la pantorrilla, calor y enrojecimiento. Es más probable después de cirugías, viajes largos, reposo prolongado, embarazo o uso de anticonceptivos con estrógenos.",
+      "autocuidado": [
+        "No masajear la pierna.",
+        "En viajes largos, moverse y caminar cada 1 a 2 horas e hidratarse."
+      ],
+      "consultar": [
+        "URGENCIA: requiere evaluación el mismo día.",
+        "Llamar al 131 si además aparece falta de aire o dolor en el pecho (el coágulo puede viajar al pulmón)."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "presion-baja",
+      "titulo": "Presión baja",
+      "temas": [
+        "presion baja",
+        "hipotension",
+        "se me baja la presion",
+        "mareo al pararme",
+        "me baja la presion"
+      ],
+      "resumen": "Presión arterial menor a 90/60.",
+      "sintomas": "Muchas personas la tienen sin molestias. Puede dar mareo al ponerse de pie, visión borrosa, cansancio o desmayo, sobre todo con calor, deshidratación o algunos medicamentos.",
+      "autocuidado": [
+        "Levantarse lentamente (sentarse primero unos segundos), tomar suficiente agua, evitar estar mucho de pie inmóvil y el calor excesivo."
+      ],
+      "consultar": [
+        "Si hay desmayos, si comenzó tras un remedio nuevo o se acompaña de palpitaciones.",
+        "URGENCIA si hay desmayo con dolor de pecho o sangrado."
+      ],
+      "alarmas": [
+        "Dolor u opresión en el pecho de más de 5 minutos, que puede irradiarse al brazo izquierdo, mandíbula o espalda, con sudor frío o náuseas: LLAMAR AL 131",
+        "Falta de aire súbita",
+        "Desmayo durante el esfuerzo",
+        "Presión arterial sobre 180/120 con dolor de cabeza intenso, visión borrosa o dolor de pecho"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Cardiología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

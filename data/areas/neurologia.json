@@ -175,6 +175,146 @@
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ],
       "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "paralisis-facial",
+      "titulo": "Parálisis facial",
+      "temas": [
+        "paralisis facial",
+        "se me cayo la cara",
+        "no puedo cerrar el ojo",
+        "paralisis de bell",
+        "media cara paralizada"
+      ],
+      "resumen": "Debilidad brusca de un lado de la cara: no se puede cerrar bien el ojo, la boca se desvía y cuesta sonreír.",
+      "sintomas": "La causa más frecuente es una inflamación del nervio facial (parálisis de Bell), pero primero hay que descartar un ACV.",
+      "autocuidado": [
+        "Proteger el ojo que no cierra con lágrimas artificiales y taparlo para dormir."
+      ],
+      "consultar": [
+        "URGENCIA siempre: si además hay debilidad de un brazo o pierna o dificultad para hablar, llamar al 131 (posible ACV).",
+        "El tratamiento de la parálisis de Bell funciona mejor en las primeras 72 horas."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "epilepsia-y-convulsiones",
+      "titulo": "Epilepsia y convulsiones",
+      "temas": [
+        "epilepsia",
+        "epileptico",
+        "convulsiones",
+        "ataque epileptico",
+        "crisis epileptica"
+      ],
+      "resumen": "Enfermedad del cerebro que causa crisis repetidas: sacudidas, rigidez, pérdida de conciencia, mirada perdida o sensaciones extrañas breves.",
+      "sintomas": "Tiene tratamiento y la mayoría de las personas controla sus crisis con medicamentos.",
+      "autocuidado": [
+        "Durante una crisis: proteger la cabeza, retirar objetos peligrosos, poner a la persona de lado y no meter nada en su boca.",
+        "En el día a día: tomar los medicamentos sin saltarse dosis, dormir bien y evitar el alcohol."
+      ],
+      "consultar": [
+        "Llamar al 131 si la crisis dura más de 5 minutos, se repite sin recuperar la conciencia, es la primera vez o hubo un golpe.",
+        "Control con neurología: la epilepsia tiene cobertura GES."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "temblor",
+      "titulo": "Temblor",
+      "temas": [
+        "temblor",
+        "me tiemblan las manos",
+        "tiemblo",
+        "parkinson",
+        "temblor en reposo"
+      ],
+      "resumen": "Movimiento rítmico involuntario, más frecuente en las manos.",
+      "sintomas": "El temblor esencial aparece al usar las manos (escribir, tomar una taza) y suele ser familiar. El del Parkinson aparece en reposo y se acompaña de lentitud y rigidez. También puede deberse a café, ansiedad, tiroides o medicamentos.",
+      "autocuidado": [
+        "Reducir cafeína, dormir bien y manejar el estrés."
+      ],
+      "consultar": [
+        "Pedir hora si interfiere con las actividades, aparece en reposo o se acompaña de lentitud, rigidez o alteraciones de la marcha.",
+        "La enfermedad de Parkinson tiene cobertura GES."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "desmayo",
+      "titulo": "Desmayo (síncope)",
+      "temas": [
+        "desmayo",
+        "me desmaye",
+        "se desmayo",
+        "sincope",
+        "perdi el conocimiento un momento",
+        "me vino un vahido"
+      ],
+      "resumen": "Pérdida breve del conocimiento con recuperación rápida.",
+      "sintomas": "Lo más común es el desmayo 'vasovagal' por calor, estar mucho de pie, ver sangre o dolor, precedido de mareo, sudor y visión borrosa. Menos frecuente pero grave: causas del corazón.",
+      "autocuidado": [
+        "Ante los síntomas previos, acostarse con las piernas en alto o sentarse con la cabeza entre las rodillas.",
+        "Hidratarse y evitar el calor y estar mucho tiempo de pie."
+      ],
+      "consultar": [
+        "Siempre consultar si es la primera vez.",
+        "URGENCIA si ocurrió haciendo esfuerzo, con palpitaciones o dolor de pecho, sin aviso previo, con golpe en la cabeza o en personas con enfermedad cardíaca."
+      ],
+      "alarmas": [
+        "Cara caída, debilidad de un brazo o pierna, dificultad para hablar: posible ACV, LLAMAR AL 131 (cada minuto cuenta)",
+        "Peor dolor de cabeza de su vida, de inicio súbito ('como un trueno')",
+        "Dolor de cabeza con fiebre y rigidez de nuca",
+        "Convulsión que dura más de 5 minutos o primera convulsión",
+        "Dolor de cabeza tras golpe en la cabeza con vómitos o somnolencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Neurología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

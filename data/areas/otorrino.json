@@ -249,6 +249,110 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "rinitis-alergica",
+      "titulo": "Rinitis alérgica",
+      "temas": [
+        "rinitis",
+        "rinitis alergica",
+        "alergia",
+        "alergia al polvo",
+        "alergia al polen",
+        "estornudos en la manana",
+        "me pica la nariz"
+      ],
+      "resumen": "Inflamación de la nariz por alergia a polen, ácaros del polvo, hongos o pelo de animales.",
+      "sintomas": "Da estornudos en salva, secreción acuosa, picazón de nariz, ojos y garganta, y congestión, sin fiebre.",
+      "autocuidado": [
+        "Lavados nasales con suero, evitar el alérgeno (aspirar y ventilar, lavar ropa de cama en agua caliente, mantener mascotas fuera del dormitorio).",
+        "Los antihistamínicos de farmacia alivian los síntomas."
+      ],
+      "consultar": [
+        "Si los síntomas son persistentes, afectan el sueño o se acompañan de asma (puede requerir spray nasal con corticoide)."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "ronquera",
+      "titulo": "Ronquera (disfonía)",
+      "temas": [
+        "ronquera",
+        "disfonia",
+        "afonia",
+        "perdi la voz",
+        "estoy ronco",
+        "voz ronca"
+      ],
+      "resumen": "Cambio en la voz (ronca, débil o sin voz).",
+      "sintomas": "Lo más común es por un resfrío o por forzar la voz (gritar, cantar, profesores). También por reflujo, tabaco o, menos frecuente, nódulos o tumores de las cuerdas vocales.",
+      "autocuidado": [
+        "Reposo de la voz (sin susurrar, que también la fuerza), tomar agua, vapor, evitar el tabaco y el alcohol."
+      ],
+      "consultar": [
+        "Si la ronquera dura más de 3 semanas, sobre todo en fumadores.",
+        "URGENCIA si hay dificultad para respirar o tragar."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "perdida-de-audicion",
+      "titulo": "Pérdida de audición",
+      "temas": [
+        "sordera",
+        "perdida de audicion",
+        "no escucho",
+        "escucho poco",
+        "audifono",
+        "me cuesta oir"
+      ],
+      "resumen": "Disminución de la audición en uno o ambos oídos.",
+      "sintomas": "La más común es por la edad o por exposición al ruido y avanza lentamente. También por cera, otitis o medicamentos. La pérdida brusca en un oído es una urgencia.",
+      "autocuidado": [
+        "Protegerse del ruido (tapones en ambientes ruidosos), no subir el volumen de los audífonos más del 60 %."
+      ],
+      "consultar": [
+        "Pedir hora para audiometría.",
+        "Las personas mayores de 65 años con pérdida de audición tienen cobertura GES para audífonos.",
+        "URGENCIA si la pérdida es súbita (consultar dentro de 72 horas)."
+      ],
+      "alarmas": [
+        "Dificultad para tragar la saliva o abrir la boca, con voz 'de papa caliente'",
+        "Pérdida súbita de audición en un oído (urgencia dentro de 72 horas)",
+        "Sangrado de nariz que no se detiene tras 20 minutos de presión",
+        "Hinchazón detrás de la oreja con fiebre"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a otorrinolaringólogo si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

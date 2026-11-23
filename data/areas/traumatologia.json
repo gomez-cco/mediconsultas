@@ -216,6 +216,178 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "dolor-de-cuello-y-torticolis",
+      "titulo": "Dolor de cuello y tortícolis",
+      "temas": [
+        "torticolis",
+        "dolor de cuello",
+        "me duele el cuello",
+        "cuello rigido",
+        "no puedo girar el cuello",
+        "dolor cervical",
+        "contractura"
+      ],
+      "resumen": "Dolor y rigidez del cuello, muchas veces por mala postura, dormir en mala posición, estrés o muchas horas frente a pantallas.",
+      "sintomas": "Puede irradiarse a los hombros o la cabeza.",
+      "autocuidado": [
+        "Calor local, movimientos suaves del cuello, pausas activas en el trabajo, ajustar la pantalla a la altura de los ojos y usar una almohada adecuada."
+      ],
+      "consultar": [
+        "Si dura más de 2 semanas o hay hormigueo o debilidad en los brazos.",
+        "URGENCIA si es tras un accidente o golpe, o hay fiebre con rigidez de nuca y dolor de cabeza."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "fascitis-plantar",
+      "titulo": "Fascitis plantar (dolor de talón)",
+      "temas": [
+        "fascitis plantar",
+        "dolor de talon",
+        "me duele el talon",
+        "espolon",
+        "dolor en la planta del pie",
+        "dolor al pisar en la manana"
+      ],
+      "resumen": "Inflamación de la banda que recorre la planta del pie.",
+      "sintomas": "El dolor es en el talón y típicamente más fuerte en los primeros pasos de la mañana o tras estar sentado.",
+      "autocuidado": [
+        "Estirar la pantorrilla y la planta del pie varias veces al día, hacer rodar una botella congelada bajo el pie, usar calzado con buena amortiguación y evitar andar descalzo."
+      ],
+      "consultar": [
+        "Si no mejora en 4 a 6 semanas con estas medidas o el dolor impide caminar."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "codo-de-tenista",
+      "titulo": "Codo de tenista (epicondilitis)",
+      "temas": [
+        "codo de tenista",
+        "epicondilitis",
+        "dolor de codo",
+        "me duele el codo",
+        "dolor en el codo al agarrar"
+      ],
+      "resumen": "Dolor en la parte externa del codo por sobrecarga de los tendones del antebrazo, al agarrar, girar o levantar objetos.",
+      "sintomas": "Es común en trabajos manuales y uso intensivo del mouse.",
+      "autocuidado": [
+        "Reposo relativo de la actividad que lo causa, hielo, pausas en el trabajo y ejercicios de estiramiento suaves."
+      ],
+      "consultar": [
+        "Si no mejora en 3 a 4 semanas o hay debilidad o adormecimiento de la mano."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sospecha-de-fractura",
+      "titulo": "Sospecha de fractura",
+      "temas": [
+        "fractura",
+        "me quebre",
+        "hueso roto",
+        "me rompi",
+        "me cai y me duele mucho",
+        "se ve chueco"
+      ],
+      "resumen": "Después de un golpe o caída: dolor intenso que aumenta al mover o apoyar, hinchazón, moretón, deformidad o imposibilidad de usar la extremidad.",
+      "sintomas": "",
+      "autocuidado": [
+        "Inmovilizar la zona como está (con una tablilla o cabestrillo improvisado), aplicar frío envuelto en un paño y no intentar enderezar el hueso."
+      ],
+      "consultar": [
+        "URGENCIA: acudir para radiografía.",
+        "Llamar al 131 si el hueso está expuesto, hay sangrado abundante o el golpe fue en cabeza, cuello o espalda."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "calambres-musculares",
+      "titulo": "Calambres musculares",
+      "temas": [
+        "calambres",
+        "calambre",
+        "calambres en las piernas",
+        "calambres de noche",
+        "se me acalambra"
+      ],
+      "resumen": "Contracción dolorosa e involuntaria de un músculo, frecuente en la pantorrilla y de noche.",
+      "sintomas": "Se asocia a ejercicio, deshidratación, embarazo, edad avanzada y algunos medicamentos (diuréticos).",
+      "autocuidado": [
+        "Estirar el músculo suavemente durante el calambre (llevar la punta del pie hacia uno), masajear, hidratarse bien y estirar antes de dormir."
+      ],
+      "consultar": [
+        "Si son muy frecuentes, se acompañan de debilidad o hinchazón de la pierna, o comenzaron tras un medicamento nuevo."
+      ],
+      "alarmas": [
+        "Deformidad evidente o hueso expuesto tras un golpe",
+        "Imposibilidad de apoyar o mover la extremidad",
+        "Dolor de espalda con pérdida de control de orina o deposiciones, o adormecimiento en la zona genital",
+        "Articulación roja, caliente e hinchada con fiebre",
+        "Golpe en la cabeza o cuello con dolor intenso de columna"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Traumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

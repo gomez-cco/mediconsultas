@@ -48,6 +48,7 @@
       <div class="sidebar-section">
         <h2>Herramientas</h2>
         <ul class="topic-list">
+          <li><button type="button" id="openTemarioBtn">📚 Temario de enfermedades (A–Z por área)</button></li>
           <li><button type="button" id="openPhonesBtn">📞 Teléfonos de emergencia</button></li>
           <li><button type="button" id="openGlossaryBtn">📖 Glosario médico (¿qué significa…?)</button></li>
         </ul>
@@ -118,6 +119,19 @@
     <h3 class="def-term" data-role="termino"></h3>
     <p class="card-text" data-role="definicion"></p>
     <p class="def-base" data-role="baseWrap">📚 <span data-role="base"></span></p>
+  </article>
+</template>
+
+<template id="tpl-temario-card">
+  <article class="card card-temario">
+    <header class="card-header">
+      <span class="pill pill-tool">Temario</span>
+      <h3>Enfermedades y síntomas por área</h3>
+    </header>
+    <p class="card-text">Toca una enfermedad para ver qué es, qué hacer, cuándo consultar y las señales de alarma.</p>
+    <input type="search" class="temario-search" placeholder="Buscar en el temario (ej: rodilla, fiebre, piel)…" aria-label="Buscar en el temario">
+    <p class="temario-count" data-role="count"></p>
+    <div class="temario-list" data-role="list"></div>
   </article>
 </template>
 

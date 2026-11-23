@@ -130,6 +130,178 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "cuerpo-extrano-en-el-ojo",
+      "titulo": "Cuerpo extraño en el ojo",
+      "temas": [
+        "algo en el ojo",
+        "me entro algo en el ojo",
+        "basura en el ojo",
+        "cuerpo extrano en el ojo",
+        "me entro tierra en el ojo"
+      ],
+      "resumen": "Sensación de tener algo en el ojo, lagrimeo, ardor y ojo rojo después de que entra polvo, una basurita o una partícula.",
+      "sintomas": "",
+      "autocuidado": [
+        "Lavar el ojo con abundante agua limpia o suero, parpadear, no frotarse.",
+        "Si es un químico, lavar con agua corriente por 15 minutos."
+      ],
+      "consultar": [
+        "URGENCIA si fue una partícula a alta velocidad (esmeril, martillo), un químico, si la molestia persiste tras lavar o la visión está borrosa."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "vision-borrosa-y-presbicia",
+      "titulo": "Visión borrosa y presbicia",
+      "temas": [
+        "vision borrosa",
+        "veo borroso",
+        "no veo de cerca",
+        "presbicia",
+        "vista cansada",
+        "necesito lentes",
+        "miopia"
+      ],
+      "resumen": "Dificultad para ver nítido.",
+      "sintomas": "Después de los 40 años es común no ver bien de cerca (presbicia). Miopía (no ver de lejos), hipermetropía y astigmatismo se corrigen con lentes. La visión borrosa nueva puede deberse también a diabetes o cataratas.",
+      "autocuidado": [
+        "Buena iluminación para leer, pausas en pantallas.",
+        "Los lentes de lectura de farmacia sirven para la presbicia simple."
+      ],
+      "consultar": [
+        "Control con oftalmólogo o tecnólogo médico.",
+        "Los vicios de refracción en mayores de 65 años tienen cobertura GES.",
+        "URGENCIA si la pérdida de visión es súbita."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "moscas-volantes-y-destellos",
+      "titulo": "Moscas volantes y destellos",
+      "temas": [
+        "moscas volantes",
+        "manchas en la vista",
+        "veo puntos negros",
+        "destellos de luz",
+        "veo luces",
+        "telaranas en la vista"
+      ],
+      "resumen": "Puntos, hilos o telarañas que flotan en la visión, más visibles sobre fondos claros.",
+      "sintomas": "Son frecuentes con la edad y la miopía y casi siempre son benignas.",
+      "autocuidado": [
+        "Si son antiguas y no cambian, no requieren tratamiento."
+      ],
+      "consultar": [
+        "URGENCIA (oftalmología el mismo día) si aparecen de golpe muchas moscas nuevas, destellos de luz o una sombra o 'cortina' en parte de la visión: puede ser un desprendimiento de retina."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "cataratas",
+      "titulo": "Cataratas",
+      "temas": [
+        "cataratas",
+        "catarata",
+        "vista nublada",
+        "veo nublado",
+        "encandilamiento",
+        "me encandilan las luces"
+      ],
+      "resumen": "El cristalino del ojo se vuelve opaco con la edad.",
+      "sintomas": "La visión se nubla poco a poco, los colores se ven apagados y las luces encandilan, sobre todo al manejar de noche.",
+      "autocuidado": [
+        "Buena iluminación y lentes de sol para el encandilamiento."
+      ],
+      "consultar": [
+        "Pedir hora con oftalmología: se tratan con una cirugía simple y efectiva.",
+        "Tienen cobertura GES."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "glaucoma",
+      "titulo": "Glaucoma",
+      "temas": [
+        "glaucoma",
+        "presion ocular",
+        "presion en el ojo",
+        "presion intraocular"
+      ],
+      "resumen": "Daño del nervio óptico, casi siempre por presión alta dentro del ojo.",
+      "sintomas": "Avanza sin síntomas y va reduciendo la visión de los costados; si no se trata, puede causar ceguera. Hay un tipo agudo con ojo rojo, dolor intenso, visión borrosa y náuseas.",
+      "autocuidado": [
+        "Control preventivo de la presión ocular desde los 40 años, especialmente con antecedentes familiares.",
+        "Usar las gotas indicadas todos los días."
+      ],
+      "consultar": [
+        "Control con oftalmología (tiene cobertura GES).",
+        "URGENCIA si hay ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces."
+      ],
+      "alarmas": [
+        "Pérdida súbita de visión, total o parcial",
+        "Ojo rojo con dolor intenso, visión borrosa y halos alrededor de las luces",
+        "Destellos de luz con aparición de 'cortina' o muchas manchas nuevas (posible desprendimiento de retina)",
+        "Químico o golpe fuerte en el ojo: lavar con abundante agua 15 minutos y acudir a urgencia"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Oftalmología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

@@ -132,6 +132,138 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "confusion-aguda",
+      "titulo": "Confusión aguda (delirium)",
+      "temas": [
+        "confusion",
+        "esta confundido",
+        "delirium",
+        "desorientado de repente",
+        "dice cosas sin sentido",
+        "no reconoce"
+      ],
+      "resumen": "Cambio brusco (horas o días) en la atención y el pensamiento de una persona mayor: desorientación, somnolencia o agitación, alucinaciones o habla incoherente, que fluctúa durante el día.",
+      "sintomas": "Suele deberse a una infección (urinaria, pulmonar), deshidratación, medicamentos o dolor.",
+      "autocuidado": [
+        "Acompañarla, mantener luz durante el día y oscuridad en la noche, tener a mano sus lentes y audífonos, hidratarla."
+      ],
+      "consultar": [
+        "URGENCIA: un cambio brusco de conducta en un adulto mayor siempre debe evaluarse el mismo día para buscar la causa."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "ulceras-por-presion",
+      "titulo": "Úlceras por presión (escaras)",
+      "temas": [
+        "escaras",
+        "ulceras por presion",
+        "heridas por estar en cama",
+        "llaga en el coxis",
+        "postrado con heridas"
+      ],
+      "resumen": "Heridas en la piel que aparecen en personas que pasan mucho tiempo en cama o en silla, sobre zonas de apoyo como coxis, caderas, talones y codos.",
+      "sintomas": "Comienzan como una mancha roja que no se aclara al presionar.",
+      "autocuidado": [
+        "Cambiar de posición cada 2 horas, mantener la piel limpia y seca, hidratarla, usar colchón antiescaras y almohadas para aliviar los talones, y asegurar buena alimentación."
+      ],
+      "consultar": [
+        "Pedir atención de enfermería del CESFAM (hay programas de atención domiciliaria para postrados).",
+        "Consultar pronto si la herida tiene mal olor, pus o hay fiebre."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "osteoporosis",
+      "titulo": "Osteoporosis",
+      "temas": [
+        "osteoporosis",
+        "huesos fragiles",
+        "densitometria",
+        "perdida de hueso",
+        "osteopenia"
+      ],
+      "resumen": "Pérdida de densidad de los huesos, que se vuelven frágiles y se fracturan con caídas leves (cadera, muñeca, columna).",
+      "sintomas": "No da síntomas hasta que ocurre una fractura. Es más frecuente en mujeres después de la menopausia.",
+      "autocuidado": [
+        "Alimentación con calcio (lácteos, sardinas) y vitamina D (sol moderado), ejercicio con carga (caminar, fuerza), no fumar, moderar el alcohol y prevenir caídas en el hogar."
+      ],
+      "consultar": [
+        "Pedir hora para evaluar el riesgo (densitometría) si eres mujer mayor de 65 años o has tenido una fractura con una caída leve."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "fragilidad-y-perdida-de-fuerza",
+      "titulo": "Fragilidad y pérdida de fuerza",
+      "temas": [
+        "fragilidad",
+        "perdida de fuerza",
+        "esta muy debil",
+        "camina lento",
+        "perdida de musculo",
+        "sarcopenia"
+      ],
+      "resumen": "Disminución de la fuerza, la energía y la reserva del cuerpo en personas mayores: caminar más lento, cansancio, baja de peso no intencional y dificultad para levantarse de una silla.",
+      "sintomas": "Aumenta el riesgo de caídas y de dependencia.",
+      "autocuidado": [
+        "Ejercicios de fuerza y equilibrio adaptados, alimentación con suficiente proteína en cada comida, actividad social y revisar los medicamentos."
+      ],
+      "consultar": [
+        "Pedir el Examen de Medicina Preventiva del Adulto Mayor (EMPAM) en el CESFAM y preguntar por el programa Más Adultos Mayores Autovalentes."
+      ],
+      "alarmas": [
+        "Confusión o agitación de inicio brusco (puede ser infección, deshidratación o efecto de medicamentos)",
+        "Caída con golpe en la cabeza en persona que usa anticoagulantes",
+        "Caída con dolor de cadera y no puede apoyar la pierna (posible fractura)",
+        "Dejar de comer o beber por más de 24 horas"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Geriatría si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

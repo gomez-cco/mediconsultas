@@ -168,6 +168,111 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "deshidratacion",
+      "titulo": "Deshidratación",
+      "temas": [
+        "deshidratacion",
+        "deshidratado",
+        "boca seca",
+        "orino poco",
+        "orina oscura",
+        "mucha sed y mareo"
+      ],
+      "resumen": "Falta de agua en el cuerpo por diarrea, vómitos, fiebre, calor o poca ingesta de líquidos.",
+      "sintomas": "Da sed, boca seca, orina escasa y oscura, cansancio, mareo al ponerse de pie y dolor de cabeza. Los niños pequeños y adultos mayores se deshidratan más rápido.",
+      "autocuidado": [
+        "Tomar líquidos en sorbos frecuentes, idealmente sales de rehidratación oral (se venden en farmacias).",
+        "Evitar bebidas azucaradas, energéticas y alcohol.",
+        "Descansar en un lugar fresco."
+      ],
+      "consultar": [
+        "Si no puede retener líquidos por vómitos, no orina en 8 horas, está muy somnoliento o confuso, o es un lactante o adulto mayor con síntomas: consultar de urgencia."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "anemia",
+      "titulo": "Anemia",
+      "temas": [
+        "anemia",
+        "anemico",
+        "hemoglobina baja",
+        "falta de hierro",
+        "palidez",
+        "estoy palido",
+        "hierro bajo"
+      ],
+      "resumen": "Disminución de la hemoglobina en la sangre, que transporta el oxígeno.",
+      "sintomas": "Da cansancio, palidez, falta de aire al esfuerzo, palpitaciones, uñas quebradizas y caída del pelo. La causa más frecuente es la falta de hierro (reglas abundantes, mala alimentación, embarazo o pérdidas de sangre por el intestino).",
+      "autocuidado": [
+        "Incluir alimentos con hierro (carnes rojas, legumbres, espinaca) junto con vitamina C (cítricos) para absorberlo mejor.",
+        "Evitar tomar té o café junto a las comidas.",
+        "No tomar suplementos de hierro sin indicación."
+      ],
+      "consultar": [
+        "Pedir hora para un hemograma y buscar la causa.",
+        "Consultar pronto si hay deposiciones negras, sangrado abundante o la falta de aire es en reposo."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "insolacion-y-golpe-de-calor",
+      "titulo": "Insolación y golpe de calor",
+      "temas": [
+        "insolacion",
+        "golpe de calor",
+        "mucho sol",
+        "me dio el sol",
+        "calor extremo",
+        "estuve mucho al sol"
+      ],
+      "resumen": "Daño por exposición prolongada al calor o al sol.",
+      "sintomas": "La insolación da dolor de cabeza, náuseas, mareo, piel roja y sudor abundante. El golpe de calor es grave: temperatura muy alta, piel caliente y seca, confusión o desmayo.",
+      "autocuidado": [
+        "Llevar a la persona a la sombra o a un lugar fresco, aflojar la ropa, aplicar paños húmedos en cuello, axilas e ingle y darle agua en sorbos si está consciente.",
+        "Prevenir con agua frecuente, sombrero y evitando el sol entre 11 y 17 horas."
+      ],
+      "consultar": [
+        "URGENCIA (llamar al 131) si hay confusión, desmayo, convulsión o la piel está caliente y seca.",
+        "Si son síntomas leves que no mejoran en 1 hora, consultar en SAPU o SAR."
+      ],
+      "alarmas": [
+        "Fiebre sobre 39,5 °C que no baja con antipiréticos o dura más de 3 días",
+        "Rigidez de nuca con fiebre y dolor de cabeza intenso",
+        "Confusión, somnolencia extrema o desmayo",
+        "Baja de peso no intencional de más del 5 % en 6 meses"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
     }
   ]
 }

@@ -129,6 +129,137 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "obesidad-y-sobrepeso",
+      "titulo": "Obesidad y sobrepeso",
+      "temas": [
+        "obesidad",
+        "sobrepeso",
+        "bajar de peso",
+        "quiero adelgazar",
+        "estoy gordo",
+        "subi de peso"
+      ],
+      "resumen": "Exceso de grasa corporal (índice de masa corporal de 25 o más es sobrepeso; 30 o más, obesidad).",
+      "sintomas": "Aumenta el riesgo de diabetes, presión alta, colesterol, hígado graso, apnea del sueño, artrosis y algunos cánceres.",
+      "autocuidado": [
+        "Cambios sostenibles: más verduras, frutas y legumbres, menos bebidas azucaradas, ultraprocesados y porciones grandes, actividad física de al menos 150 minutos por semana y dormir bien.",
+        "Evitar dietas extremas y productos milagro."
+      ],
+      "consultar": [
+        "Pedir hora con médico y nutricionista para un plan personalizado y exámenes (glicemia, colesterol).",
+        "En algunos casos existen medicamentos o cirugía."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hipoglicemia",
+      "titulo": "Hipoglicemia",
+      "temas": [
+        "hipoglicemia",
+        "azucar baja",
+        "glicemia baja",
+        "me baja el azucar",
+        "temblor y sudor frio"
+      ],
+      "resumen": "Azúcar en la sangre bajo 70 mg/dl, sobre todo en personas con diabetes que usan insulina o algunos medicamentos.",
+      "sintomas": "Da temblor, sudor frío, hambre, palpitaciones, irritabilidad y, si avanza, confusión, desmayo o convulsiones.",
+      "autocuidado": [
+        "Regla de 15: tomar 15 gramos de azúcar rápida (medio vaso de jugo o bebida normal, o 3 cucharaditas de azúcar en agua), esperar 15 minutos y volver a medir; repetir si sigue bajo y luego comer algo."
+      ],
+      "consultar": [
+        "URGENCIA (131) si la persona está confundida, no puede tragar o pierde el conocimiento: no darle nada por la boca.",
+        "Si las hipoglicemias se repiten, consultar para ajustar el tratamiento."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "pie-diabetico",
+      "titulo": "Pie diabético",
+      "temas": [
+        "pie diabetico",
+        "herida en el pie diabetico",
+        "diabetico con herida",
+        "pie adormecido diabetico",
+        "callos en diabetico"
+      ],
+      "resumen": "Lesiones en los pies de personas con diabetes por la pérdida de sensibilidad y mala circulación.",
+      "sintomas": "Una herida pequeña que no se siente puede infectarse y avanzar rápido.",
+      "autocuidado": [
+        "Revisar los pies todos los días (con espejo si es necesario), lavarlos y secarlos bien entre los dedos, hidratarlos (no entre los dedos), cortar las uñas rectas, no andar descalzo y usar zapatos cómodos."
+      ],
+      "consultar": [
+        "Consultar pronto ante cualquier herida, ampolla, cambio de color o callo que no mejora.",
+        "URGENCIA si la herida tiene mal olor, pus, el pie está rojo, caliente o hay fiebre."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "nodulo-de-tiroides",
+      "titulo": "Nódulo de tiroides",
+      "temas": [
+        "nodulo tiroideo",
+        "nodulo en la tiroides",
+        "bulto en el cuello",
+        "bocio",
+        "cuello hinchado adelante"
+      ],
+      "resumen": "Bulto en la tiroides (parte delantera del cuello) que a veces se ve o se palpa, y muchas veces se descubre en una ecografía.",
+      "sintomas": "La gran mayoría son benignos.",
+      "autocuidado": [
+        "No requiere medidas especiales mientras se estudia."
+      ],
+      "consultar": [
+        "Pedir hora para examen de TSH y ecografía de tiroides.",
+        "Consultar pronto si crece rápido, hay dificultad para tragar o respirar, o ronquera persistente."
+      ],
+      "alarmas": [
+        "Diabético con glicemia bajo 70 mg/dl con sudor, temblor o confusión: dar azúcar de inmediato",
+        "Mucha sed, orina abundante, vómitos, respiración rápida y aliento a fruta (posible cetoacidosis)",
+        "Glicemia mayor a 300 mg/dl con malestar"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Endocrinología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

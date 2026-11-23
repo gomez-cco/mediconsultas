@@ -289,6 +289,281 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "quemaduras",
+      "titulo": "Quemaduras",
+      "temas": [
+        "quemadura",
+        "me queme",
+        "quemadura con agua",
+        "quemadura de sol",
+        "ampolla por quemadura",
+        "me queme con aceite"
+      ],
+      "resumen": "Lesión de la piel por calor, sol, químicos o electricidad.",
+      "sintomas": "Las leves dejan la piel roja y dolorosa; las de segundo grado forman ampollas; las profundas se ven blancas, cafés o negras y pueden no doler.",
+      "autocuidado": [
+        "Enfriar con agua corriente fresca (no helada) durante 20 minutos, retirar anillos y ropa que no esté pegada, cubrir con un paño limpio.",
+        "No aplicar pasta de dientes, aceite ni hielo y no reventar las ampollas."
+      ],
+      "consultar": [
+        "URGENCIA si es extensa (más grande que la palma de la mano), profunda, en cara, manos, genitales o articulaciones, por electricidad o químicos, o en niños y adultos mayores."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "herpes-labial",
+      "titulo": "Herpes labial",
+      "temas": [
+        "herpes labial",
+        "fuego en el labio",
+        "calentura en el labio",
+        "ampollitas en el labio",
+        "herpes en la boca"
+      ],
+      "resumen": "Grupo de pequeñas ampollas dolorosas en el borde del labio, causadas por un virus que queda dormido y reaparece con estrés, sol, fiebre o resfríos.",
+      "sintomas": "Antes de aparecer suele haber hormigueo o ardor.",
+      "autocuidado": [
+        "No tocar ni reventar las ampollas, lavarse las manos, no compartir vasos ni besar mientras haya lesiones, protector solar labial.",
+        "Las cremas antivirales sirven más si se aplican al primer hormigueo."
+      ],
+      "consultar": [
+        "Si las lesiones duran más de 2 semanas, son muy extensas, se acercan al ojo o la persona tiene defensas bajas."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "herpes-zoster",
+      "titulo": "Herpes zóster (culebrilla)",
+      "temas": [
+        "herpes zoster",
+        "culebrilla",
+        "ampollas en un lado del cuerpo",
+        "zona",
+        "ampollas en franja"
+      ],
+      "resumen": "Reactivación del virus de la varicela.",
+      "sintomas": "Primero hay dolor, ardor u hormigueo en una franja de un solo lado del cuerpo y luego aparecen ampollas en esa franja. Es más frecuente en mayores de 50 años.",
+      "autocuidado": [
+        "Mantener las lesiones limpias y secas, ropa suelta, analgésicos comunes.",
+        "Evitar contacto con embarazadas y lactantes no vacunados mientras haya ampollas."
+      ],
+      "consultar": [
+        "Consultar en los primeros 3 días: el antiviral funciona mejor precozmente.",
+        "URGENCIA si afecta la frente o el ojo, o la persona tiene defensas bajas."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "sarna",
+      "titulo": "Sarna (escabiosis)",
+      "temas": [
+        "sarna",
+        "escabiosis",
+        "picazon de noche",
+        "pica mas en la noche",
+        "pica toda la familia",
+        "granitos entre los dedos"
+      ],
+      "resumen": "Infestación de la piel por un ácaro muy contagioso.",
+      "sintomas": "Da picazón intensa, peor en la noche, con granitos y pequeñas líneas entre los dedos, muñecas, cintura, axilas y genitales. Suelen picar varios en la misma casa.",
+      "autocuidado": [
+        "Lavar ropa de cama, toallas y ropa usada en agua caliente y secar al sol; lo que no se pueda lavar, guardarlo en una bolsa cerrada por 3 días."
+      ],
+      "consultar": [
+        "Pedir hora para confirmar e indicar tratamiento, que debe hacerse toda la familia al mismo tiempo aunque no tengan síntomas."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "psoriasis",
+      "titulo": "Psoriasis",
+      "temas": [
+        "psoriasis",
+        "placas en la piel",
+        "piel escamosa",
+        "escamas en los codos",
+        "placas rojas con escamas"
+      ],
+      "resumen": "Enfermedad crónica de la piel, no contagiosa, con placas rojas cubiertas de escamas blanquecinas, frecuentes en codos, rodillas, cuero cabelludo y espalda baja.",
+      "sintomas": "Puede picar y empeorar con estrés, infecciones o alcohol. A veces afecta articulaciones y uñas.",
+      "autocuidado": [
+        "Hidratar la piel a diario, exposición moderada al sol, evitar rascarse, no fumar y moderar el alcohol."
+      ],
+      "consultar": [
+        "Para diagnóstico y tratamiento: existen cremas y terapias efectivas.",
+        "Consultar también si hay dolor e hinchazón de articulaciones."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "verrugas",
+      "titulo": "Verrugas",
+      "temas": [
+        "verruga",
+        "verrugas",
+        "verruga en la mano",
+        "verruga plantar",
+        "ojo de pescado"
+      ],
+      "resumen": "Crecimientos ásperos de la piel causados por un virus, comunes en manos, dedos y plantas de los pies (en la planta pueden doler al pisar).",
+      "sintomas": "Son contagiosas y muchas desaparecen solas en meses o años.",
+      "autocuidado": [
+        "No rascarlas ni cortarlas, no compartir toallas ni calzado, usar sandalias en duchas públicas.",
+        "Hay productos de farmacia con ácido salicílico para verrugas comunes."
+      ],
+      "consultar": [
+        "Si están en la cara o genitales, sangran, cambian de color, crecen rápido o la persona es diabética."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "una-encarnada",
+      "titulo": "Uña encarnada",
+      "temas": [
+        "una encarnada",
+        "una enterrada",
+        "una del pie enterrada",
+        "dedo del pie inflamado",
+        "una que se entierra"
+      ],
+      "resumen": "El borde de la uña, generalmente del dedo gordo del pie, se clava en la piel.",
+      "sintomas": "Da dolor, enrojecimiento, hinchazón y a veces pus.",
+      "autocuidado": [
+        "Baños de pies con agua tibia y sal, cortar la uña recta (no redondeada) y no muy corta, usar calzado holgado."
+      ],
+      "consultar": [
+        "Si hay pus, la inflamación se extiende o se repite (puede necesitar un procedimiento simple).",
+        "Las personas con diabetes deben consultar siempre."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "caida-del-pelo",
+      "titulo": "Caída del pelo",
+      "temas": [
+        "caida del pelo",
+        "se me cae el pelo",
+        "calvicie",
+        "alopecia",
+        "pelo debil",
+        "se me cae el cabello"
+      ],
+      "resumen": "Perder hasta 100 pelos al día es normal.",
+      "sintomas": "Una caída mayor puede deberse a estrés, posparto, dietas, anemia, problemas de tiroides o enfermedades recientes (suele notarse 2 a 3 meses después). La calvicie común es hereditaria y progresiva; las zonas redondas sin pelo sugieren alopecia areata.",
+      "autocuidado": [
+        "Alimentación equilibrada con suficiente proteína y hierro, evitar peinados muy tirantes, tinturas y planchas frecuentes."
+      ],
+      "consultar": [
+        "Si la caída es abundante y repentina, hay zonas sin pelo, picazón o descamación del cuero cabelludo (pueden pedir exámenes de tiroides y hierro)."
+      ],
+      "alarmas": [
+        "Ronchas con hinchazón de labios, lengua o dificultad para respirar (anafilaxia): URGENCIA",
+        "Zona roja, caliente y dolorosa que se expande rápido, con fiebre (celulitis)",
+        "Manchas rojo-violáceas que no desaparecen al presionarlas con un vaso, con fiebre: URGENCIA",
+        "Ampollas extensas o descamación de piel con mucosas comprometidas",
+        "Lunar que cambia de tamaño, forma o color, o sangra"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Dermatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

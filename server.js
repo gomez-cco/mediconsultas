@@ -93,6 +93,19 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    if (pathname === '/api/temario' && req.method === 'GET') {
+      sendJSON(res, 200, {
+        areas: areas.map((a) => ({
+          id: a.id,
+          icono: a.icono,
+          titulo: a.titulo,
+          temas: a.temas.map((t) => ({ titulo: t.titulo, resumen: t.resumen }))
+            .sort((x, y) => x.titulo.localeCompare(y.titulo, 'es')),
+        })),
+      });
+      return;
+    }
+
     if (pathname === '/api/areas' && req.method === 'GET') {
       sendJSON(res, 200, {
         areas: areas.map((a) => ({

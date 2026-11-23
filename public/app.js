@@ -192,6 +192,8 @@
       stack.appendChild(cards);
     }
 
+    if (answer.temario) buildTemario().then((card) => stack.insertBefore(card, stack.querySelector('.disclaimer')));
+
     if (answer.topicLinks && answer.topicLinks.length) stack.appendChild(chips(answer.topicLinks));
 
     if (answer.related && answer.related.length) {
@@ -230,6 +232,63 @@
     wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
   document.getElementById('openPhonesBtn').addEventListener('click', () => showCard(tplPhones.content.cloneNode(true).querySelector('.card')));
+
+  // Temario: todas las fichas ordenadas por área, con buscador.
+  const tplTemario = document.getElementById('tpl-temario-card');
+  const norm = (t) => String(t || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  let temarioData = null;
+  async function buildTemario() {
+    const card = tplTemario.content.cloneNode(true).querySelector('.card');
+    const list = card.querySelector('[data-role="list"]');
+    const count = card.querySelector('[data-role="count"]');
+    const search = card.querySelector('.temario-search');
+    list.textContent = 'Cargando temario…';
+    try {
+      if (!temarioData) temarioData = (await (await fetch('/api/temario')).json()).areas;
+    } catch {
+      list.textContent = 'No pude cargar el temario. Revisa tu conexión e intenta de nuevo.';
+      return card;
+    }
+    const render = () => {
+      const q = norm(search.value.trim());
+      list.innerHTML = '';
+      let total = 0;
+      temarioData.forEach((a) => {
+        const temas = a.temas.filter((t) => !q || norm(`${t.titulo} ${t.resumen} ${a.titulo}`).includes(q));
+        if (!temas.length) return;
+        total += temas.length;
+        const det = document.createElement('details');
+        det.className = 'temario-area';
+        det.open = Boolean(q);
+        const sum = document.createElement('summary');
+        sum.textContent = `${a.icono || ''} ${a.titulo} (${temas.length})`;
+        det.appendChild(sum);
+        const ul = document.createElement('ul');
+        temas.forEach((t) => {
+          const li = document.createElement('li');
+          const b = document.createElement('button');
+          b.type = 'button';
+          const strong = document.createElement('strong');
+          strong.textContent = t.titulo;
+          const span = document.createElement('span');
+          span.textContent = t.resumen;
+          b.append(strong, span);
+          b.addEventListener('click', () => ask(t.titulo));
+          li.appendChild(b);
+          ul.appendChild(li);
+        });
+        det.appendChild(ul);
+        list.appendChild(det);
+      });
+      count.textContent = q ? `${total} resultado(s) para "${search.value.trim()}"` : `${total} enfermedades y síntomas en ${temarioData.length} áreas`;
+      if (!total) list.textContent = 'Sin resultados. Prueba con otra palabra o escribe tu síntoma en el chat.';
+    };
+    search.addEventListener('input', render);
+    render();
+    return card;
+  }
+  async function showTemario() { showCard(await buildTemario()); }
+  document.getElementById('openTemarioBtn').addEventListener('click', showTemario);
   openGlossaryBtn.addEventListener('click', () => ask('Glosario'));
 
   // ---------- Ask ----------
@@ -348,6 +407,7 @@
         'No puedo dormir',
         'Tengo dolor de muela',
         '¿Qué es el GES?',
+        'Ver temario',
       ],
       disclaimer: 'Orientación general. No reemplaza la evaluación de un médico. En una emergencia llama al 131.',
     });

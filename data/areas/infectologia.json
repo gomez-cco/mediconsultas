@@ -100,6 +100,189 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "hantavirus",
+      "titulo": "Hantavirus",
+      "temas": [
+        "hantavirus",
+        "hanta",
+        "raton colilargo",
+        "excremento de raton",
+        "limpie una bodega",
+        "estuve en una cabana cerrada",
+        "bodega",
+        "ratones",
+        "raton",
+        "cabana cerrada",
+        "fiebre despues de limpiar",
+        "casa cerrada",
+        "zona rural"
+      ],
+      "resumen": "Infección grave transmitida al respirar polvo contaminado con orina o excremento de ratón colilargo, en zonas rurales o recintos cerrados por mucho tiempo (bodegas, cabañas).",
+      "sintomas": "Comienza como una gripe (fiebre, dolor muscular intenso, dolor de cabeza, a veces vómitos o dolor abdominal) y puede pasar rápido a dificultad respiratoria grave.",
+      "autocuidado": [
+        "Prevención: ventilar por 30 minutos recintos cerrados antes de entrar, mojar el suelo con agua con cloro antes de barrer, no dejar comida al alcance de roedores y desmalezar alrededor de la casa."
+      ],
+      "consultar": [
+        "URGENCIA: ante fiebre y dolores musculares después de exposición en zona rural (hasta 6 semanas antes), consultar de inmediato e informar el antecedente."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ],
+      "alerta": "Esta condición puede requerir atención de urgencia: no esperes a que pase sola si los síntomas calzan."
+    },
+    {
+      "id": "mononucleosis",
+      "titulo": "Mononucleosis",
+      "temas": [
+        "mononucleosis",
+        "enfermedad del beso",
+        "ganglios inflamados",
+        "ganglios en el cuello",
+        "cansancio y dolor de garganta"
+      ],
+      "resumen": "Infección viral frecuente en adolescentes y jóvenes, que se transmite por la saliva.",
+      "sintomas": "Da fiebre, dolor de garganta intenso, ganglios inflamados en el cuello y gran cansancio que puede durar semanas.",
+      "autocuidado": [
+        "Reposo, líquidos, paracetamol.",
+        "Evitar deportes de contacto por al menos 4 semanas (el bazo puede estar agrandado) y no compartir vasos ni besar."
+      ],
+      "consultar": [
+        "Para confirmar el diagnóstico.",
+        "URGENCIA si hay dificultad para respirar o tragar, o dolor fuerte en el lado izquierdo del abdomen."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "parasitos-intestinales",
+      "titulo": "Parásitos intestinales",
+      "temas": [
+        "parasitos",
+        "lombrices",
+        "oxiuros",
+        "picazon en el ano de noche",
+        "gusanitos en la caca",
+        "giardia"
+      ],
+      "resumen": "Infección del intestino por parásitos.",
+      "sintomas": "Los oxiuros (gusanitos blancos pequeños), comunes en niños, dan picazón anal nocturna. Otros causan diarrea, dolor abdominal, hinchazón o baja de peso.",
+      "autocuidado": [
+        "Lavado de manos antes de comer y después de ir al baño, uñas cortas, lavar bien frutas y verduras, cambiar y lavar ropa de cama y pijamas."
+      ],
+      "consultar": [
+        "Pedir hora para examen parasitológico y tratamiento, que suele indicarse a toda la familia."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "hepatitis-a",
+      "titulo": "Hepatitis A",
+      "temas": [
+        "hepatitis",
+        "hepatitis a",
+        "piel amarilla",
+        "ojos amarillos",
+        "ictericia",
+        "orina color coca cola"
+      ],
+      "resumen": "Infección del hígado transmitida por agua o alimentos contaminados.",
+      "sintomas": "Da cansancio, falta de apetito, náuseas, dolor bajo las costillas derechas y, luego, color amarillo de piel y ojos, orina oscura y deposiciones claras.",
+      "autocuidado": [
+        "Reposo, buena hidratación, evitar alcohol y medicamentos innecesarios (incluido el paracetamol en exceso).",
+        "Lavado de manos estricto para no contagiar."
+      ],
+      "consultar": [
+        "Consultar ante cualquier coloración amarilla de piel u ojos.",
+        "URGENCIA si hay confusión, somnolencia, vómitos persistentes o sangrado.",
+        "Existe vacuna."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "enfermedades-del-viajero",
+      "titulo": "Enfermedades del viajero (dengue y otras)",
+      "temas": [
+        "dengue",
+        "viaje",
+        "volvi de viaje",
+        "fiebre despues de viajar",
+        "viaje al norte",
+        "viaje a brasil",
+        "zika",
+        "malaria",
+        "volvi de",
+        "brasil",
+        "caribe",
+        "zona tropical",
+        "fiebre despues de un viaje",
+        "vacaciones en el extranjero"
+      ],
+      "resumen": "Al viajar a zonas tropicales hay riesgo de dengue, zika, chikunguña, malaria y diarreas del viajero.",
+      "sintomas": "El dengue da fiebre alta, dolor detrás de los ojos, dolor muscular y articular intenso y a veces manchas en la piel.",
+      "autocuidado": [
+        "Antes de viajar: vacunas según destino (consultar en vacunatorios internacionales).",
+        "Durante el viaje: repelente, ropa de manga larga, agua embotellada.",
+        "Con fiebre por posible dengue, usar solo paracetamol (no ibuprofeno ni aspirina)."
+      ],
+      "consultar": [
+        "Consultar ante fiebre durante o hasta 3 meses después de un viaje a zona tropical, e informar el viaje.",
+        "URGENCIA si hay sangrado, dolor abdominal intenso, vómitos persistentes o decaimiento."
+      ],
+      "alarmas": [
+        "Fiebre con manchas en la piel que no desaparecen al presionar",
+        "Fiebre en persona con defensas bajas (quimioterapia, trasplante, VIH no controlado)",
+        "Fiebre tras viaje a zona tropical (descartar malaria o dengue)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Infectología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }

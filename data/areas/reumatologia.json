@@ -112,6 +112,65 @@
         "Urgencia o SAMU 131 ante señales de alarma",
         "Salud Responde 600 360 7777: orientación telefónica 24 horas"
       ]
+    },
+    {
+      "id": "lupus",
+      "titulo": "Lupus",
+      "temas": [
+        "lupus",
+        "mancha en alas de mariposa",
+        "enfermedad autoinmune",
+        "autoinmune"
+      ],
+      "resumen": "Enfermedad autoinmune crónica, más frecuente en mujeres jóvenes.",
+      "sintomas": "Puede dar dolor e hinchazón de articulaciones, cansancio, fiebre, manchas en la cara en forma de alas de mariposa que empeoran con el sol, caída del pelo, úlceras en la boca y compromiso de riñones u otros órganos.",
+      "autocuidado": [
+        "Protección solar estricta, descanso, no fumar y seguir el tratamiento indicado sin suspenderlo."
+      ],
+      "consultar": [
+        "Pedir hora si hay varios de estos síntomas: el diagnóstico se hace con exámenes y evaluación de reumatología.",
+        "El lupus tiene cobertura GES."
+      ],
+      "alarmas": [
+        "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Reumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
+    },
+    {
+      "id": "bursitis-y-tendinitis",
+      "titulo": "Bursitis y tendinitis",
+      "temas": [
+        "bursitis",
+        "tendinitis",
+        "dolor en el costado de la cadera",
+        "inflamacion del tendon",
+        "dolor de muneca"
+      ],
+      "resumen": "Inflamación de una bursa (bolsa que amortigua las articulaciones) o de un tendón, por sobrecarga o movimientos repetidos.",
+      "sintomas": "Da dolor localizado que aumenta con el movimiento o al apoyarse; es común en hombro, codo, cadera, rodilla y muñeca.",
+      "autocuidado": [
+        "Reposo relativo de la actividad que lo causa, hielo los primeros días, corregir posturas y movimientos repetitivos, retomar la actividad de forma gradual."
+      ],
+      "consultar": [
+        "Si no mejora en 2 a 3 semanas.",
+        "Consultar pronto si la zona está roja, caliente y hay fiebre (posible infección)."
+      ],
+      "alarmas": [
+        "Articulación muy roja, caliente e hinchada con fiebre (posible artritis séptica: urgencia)"
+      ],
+      "dondeAcudir": [
+        "CESFAM o médico general: pide hora para evaluación",
+        "Derivación a especialista en Reumatología si el médico lo indica",
+        "SAPU o SAR si los síntomas aparecen fuera del horario del CESFAM",
+        "Urgencia o SAMU 131 ante señales de alarma",
+        "Salud Responde 600 360 7777: orientación telefónica 24 horas"
+      ]
     }
   ]
 }
