@@ -11,8 +11,9 @@ const AREAS = require("./data/areas");
 const PORT = process.env.PORT || 3000;
 const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
 const GEMINI_KEY = process.env.GEMINI_API_KEY || "";
-const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-const GEMINI_MODEL_RESPALDO = "gemini-flash-latest";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || ""; // opcional: forzar un modelo
+// Modelos de respaldo si no se puede consultar la lista a Google.
+const GEMINI_RESPALDOS = ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash", "gemini-2.5-flash-lite"];
 const PROVEEDOR = GEMINI_KEY ? "gemini" : process.env.ANTHROPIC_API_KEY ? "claude" : "demo";
 const HAS_KEY = PROVEEDOR !== "demo";
 const MAX_IMAGES = 3;
@@ -199,6 +200,47 @@ async function llamarGemini(modelo, cuerpo, signal) {
   });
 }
 
+// Pregunta a Google qué modelos Flash (gratuitos) están disponibles para esta clave.
+let modelosCache = null;
+let modelosCacheEn = 0;
+async function modelosGemini() {
+  if (modelosCache && Date.now() - modelosCacheEn < 6 * 3600_000) return modelosCache;
+  let lista = [];
+  try {
+    const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000", {
+      headers: { "x-goog-api-key": GEMINI_KEY },
+      signal: AbortSignal.timeout(10_000)
+    });
+    if (r.ok) {
+      const j = await r.json();
+      lista = (j.models || [])
+        .filter((m) => (m.supportedGenerationMethods || []).includes("generateContent"))
+        .map((m) => m.name.replace(/^models\//, ""))
+        .filter((n) => /^gemini.*flash/.test(n) && !/image|tts|audio|live|embed|robotics|computer|exp/.test(n));
+    } else {
+      console.warn("No se pudo listar modelos de Gemini:", r.status);
+    }
+  } catch (e) {
+    console.warn("No se pudo listar modelos de Gemini:", e.message);
+  }
+  // Orden: alias "latest" primero, luego versiones más nuevas; "lite" después del normal.
+  const puntaje = (n) =>
+    (n.endsWith("-latest") ? 1000 : 0) +
+    (parseFloat((n.match(/gemini-(\d+(?:\.\d+)?)/) || [])[1]) || 0) * 10 -
+    (n.includes("lite") ? 5 : 0) -
+    (n.includes("preview") ? 3 : 0);
+  lista.sort((a, b) => puntaje(b) - puntaje(a));
+  const orden = [...new Set([GEMINI_MODEL, ...lista, ...GEMINI_RESPALDOS].filter(Boolean))];
+  if (lista.length) {
+    modelosCache = orden;
+    modelosCacheEn = Date.now();
+  }
+  console.log("Modelos Gemini a usar:", orden.slice(0, 6).join(", "));
+  return orden;
+}
+
+const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function responderGemini(mensajes, alTexto, signal) {
   const cuerpo = {
     systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
@@ -212,22 +254,28 @@ async function responderGemini(mensajes, alTexto, signal) {
   };
   // Límite de espera total para no dejar al usuario esperando para siempre.
   const senal = AbortSignal.any([signal, AbortSignal.timeout(90_000)]);
-  let modelo = GEMINI_MODEL;
-  let resp = await llamarGemini(modelo, cuerpo, senal);
-  // Si el modelo configurado ya no existe, usar el alias del Flash más reciente.
-  if (resp.status === 404 && modelo !== GEMINI_MODEL_RESPALDO) {
-    console.warn(`Modelo ${modelo} no disponible; usando ${GEMINI_MODEL_RESPALDO}`);
-    modelo = GEMINI_MODEL_RESPALDO;
+  // Prueba los modelos en orden: si uno no existe (404), está saturado (503/500)
+  // o sin cupo (429), pasa al siguiente.
+  const candidatos = (await modelosGemini()).slice(0, 5);
+  let resp;
+  let modelo;
+  for (let intento = 0; intento < candidatos.length; intento++) {
+    modelo = candidatos[intento];
     resp = await llamarGemini(modelo, cuerpo, senal);
-  }
-  // Si el modelo no acepta la configuración de pensamiento, reintentar sin ella.
-  if (resp.status === 400) {
-    const detalle = await resp.clone().text().catch(() => "");
-    if (/thinking/i.test(detalle)) {
-      console.warn("El modelo no acepta thinkingConfig; reintentando sin ella");
-      delete cuerpo.generationConfig.thinkingConfig;
-      resp = await llamarGemini(modelo, cuerpo, senal);
+    // Si el modelo no acepta la configuración de pensamiento, reintentar sin ella.
+    if (resp.status === 400) {
+      const detalle = await resp.clone().text().catch(() => "");
+      if (/thinking/i.test(detalle) && cuerpo.generationConfig.thinkingConfig) {
+        console.warn(`${modelo} no acepta thinkingConfig; reintentando sin ella`);
+        delete cuerpo.generationConfig.thinkingConfig;
+        resp = await llamarGemini(modelo, cuerpo, senal);
+      }
     }
+    if (resp.ok || ![404, 429, 500, 503].includes(resp.status)) break;
+    const detalle = await resp.text().catch(() => "");
+    console.warn(`Gemini ${modelo} respondió ${resp.status}; probando otro modelo. ${detalle.slice(0, 120).replace(/\s+/g, " ")}`);
+    if (resp.status === 404) modelosCache = null; // la lista puede estar desactualizada
+    if (intento < candidatos.length - 1) await esperar(resp.status === 404 ? 0 : 800);
   }
   if (!resp.ok || !resp.body) {
     const detalle = await resp.text().catch(() => "");
@@ -351,6 +399,7 @@ app.post("/api/consulta", async (req, res) => {
       let mensaje = `Hubo un problema al procesar tu consulta (código ${err.status || err.name}). Intenta nuevamente.`;
       if (err.name === "TimeoutError") mensaje = "La IA tardó demasiado en responder. Intenta nuevamente.";
       else if (err.status === 429) mensaje = "Se alcanzó el límite gratuito de consultas de la IA. Espera un minuto e intenta de nuevo.";
+      else if (err.status === 503 || err.status === 500) mensaje = "La IA gratuita de Google está saturada en este momento. Intenta nuevamente en unos minutos.";
       else if (/API_KEY_INVALID|API key not valid/i.test(err.detalle || "")) mensaje = "La clave de la IA no es válida. Revisa GEMINI_API_KEY en Render.";
       else if (err.status === 403) mensaje = "La clave de la IA no tiene permiso para Gemini. Revisa GEMINI_API_KEY en Render.";
       enviar("error", { error: mensaje });
@@ -405,5 +454,6 @@ app.post("/api/consulta", async (req, res) => {
 });
 
 app.listen(PORT, () => {
+  if (PROVEEDOR === "gemini") modelosGemini().catch(() => {});
   console.log(`MEDICONSULTAS escuchando en puerto ${PORT} (IA: ${PROVEEDOR})`);
 });

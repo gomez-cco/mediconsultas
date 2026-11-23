@@ -35,7 +35,7 @@ GEMINI_API_KEY=tu_clave npm start
 | Variable | Uso |
 |---|---|
 | `GEMINI_API_KEY` | Clave gratuita de Google AI Studio (IA sin costo, con límite diario) |
-| `GEMINI_MODEL` | Modelo de Gemini (por defecto `gemini-2.5-flash`; si no existe usa `gemini-flash-latest`) |
+| `GEMINI_MODEL` | Opcional: forzar un modelo de Gemini. Por defecto la app pregunta a Google qué modelos Flash hay y, si uno está saturado, prueba el siguiente |
 | `ANTHROPIC_API_KEY` | Opcional, de pago: usar Claude en vez de Gemini (solo si no hay `GEMINI_API_KEY`) |
 | `CLAUDE_MODEL` | Modelo de Claude (por defecto `claude-opus-5-5`) |
 | `RATE_LIMIT_PER_HOUR` | Consultas por hora por IP (por defecto 30) |
