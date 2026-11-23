@@ -277,6 +277,7 @@
           if (ev === "error") throw new Error(d.error);
         }
       }
+      if (!crudo.trim()) throw new Error("No llegó respuesta de la IA. Intenta nuevamente en unos segundos.");
       // Imágenes ya enviadas: no reenviarlas en cada turno (ahorra costo).
       historial[historial.length - 1].images = [];
       historial.push({ role: "assistant", text: crudo });

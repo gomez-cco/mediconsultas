@@ -203,24 +203,45 @@ async function responderGemini(mensajes, alTexto, signal) {
   const cuerpo = {
     systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
     contents: aGemini(mensajes),
-    generationConfig: { maxOutputTokens: 4096, temperature: 0.4 }
+    generationConfig: {
+      maxOutputTokens: 8192,
+      temperature: 0.4,
+      // Sin "pensamiento" previo: respuestas rápidas y sin gastar el límite de tokens.
+      thinkingConfig: { thinkingBudget: 0 }
+    }
   };
-  let resp = await llamarGemini(GEMINI_MODEL, cuerpo, signal);
+  // Límite de espera total para no dejar al usuario esperando para siempre.
+  const senal = AbortSignal.any([signal, AbortSignal.timeout(90_000)]);
+  let modelo = GEMINI_MODEL;
+  let resp = await llamarGemini(modelo, cuerpo, senal);
   // Si el modelo configurado ya no existe, usar el alias del Flash más reciente.
-  if (resp.status === 404 && GEMINI_MODEL !== GEMINI_MODEL_RESPALDO) {
-    console.warn(`Modelo ${GEMINI_MODEL} no disponible; usando ${GEMINI_MODEL_RESPALDO}`);
-    resp = await llamarGemini(GEMINI_MODEL_RESPALDO, cuerpo, signal);
+  if (resp.status === 404 && modelo !== GEMINI_MODEL_RESPALDO) {
+    console.warn(`Modelo ${modelo} no disponible; usando ${GEMINI_MODEL_RESPALDO}`);
+    modelo = GEMINI_MODEL_RESPALDO;
+    resp = await llamarGemini(modelo, cuerpo, senal);
+  }
+  // Si el modelo no acepta la configuración de pensamiento, reintentar sin ella.
+  if (resp.status === 400) {
+    const detalle = await resp.clone().text().catch(() => "");
+    if (/thinking/i.test(detalle)) {
+      console.warn("El modelo no acepta thinkingConfig; reintentando sin ella");
+      delete cuerpo.generationConfig.thinkingConfig;
+      resp = await llamarGemini(modelo, cuerpo, senal);
+    }
   }
   if (!resp.ok || !resp.body) {
     const detalle = await resp.text().catch(() => "");
-    const e = new Error(`Gemini ${resp.status}: ${detalle.slice(0, 300)}`);
+    const e = new Error(`Gemini ${resp.status}: ${detalle.slice(0, 500)}`);
     e.status = resp.status;
+    e.detalle = detalle;
     throw e;
   }
   const lector = resp.body.getReader();
   const dec = new TextDecoder();
   let buf = "";
   let bloqueado = false;
+  let fin = "";
+  let caracteres = 0;
   for (;;) {
     const { value, done } = await lector.read();
     if (done) break;
@@ -237,12 +258,22 @@ async function responderGemini(mensajes, alTexto, signal) {
         continue;
       }
       const cand = d.candidates?.[0];
-      for (const part of cand?.content?.parts || []) if (part.text && !part.thought) alTexto(part.text);
-      if (d.promptFeedback?.blockReason || cand?.finishReason === "SAFETY") bloqueado = true;
+      for (const part of cand?.content?.parts || []) {
+        if (part.text && !part.thought) {
+          caracteres += part.text.length;
+          alTexto(part.text);
+        }
+      }
+      if (cand?.finishReason) fin = cand.finishReason;
+      if (d.promptFeedback?.blockReason || ["SAFETY", "PROHIBITED_CONTENT", "BLOCKLIST"].includes(cand?.finishReason)) bloqueado = true;
     }
   }
-  if (bloqueado) {
-    alTexto("\n\nNo pude completar esta respuesta. Por favor reformula tu consulta o llama a Salud Responde: 600 360 7777.");
+  console.log(`Gemini OK modelo=${modelo} fin=${fin || "-"} caracteres=${caracteres}`);
+  if (bloqueado || caracteres === 0) {
+    alTexto(
+      (caracteres ? "\n\n" : "") +
+        "No pude completar esta respuesta. Por favor reformula tu consulta con más detalle o llama a Salud Responde: 600 360 7777."
+    );
   }
 }
 
@@ -306,6 +337,8 @@ app.post("/api/consulta", async (req, res) => {
     res.on("close", () => {
       if (!res.writableEnded) control.abort();
     });
+    // Mantiene viva la conexión mientras la IA responde.
+    const latido = setInterval(() => !cerrado && res.write(": ping\n\n"), 15_000);
     try {
       await responderGemini(mensajes, (t) => !cerrado && enviar("delta", { text: t }), control.signal);
       if (!cerrado) {
@@ -314,12 +347,16 @@ app.post("/api/consulta", async (req, res) => {
       }
     } catch (err) {
       if (cerrado) return;
-      console.error("Error Gemini:", err.status, err.message);
-      let mensaje = "Hubo un problema al procesar tu consulta. Intenta nuevamente.";
-      if (err.status === 429) mensaje = "Se alcanzó el límite gratuito de consultas por minuto. Espera un momento e intenta de nuevo.";
-      else if (err.status === 400 || err.status === 403) mensaje = "La clave de la IA no es válida o no tiene permiso. Revisa GEMINI_API_KEY en Render.";
+      console.error("Error Gemini:", err.name, err.status, err.message);
+      let mensaje = `Hubo un problema al procesar tu consulta (código ${err.status || err.name}). Intenta nuevamente.`;
+      if (err.name === "TimeoutError") mensaje = "La IA tardó demasiado en responder. Intenta nuevamente.";
+      else if (err.status === 429) mensaje = "Se alcanzó el límite gratuito de consultas de la IA. Espera un minuto e intenta de nuevo.";
+      else if (/API_KEY_INVALID|API key not valid/i.test(err.detalle || "")) mensaje = "La clave de la IA no es válida. Revisa GEMINI_API_KEY en Render.";
+      else if (err.status === 403) mensaje = "La clave de la IA no tiene permiso para Gemini. Revisa GEMINI_API_KEY en Render.";
       enviar("error", { error: mensaje });
       res.end();
+    } finally {
+      clearInterval(latido);
     }
     return;
   }
