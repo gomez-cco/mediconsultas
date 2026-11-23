@@ -219,3 +219,6 @@ textarea:focus, .filtro:focus { outline: 2px solid var(--brand); outline-offset:
   .sos { padding: 6px 7px; }
   .sos b { display: none; }
 }
+
+.firma { font-size: .75rem; color: var(--muted); text-align: center; margin: 2px auto 0; letter-spacing: 1px; }
+.firma b { color: var(--brand); }
