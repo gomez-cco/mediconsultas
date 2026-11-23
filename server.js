@@ -24,7 +24,8 @@ const client = PROVEEDOR === "claude" ? new Anthropic() : null;
 const app = express();
 app.disable("x-powered-by");
 app.use(express.json({ limit: "20mb" }));
-app.use(express.static(path.join(__dirname, "public"), { maxAge: "1h" }));
+// Sin caché larga: cada actualización se ve de inmediato (el navegador revalida con ETag).
+app.use(express.static(path.join(__dirname, "public"), { maxAge: 0 }));
 
 // ---------- utilidades ----------
 

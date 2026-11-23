@@ -313,6 +313,44 @@
   });
   filtro.addEventListener("input", pintarAreas);
 
+  // ---------- ajustes de pantalla ----------
+  const raizDoc = document.documentElement;
+  const guardar = (k, v) => {
+    try {
+      localStorage.setItem(k, v);
+    } catch (_) {}
+  };
+  const ESCALAS = [0.85, 0.92, 1, 1.1, 1.2, 1.35, 1.5];
+  let escala = parseFloat(getComputedStyle(raizDoc).getPropertyValue("--escala")) || 1;
+  const btnMenos = $("#btnMenos");
+  const btnMas = $("#btnMas");
+  function aplicarEscala(e) {
+    escala = e;
+    raizDoc.style.setProperty("--escala", e);
+    guardar("mc-escala", e);
+    btnMenos.disabled = e <= ESCALAS[0];
+    btnMas.disabled = e >= ESCALAS[ESCALAS.length - 1];
+  }
+  btnMenos.onclick = () => aplicarEscala([...ESCALAS].reverse().find((x) => x < escala - 0.001) ?? ESCALAS[0]);
+  btnMas.onclick = () => aplicarEscala(ESCALAS.find((x) => x > escala + 0.001) ?? ESCALAS[ESCALAS.length - 1]);
+  aplicarEscala(escala);
+
+  const btnTema = $("#btnTema");
+  const temaActual = () =>
+    raizDoc.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  function rotularTema() {
+    btnTema.title = temaActual() === "dark" ? "Cambiar a modo claro" : "Cambiar a modo oscuro";
+  }
+  btnTema.onclick = () => {
+    const nuevo = temaActual() === "dark" ? "light" : "dark";
+    raizDoc.dataset.theme = nuevo;
+    guardar("mc-tema", nuevo);
+    rotularTema();
+  };
+  rotularTema();
+
+  $("#btnRefrescar").onclick = () => location.reload();
+
   fetch("/api/areas")
     .then((r) => r.json())
     .then((j) => {
